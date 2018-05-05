@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-First-year student at UTD studying Artificial Intelligence and Computer Science.
+First-year student studying Artificial Intelligence and Computer Science.
 
 ### Contact me
 
