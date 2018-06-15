@@ -58,6 +58,6 @@ Which is, in broader terms:
 
 The outputs can also be represented as the dot product of the inputs and the synaptic weights:
 
-<center> <img src="/images/messymatrix.png" alt="matrix of inputs x weights"/> </center>
+<center> <img src="/images/messymatrix.png" alt="matrix of inputs x weights" height = 100/> </center>
 
 
