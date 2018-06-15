@@ -7,8 +7,7 @@ Traditionally, programs need to be hard coded with whatever you want it to do. I
 
 Neural networks are a type of program that are based on, very loosely, a human neuron. All you really need to know about a neuron, without turning this into a bio lesson, is that there is an <u>input area</u>, a processing area in that carries information which connects the output of one neuron to the input of another - known as <u>synapses</u> - and an <u>output</u> area. These branch off and connect with many other neurons, passing information from the brain and back. Millions of these neural connections exist throughout our bodies, collectively referred to as ***neural networks***.
 
-
-![alt text](images/neuron.gif "Neuron - Via GIPHY")
+<img src="/images/neuron.gif" alt="Human Neuron Gif"/>
 
 
 Now that we've discussed real neural networks, we can start looking at ***artificial neural networks***. Like the biological kind, an artificial neural network has <u>inputs</u>, a <u>processing area</u> that transmits information, and <u>outputs</u>. However, these are much simpler, in both design and in function, and nowhere near as powerful as the real kind.
@@ -17,6 +16,7 @@ Now that we've discussed real neural networks, we can start looking at ***artifi
 Here is a diagram of a basic artificial neuron:
 
 ![alt text](images/basicNN.png "Basic Neuron")
+<img src="/images/basicNN.png" alt="Basic Neuron"/>
 
 
 This is an example of a simple 3-input, 1-output neural network. As we talked about, each of the neurons has an input, $i_n$, a connection to the next neuron layer, called a ***synapse***, which carries a weight $w_n$, and an output layer. In this case, there is only one output.
