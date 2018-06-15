@@ -90,7 +90,7 @@ We'll train it in this same way with all of the data:
 Let's start laying out our steps thus far:
 
 <pre style="font-family: times, serif; font-size:11pt; text-align: left; line-height: 1.5;">
-                <strong>1:</strong> Obtain a dataset with <i>i<sub>x</sub></i> inputs and <i>o<sub>y</sub></i> outputs 
+                <strong>1:</strong> Obtain a dataset with <i>i</i> inputs and <i>o</i> outputs 
                           - the neural network will have this same number of inputs and outputs.
                 <strong>2:</strong> If the outputs or inputs are <i>not</i> in numerical form, replace them with numbers (in this example we used 0 and 1).
                 <strong>3:</strong> Plug your input vectors into your neural network (in this example the inputs are [0, 0], [0, 1], [1, 0], [1, 1]).
