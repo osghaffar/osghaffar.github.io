@@ -60,4 +60,17 @@ The outputs can also be represented as the dot product of the inputs and the syn
 
 <center> <img src="/images/messymatrix.png" alt="matrix of inputs x weights"/> </center>
 
+Where $i$ is the first and second input, $w$ are the synaptic weights, and $o$ is the output for those specific inputs.
 
+Don't lose me with the symbols. Let's go back to our problem of XOR so I can explain with an actual example. So, we have our inputs and outputs, which we will train the neural network on. Take a look at the updated XOR:
+
+|Input 1   |Input 2   ||Output|
+|:--------:|:--------:||:-----:|
+| 0        | 0        || 0  (OFF)|
+| 0        | 1        || 1  (ON) |
+| 1        | 0        || 1  (ON) |
+| 1        | 1        || 0  (OFF) |
+
+Or, depicted in matrix form here:
+
+<center> <img src="/images/matrix.png" alt="matrix of inputs/outputs"/> </center>
