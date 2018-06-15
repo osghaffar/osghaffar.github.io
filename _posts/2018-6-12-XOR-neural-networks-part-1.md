@@ -50,11 +50,11 @@ In order to do that, all elements have to be numbers. So we'll assign a number t
 
 So to write this out in math terms, it's the sum of all the inputs multiplied by their synaptic weights. Here's the equation:
 
-<center> <img src="/images/derive-equation.png" alt="inputs x weights" height=50 width=300/> </center>
+<center> <img src="/images/derive-equation.png" alt="inputs x weights" height=50 width=200/> </center>
 
 Which is, in broader terms:
 
-<center> <img src="/images/equation.png" alt="inputs x weights" height=50 width=50/> </center>
+<center> <img src="/images/equation.png" alt="inputs x weights" height=50 width=200/> </center>
 
 The outputs can also be represented as the dot product of the inputs and the synaptic weights:
 
