@@ -74,3 +74,27 @@ Don't lose me with the symbols. Let's go back to our problem of XOR so I can exp
 Or, depicted in matrix form here:
 
 <center> <img src="/images/matrix.png" alt="matrix of inputs/outputs"/> </center>
+
+So now that we have our data, let's plug it into our neural network. We'll use the diagram above. For the first "ON" data set [0, 1] = [1], this is what it should look like:
+
+<center> <img src="/images/inputNN.png" alt="Network with inputs and output"/> </center>
+
+Our neural network needs to find the correct synaptic weights which will allow it to make the right prediction. We can just follow the equation. That is:
+
+<center> <img src="/images/firstinputequation.png" alt="equation with inputs and weights"/> </center>
+
+We'll train it in this same way with all of the data:
+
+<center> <img src="/images/otherinputequations.png" alt="equations with inputs and weights"/> </center>
+
+Let's start laying out our steps thus far:
+
+<pre style="font-family: times, serif; font-size:11pt; text-align: left; line-height: 1.5;">
+                <strong>1:</strong> Obtain a dataset with <i>i<sub>x</sub></i> inputs and <i>o<sub>y</sub></i> outputs 
+                          - the neural network will have this same number of inputs and outputs.
+                <strong>2:</strong> If the outputs or inputs are <i>not</i> in numerical form, replace them with numbers (in this example we used 0 and 1).
+                <strong>3:</strong> Plug your input vectors into your neural network (in this example the inputs are [0, 0], [0, 1], [1, 0], [1, 1]).
+                <strong>4:</strong> Train the network to find the correct synaptic weights.
+</pre>
+
+We'll keep adding to our list of steps as we go.
