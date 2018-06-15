@@ -16,7 +16,7 @@ Here is a diagram of a basic artificial neuron:
 
 <img src="/images/basicNN.png" alt="Basic Neuron"/>
 
-This is an example of a simple 3-input, 1-output neural network. As we talked about, each of the neurons has an input, ```In```, a connection to the next neuron layer, called a ***synapse***, which carries a weight ```Wn```, and an output layer. In this case, there is only one output.
+This is an example of a simple 3-input, 1-output neural network. As we talked about, each of the neurons has an input, I<sub><i>n</i></sub>, a connection to the next neuron layer, called a ***synapse***, which carries a weight W<sub><i>n</i></sub>, and an output layer. In this case, there is only one output.
 
 The easiest way to understand what's taking place is to think of it like this: by multiplying two numbers together, you can theoretically get any number.
 
@@ -29,7 +29,7 @@ The basic idea is to take the input, multiply it by the synaptic weight, and che
 -------------------------------
 An XOR gate is a kind of logic gate. It is a very simple example of a specific combination of inputs causing an output. Here it is below, we won't get into too many details as you really only need to know the way it works.
 
-|Input 1|Input 2||Output|
+|Input 1   |Input 2   ||Output|
 |:--------:|:--------:||:-----:|
 | 0        | 0        || OFF|
 | 0        | 1        || ON |
@@ -38,5 +38,26 @@ An XOR gate is a kind of logic gate. It is a very simple example of a specific c
 
 The pattern here is that if both inputs are the same, the output is off, and if both inputs are different, the output is on.
 
+### Getting into the details
+--------------------------------------
+Let's look at it using some raw numbers.
+
+Remember how I said the main idea is that you want to multiply the inputs by the right numbers to get the output?
+
+We'll give our inputs, which is either 0 or 1, and they both will be multiplied by the synaptic weight. We'll adjust it until we get an accurate output each time, and we're confident the neural network has learned the pattern.
+
+In order to do that, all elements have to be numbers. So we'll assign a number to each output, 0 for off, 1 for on. (This is called ***classification***, or specifically, ***binary classification***, but more on that in another post).
+
+So to write this out in math terms, it's the sum of all the inputs multiplied by their synaptic weights. Here's the equation:
+
+<center> <img src="/images/derive-equation.png" alt="inputs x weights" height=100/> </center>
+
+Which is, in broader terms:
+
+<center> <img src="/images/equation.png" alt="inputs x weights" height=100/> </center>
+
+The outputs can also be represented as the dot product of the inputs and the synaptic weights:
+
+<center> <img src="/images/messymatrix.png" alt="matrix of inputs x weights" height=100/> </center>
 
 
