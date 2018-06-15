@@ -25,4 +25,18 @@ Since the starting synaptic weight is random, it is highly likely the network wi
 
 The basic idea is to take the input, multiply it by the synaptic weight, and check if the output is correct. If it is not, adjust the weight, multiply it by the input again, check the output and repeat, until we have reached an ideal synaptic weight.
 
+### What is XOR?
+-------------------------------
+An XOR gate is a kind of logic gate. It is a very simple example of a specific combination of inputs causing an output. Here it is below, we won't get into too many details as you really only need to know the way it works.
+
+|Input 1|Input 2||Output|
+|:--------:|:--------:||:-----:|
+| 0        | 0        || OFF|
+| 0        | 1        || ON |
+| 1        | 0        || ON |
+| 1        | 1        || OFF |
+
+The pattern here is that if both inputs are the same, the output is off, and if both inputs are different, the output is on.
+
+
 
