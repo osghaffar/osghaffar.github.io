@@ -54,7 +54,7 @@ So to write this out in math terms, it's the sum of all the inputs multiplied by
 
 Which is, in broader terms:
 
-<center> <img src="/images/equation.png" alt="inputs x weights" height=100/> </center>
+<center> <img src="/images/equation.png" alt="inputs x weights" height=100 width=100/> </center>
 
 The outputs can also be represented as the dot product of the inputs and the synaptic weights:
 
