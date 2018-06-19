@@ -133,6 +133,10 @@ plt.title("Logistic Sigmoid Derivative")
 plt.grid(True)
 plt.show()
 ```
+![sigmoid](/images/sigmoid.png "Sigmoid function")
+
+![sigmoid derivative](/images/derivative.png "Sigmoid derivative")
+
 The sigmoid has outputs in $(0,1)$. The further $x$ goes in the positive direction, the closer it gets to 1. The further $x$ goes in the negative direction, the closer it gets to 0. However, it doesn't ever touch 0 or 1, which is important to remember.
 
 Like I said earlier, the random synaptic weight will most likely not give us the correct output the first try. So we need a way to adjust the synpatic weights until it starts producing accurate outputs and "learns" the trend.
