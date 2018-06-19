@@ -171,7 +171,7 @@ $$
 
 There are a few reasons to use the error-weighted derivative. 
 
-<pre style= font-size:12pt; line-height: 1.5;>
+<pre style= "font-size:12pt; line-height: 1.5;">
 - Firstly, we want to calculate how far off our prediction is from the real output. 
 So we calculate the simple error, which is the difference between the two: (output - predicted output)
 - Next, we want to multiply by the input. If the input is 1, it may need adjustment; 
