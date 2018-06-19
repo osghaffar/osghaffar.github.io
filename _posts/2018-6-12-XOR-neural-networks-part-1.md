@@ -1,5 +1,6 @@
 ---
 layout: post
+mathjax: true
 title: XOR Introduction to Neural Networks - Part 1
 ---
 ### The basics of neural networks
