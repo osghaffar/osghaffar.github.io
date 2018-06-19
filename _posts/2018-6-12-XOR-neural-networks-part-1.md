@@ -171,7 +171,7 @@ $$
 
 There are a few reasons to use the error-weighted derivative. 
 
-<pre style= font-size:12pt; line-height: 1.5;">
+<pre style= font-size:12pt; line-height: 1.5;>
 - Firstly, we want to calculate how far off our prediction is from the real output. 
 So we calculate the simple error, which is the difference between the two: (output - predicted output)
 - Next, we want to multiply by the input. If the input is 1, it may need adjustment; 
@@ -220,7 +220,8 @@ Here are our steps once again, with everything else added in:
 <pre style="font-family: times, serif; font-size:11pt; text-align: left; line-height: 1.5;">
                 <strong>1:</strong> Obtain a dataset with <i>i</i> inputs and <i>o</i> outputs 
                           - the neural network will have this same number of inputs and outputs.
-                <strong>2:</strong> Plug your input vectors into your neural network (in this example the inputs are [0, 0], [0, 1], [1, 0], [1, 1]).
+                <strong>2:</strong> Plug your input vectors into your neural network 
+                          - in this example the inputs are [0, 0], [0, 1], [1, 0], [1, 1]).
                 <strong>3:</strong> Train the network to find the correct synaptic weights.
                 <strong>4:</strong> Take the output, plug it into the error weighted derivative equation, and get the weight adjustment.
                 <strong>5:</strong> Adjust the synaptic weights, test again, and repeat this process until the network has learned adequate synaptic weights.
