@@ -51,7 +51,7 @@ In order to do that, all elements have to be numbers. So we'll assign a number t
 
 So to write this out in math terms, it's the sum of all the inputs multiplied by their synaptic weights. Here's the equation:
 
-$o=(i_1 \cdot w_1) + (i_2 \cdot w_2) + (i_3 \cdot w_3) + \cdots $
+$ o = (i_1 \\cdot w_1) + (i_2 \\cdot w_2) + (i_3 \\cdot w_3) + \\cdots $
 
 Which is, in broader terms:
 
