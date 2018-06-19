@@ -72,7 +72,7 @@ $$\sum_n i_n \cdot w_n = (1 \cdot w_1) + (1 \cdot w_2) = 0$$
 Let's start laying out our steps thus far:
 
 <pre style="font-family: times, serif; font-size:11pt; text-align: left; line-height: 1.5;">
-                <strong>1:</strong> Obtain a dataset with <i>i<sub>x</sub></i> inputs and <i>o<sub>y</sub></i> outputs 
+                <strong>1:</strong> Obtain a dataset with <i>i</i> inputs and <i>o</i> outputs 
                           - the neural network will have this same number of inputs and outputs.
                 <strong>2:</strong> Plug your input vectors into your neural network 
                           - in this example the inputs are [0, 0], [0, 1], [1, 0], [1, 1]).
