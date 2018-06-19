@@ -170,7 +170,7 @@ $$
 $$
 
 There are a few reasons to use the error-weighted derivative. 
-<pre style="font-size:14pt; text-align: left; line-height: 1.5;">
+<pre style="font-size:12pt; line-height: 1;">
 - Firstly, we want to calculate how far off our prediction is from the real output. So we calculate the simple error, which is the difference between the two: (output - predicted output)
 - Next, we want to multiply by the input. If the input is 1, it may need adjustment; if the input is 0, it doesn't need any adjustment, since 0 multiplied by anything is still 0.
 - Lastly, we use the derivative by plugging in the output. Since the graph approaches 0 on the y-axis as it approaches 1, we know that the adjustment won't be large if the output is getting closer to 1. In other words, we want a proportional adjustment.
