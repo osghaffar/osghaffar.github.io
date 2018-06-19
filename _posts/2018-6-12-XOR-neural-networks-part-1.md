@@ -55,7 +55,7 @@ So to write this out in math terms, it's the sum of all the inputs multiplied by
 
 Which is, in broader terms:
 
-<center> <img src="/images/equation.png" alt="inputs x weights"/> </center>
+$$o=\\sum_n i_n \\cdot w_n$$
 
 The outputs can also be represented as the dot product of the inputs and the synaptic weights:
 
