@@ -185,11 +185,11 @@ Let's go through one iteration of the equation so we can really see what's going
 In our first attempt through randomly generated synaptic weights, we got $0.507$ as our predicted output. The expected output is $1$, so here $x_0=1.$ First let's calculate error, then we can do the derivative:
 
 $$
-\text{err}(0.507) &= 1 - 0.507 = 0.493
+\text{err}(0.507) = 1 - 0.507 = 0.493
 $$
 
 $$
-L'(0.507) &= 0.507 \cdot (1 - 0.507) = 0.249951
+L'(0.507) = 0.507 \cdot (1 - 0.507) = 0.249951
 $$
 
 Putting it all together, we get
