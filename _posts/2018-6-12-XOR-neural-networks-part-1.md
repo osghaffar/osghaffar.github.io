@@ -55,9 +55,9 @@ $$ o = (i_1 \\cdot w_1) + (i_2 \\cdot w_2) + (i_3 \\cdot w_3) + \\cdots $$
 
 Which is, in broader terms:
 
-/begin{align*}
+\begin{align*}
 o = \\sum_n i_n \\cdot w_n
-/end{align*}
+\end{align*}
 
 The outputs can also be represented as the dot product of the inputs and the synaptic weights:
 
