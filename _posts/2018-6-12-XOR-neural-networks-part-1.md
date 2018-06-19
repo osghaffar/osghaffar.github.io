@@ -74,8 +74,63 @@ Let's start laying out our steps thus far:
 <pre style="font-family: times, serif; font-size:11pt; text-align: left; line-height: 1.5;">
                 <strong>1:</strong> Obtain a dataset with <i>i<sub>x</sub></i> inputs and <i>o<sub>y</sub></i> outputs 
                           - the neural network will have this same number of inputs and outputs.
-                <strong>2:</strong> Plug your input vectors into your neural network (in this example the inputs are [0, 0], [0, 1], [1, 0], [1, 1]).
+                <strong>2:</strong> Plug your input vectors into your neural network 
+                          - in this example the inputs are [0, 0], [0, 1], [1, 0], [1, 1]).
                 <strong>3:</strong> Train the network to find the correct synaptic weights.
 </pre>
 
-We'll keep adding to our list of steps as we go.o.
+We'll keep adding to our list of steps as we go.
+
+### Finding the synaptic weights and understanding the sigmoid
+--------------------------------------
+Now that we've got our data, we're ready to start training. But the question remains, how do we obtain the correct synaptic weights?
+
+First, we'll have to assign random weights to each synapse, just as a starting point. We then multiply our inputs times these random starting weights. 
+
+Next, we'll need to normalize it so that the output is between 0 and 1. For our case, this is because the output is either 0 or 1. 
+
+But in other cases, the output could be a probability, a number greater than 1, or anything else. Normalizing in this way uses something called an ***activation function***, of which there are many. 
+
+To normalize, we simply take our $\sum_n i_n \cdot w_n$ and plug it in for $x$ in our activation function.
+
+As I said, there are many different kinds of activation functions - ```tanh```, ```relu```, ```binary step``` - all of which have their own respective uses and qualities. For this example, we'll be using what's called the **logistic sigmoid function***.
+
+The sigmoid function is given by 
+
+$$L(x)=\frac{1}{1 + e^{-x}}$$
+
+Let's graph it and take a look at some of its qualities, and why it's useful for us.
+
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+from numpy import exp
+
+#sigmoid function is 1/(1+e^(-x))
+def logistic(x):
+    #define an array a
+    a = []
+    for value in x:
+        a.append(1/(1+exp(-value)))
+    return a
+
+#sigmoid derivative is x * (1 - x)
+def derivative(z):
+    b = []
+    for value in z:
+        b.append(exp(-value)/(1+exp(-value))**2)
+    return b
+
+x = np.arange(-8., 8., 0.1)
+plt.plot(x, logistic(x))
+plt.title("Logistic Sigmoid")
+plt.grid(True)
+plt.show()
+
+z = np.arange(-8., 8., 0.1)
+plt.plot(z, derivative(z))
+plt.title("Logistic Sigmoid Derivative")
+plt.grid(True)
+plt.show()
+```
+
