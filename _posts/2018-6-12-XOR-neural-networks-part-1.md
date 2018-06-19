@@ -218,7 +218,7 @@ To speed things up with the beauty of computer science - when we run this iterat
 Here are our steps once again, with everything else added in:
 
 <pre style="font-family: times, serif; font-size:11pt; text-align: left; line-height: 1.5;">
-                <strong>1:</strong> Obtain a dataset with <i>i<sub>x</sub></i> inputs and <i>o<sub>y</sub></i> outputs 
+                <strong>1:</strong> Obtain a dataset with <i>i</i> inputs and <i>o</i> outputs 
                           - the neural network will have this same number of inputs and outputs.
                 <strong>2:</strong> Plug your input vectors into your neural network (in this example the inputs are [0, 0], [0, 1], [1, 0], [1, 1]).
                 <strong>3:</strong> Train the network to find the correct synaptic weights.
