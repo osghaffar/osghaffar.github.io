@@ -17,7 +17,7 @@ Here is a diagram of a basic artificial neuron:
 
 <img src="/images/basicNN.png" alt="Basic Neuron"/>
 
-This is an example of a simple 3-input, 1-output neural network. As we talked about, each of the neurons has an input, I<sub><i>n</i></sub>, a connection to the next neuron layer, called a ***synapse***, which carries a weight W<sub><i>n</i></sub>, and an output layer. In this case, there is only one output.
+This is an example of a simple 3-input, 1-output neural network. As we talked about, each of the neurons has an input, $i_n$, a connection to the next neuron layer, called a ***synapse***, which carries a weight $w_n$, and an output layer. In this case, there is only one output.
 
 The easiest way to understand what's taking place is to think of it like this: by multiplying two numbers together, you can theoretically get any number.
 
