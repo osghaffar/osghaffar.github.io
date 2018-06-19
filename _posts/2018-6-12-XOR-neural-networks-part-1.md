@@ -93,7 +93,7 @@ But in other cases, the output could be a probability, a number greater than 1, 
 
 To normalize, we simply take our $\sum_n i_n \cdot w_n$ and plug it in for $x$ in our activation function.
 
-As I said, there are many different kinds of activation functions - ```tanh```, ```relu```, ```binary step``` - all of which have their own respective uses and qualities. For this example, we'll be using what's called the **logistic sigmoid function***.
+As I said, there are many different kinds of activation functions - ```tanh```, ```relu```, ```binary step``` - all of which have their own respective uses and qualities. For this example, we'll be using what's called the ***logistic sigmoid function***.
 
 The sigmoid function is given by 
 
