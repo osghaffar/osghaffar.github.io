@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: XOR - Introduction to Neural Networks: Part 1
+title: XOR - Introduction to Neural Networks, Part 1
 ---
 ### The basics of neural networks
 Traditionally, programs need to be hard coded with whatever you want it to do. If they are programmed using extensive techniques and painstakingly adjusted, they may be able to cover for a majority of situations, or at least enough to complete the necessary tasks. However, a ***neural network*** is a type of algorithm that is capable of learning. Well, kinda. Let me explain..
