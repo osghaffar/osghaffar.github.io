@@ -28,12 +28,12 @@ The basic idea is to take the input, multiply it by the synaptic weight, and che
 -------------------------------
 An XOR gate is a kind of logic gate. It takes in two inputs, both a $0$ or $1$ (i.e. it has so-called ***boolean*** inputs), and outputs a single $0$ or $1$ according to the following table:
 
-|Input 1|Input 2||Output|
-|:--------:|:--------:||:-----:|
-| 0        | 0        || 0|
-| 0        | 1        || 1 |
-| 1        | 0        || 1 |
-| 1        | 1        || 0 |
+|Input 1|Input 2|Output|
+|:--------:|:--------:|:-----:|
+| 0        | 0        | 0 |
+| 0        | 1        | 1 |
+| 1        | 0        | 1 |
+| 1        | 1        | 0 |
 
 $0$ can be thought of as representing "OFF" or "FALSE", while $1$ is "ON" or "TRUE".
 
