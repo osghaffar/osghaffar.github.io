@@ -232,4 +232,4 @@ This tutorial is very heavy on the math and theory, but it's very important that
 
 #### References
 -----------------
-Code modified from http://squall0032.tumblr.com/post/77300791096/plotting-a-sigmoid-function-using
+Code for graph modified from http://squall0032.tumblr.com/post/77300791096/plotting-a-sigmoid-function-using
