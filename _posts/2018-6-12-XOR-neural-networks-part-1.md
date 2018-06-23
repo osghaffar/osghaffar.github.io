@@ -230,3 +230,6 @@ Here are our steps once again, with everything else added in:
 
 This tutorial is very heavy on the math and theory, but it's very important that you understand it before we move on to the coding, so that you have the fundamentals down. In the next tutorial, we'll put it into action by making our XOR neural network in Python.
 
+#### References
+-----------------
+Code modified from http://squall0032.tumblr.com/post/77300791096/plotting-a-sigmoid-function-using
