@@ -233,3 +233,4 @@ This tutorial is very heavy on the math and theory, but it's very important that
 #### References
 -----------------
 Code for graph modified from <a href="http://squall0032.tumblr.com/post/77300791096/plotting-a-sigmoid-function-using">http://squall0032.tumblr.com/post/77300791096/plotting-a-sigmoid-function-using</a>
+Special thank you to my boy Scott for reviewing the mathematics/notation in this post
