@@ -3,7 +3,7 @@ layout: post
 mathjax: true
 title: XOR - Introduction to Neural Networks, Part 2
 ---
-In the <u>last tutorial</u> <a href="https://osghaffar.github.io/XOR-neural-networks-part-1/">https://osghaffar.github.io/XOR-neural-networks-part-1/</a>, we discussed what neural networks are, as well as the underlying math and theory behind them. Specifically, we created a one-layer neural network that tries to learn the trend of an XOR logic gate. In this tutorial, we will discuss hidden layers, and why the XOR problem cannot be solved using a simple one-layer neural network.
+In the <a href="https://osghaffar.github.io/XOR-neural-networks-part-1/">last tutorial</a>, we discussed what neural networks are, as well as the underlying math and theory behind them. Specifically, we created a one-layer neural network that tries to learn the trend of an XOR logic gate. In this tutorial, we will discuss hidden layers, and why the XOR problem cannot be solved using a simple one-layer neural network.
 
 ### Hidden Layers
 --------------------
