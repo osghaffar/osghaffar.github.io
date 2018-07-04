@@ -15,13 +15,13 @@ A neural network with hidden layers is referred to as a ***deep neural network**
 
 Here is a model of a neural network with one hidden layer:
 
-![Neural Network w/ hidden layer](images/NNhiddenlayer.png "Neural Network w/ hidden layer")
+![Neural Network w/ hidden layer](/images/NNhiddenlayer.png "Neural Network w/ hidden layer")
 
 It is overall very similar to the network we modeled above, but its learning capabilities will be slightly increased. 
 
 For comparison, here is a neural network with several more hidden layers:
 
-![Neural Network w/ several hidden layers](images/NNmultiplehidden.png "Neural Network w/ several hidden layers")
+![Neural Network w/ several hidden layers](/images/NNmultiplehidden.png "Neural Network w/ several hidden layers")
 
 These two examples are just vanilla feed-forward networks. There exists many types of neural network architectures, some of which are better suited than others for certain types of problems. This is also an open research field, with new kinds of architectures often leading to breakthroughs.
 
