@@ -11,7 +11,7 @@ Another similarity in human neural networks and artificial neural networks is th
 
 They are referred to as ***hidden*** due to the fact that they aren't "visible" - we are able to see the inputs and what the network outputs, but we don't know exactly how the network is breaking down the problem or what is happening is each layer. This is an open research area at the moment.
 
-A neural network with hidden layers is referred to as a ***deep neural network***, from which many industry buzzwords like ***deep learning*** originate. They are especially useful in learning non-linear relationships between two variables. A deep neural network with only one hidden layer can learn the solution to simpler problems like XOR, and networks with several (hundred) layers have applications in things like robotics, self-driving cars, and other advanced problems.
+A neural network with hidden layers is referred to as a ***deep neural network***, from which many industry buzzwords like ***deep learning*** originate. They are especially useful in learning non-linear relationships between two variables. A deep neural network with one hidden layer can learn the solution to simpler problems like XOR, and networks with several (hundred) layers have applications in things like robotics, self-driving cars, and other advanced problems.
 
 Here is a model of a neural network with one hidden layer:
 
