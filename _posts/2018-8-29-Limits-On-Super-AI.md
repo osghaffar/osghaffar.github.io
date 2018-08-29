@@ -12,4 +12,4 @@ For me, the answer has two parts: there are algorithmic and there are architectu
 
 ###The Algorithmic Issue
 ---------------------------
-Currently, the state-of-the-art algorithms use something called (deep) ***reinforcement learning***. In short, this type of algorithm follows a This was most famously demonstrated by OpenAI and it showed the ability of an AI to replicate or even surpass a human's ability at certain arcade games. However, as successful as deep reinforcement learning has been, there is a serious limitation 
+Currently, the state-of-the-art algorithms use something called (deep) ***reinforcement learning***. In short, this type of algorithm follows the way a human or animal would learn something - by trying out an action, recieving either positive or negative feedback, adjusting, and then trying again. This was most famously demonstrated by OpenAI and it showed the ability of an AI to replicate or even surpass a human's ability at certain arcade games. However, as successful as deep reinforcement learning has been, there is a serious limitation 
