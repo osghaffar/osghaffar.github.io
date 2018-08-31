@@ -19,7 +19,7 @@ However, as widely studied as deep reinforcement learning is, and despite the su
 
 Firstly, the algorithms often need millions of training steps to learn the task. Depending on the context, a step can vary, but in the example of Atari games, each step would be one game. As you can probably imagine, that's a massive amount of data and a massive amount of time and effort required for the AI to learn. Humans and animals can learn certain skills within just a few tries. Even a skill like an arcade game, that may take a human many tries to get right, will still not take a million tries. Thus, it is a rather unrealistic way to learn. In addition, millions of steps = lots of data, with some researchers generating synthetic data in cases where is currently an insufficient amount of data for the model to learn. In fact, generating quality synthetic data has become an active research field as well.
 
-For context, here's a recent publication from this past May, showcasing a new twist on the deep reinforcement learning algorithm to improve its learning capabilities:
+For context, here's a <a href="https://arxiv.org/pdf/1805.07917.pdf">recent publication</a> from this past May, showcasing a new twist on the deep reinforcement learning algorithm to improve its learning capabilities:
 
 ![deep evolutionary reinforcement learning](/images/derl.png "Deep Reinforcement Learning algorithm comparison")
 
