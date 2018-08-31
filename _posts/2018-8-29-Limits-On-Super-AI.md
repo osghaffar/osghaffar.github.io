@@ -10,7 +10,7 @@ take on it.
 
 For me, the answer has two parts: there are algorithmic and there are architectural limitations.
 
-#### The Algorithmic Issue
+### The Algorithmic Issue
 ---------------------------
 Currently, the state-of-the-art algorithms use something called (deep) ***reinforcement learning***, which attempts to mimic the way that animals and humans learn new things - by trying something, receiving either positive or negative feedback, adjusting, and trying again. This was most <a href="https://deepmind.com/research/publications/playing-atari-deep-reinforcement-learning/">famously demonstrated</a> by Google's DeepMind and is currently being researched by OpenAI as well. 
 It showed the ability of an AI to replicate or even surpass a human's ability at certain arcade games. 
@@ -23,7 +23,7 @@ For context, here's a <a href="https://arxiv.org/pdf/1805.07917.pdf">recent publ
 
 ![deep evolutionary reinforcement learning](/images/derl.png "Deep Reinforcement Learning algorithm comparison")
 
-As you can see, this new algo (in read) allows the agent to learn much faster, but the total episodes still number in the thousands.
+As you can see, this new algo (in red) allows the agent to learn much faster, but the total episodes required for it to solve the problem still number in the thousands.
 
 We need an algorithm that allows an agent to learn quickly and efficiently, which will significantly reduce the amount of steps it needs, and thus reduces the amount of data it requires as well.
 
