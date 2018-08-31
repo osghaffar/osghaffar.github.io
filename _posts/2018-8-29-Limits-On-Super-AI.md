@@ -21,7 +21,7 @@ Firstly, the algorithms often need millions of training steps to learn the task.
 
 For context, here's a recent publication from this past May, showcasing a new twist on the deep reinforcement learning algorithm to improve its learning capabilities:
 
-![deep evolutionary reinforcement learning](/images/derl.gif "Deep Reinforcement Learning algorithm comparison")
+![deep evolutionary reinforcement learning](/images/derl.png "Deep Reinforcement Learning algorithm comparison")
 
 As you can see, this new algo (in read) allows the agent to learn much faster, but the total episodes still number in the thousands.
 
