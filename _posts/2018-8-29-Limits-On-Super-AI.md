@@ -31,3 +31,19 @@ A second issue with algorithms is the inability to generalize. A “strong” AI
 For example, a neural network trained to identify dogs in an image will really only be able to do that - identify dogs. To train it to find planes, you will need an additional dataset and will need to train, test, and tweak it to find planes.
 
 Even state-of-the-art deep reinforcement learning models are really only good at what they were trained at - an agent trained to play DOTA 2 will not be able to trade stocks on the financial markets.
+
+### The Architectural Issue
+------------------------------
+Human brains contain an enormous amount of neurons - roughly 86 _billion_. The average artificial neural network likely will contain hundreds to thousands of neurons. So you can see how this causes issues in both performance, capability, functionality, and so on. All of this is assuming an artificial neuron is equivalent to a biological one, which isn't true either, as biological neurons are far capable.
+
+Also, the issue of memory comes into play. Strong AIs would need to remember many separate tasks, as well as make room for learning new ones. Currently, “memories” are stored in neural networks as synaptic weights - which are matrices of different numbers. Thus, these numbers - which are highly optimized after training - hold the solution to only one problem. Like I said before, a neural network trained to identify dogs will only identify dogs. Its synaptic weights hold “dogs” in its memory. To re-train it to identify planes would cause it to lose its ability to identify dogs, effectively turning it into a completely new model.
+
+We must find a way to design an AI that can contain well over a million neurons (probably billion), can store and maintain separate tasks, and still have the ability to learn new tasks/information and store it.
+
+The implementation is difficult. To me, this is mostly because we have no real idea of how the brain stores information in specifics. For example, if you tell me your name is John, and I commit this to memory, where exactly is that piece of information stored? Is it stored in one neuron? Several neurons? Would we be able to make someone forget a small piece of information, leaving the rest of their memory intact, by targeting specifically where the information is stored? 
+
+These are all questions we don't have an answer to, and in my opinion this will make a huge difference not only in the field of neuroscience, but also in AI, as we will finally have a living system to build models off. Using nature as an example seems to have proven successful thus far, as the deep neural network breakthrough caused AI research to jump ahead, and its current state-of-the-art algorithms are based on reinforcement learning, a style of learning used by animals and people in real life.
+
+-----------------------------
+
+In conclusion, we have quite a bit to work on before strong AIs are a reality - not only do we need faster, more efficient algorithms that learn quickly and can learn different, unrelated tasks - we also need ways to implement this architecturally.
