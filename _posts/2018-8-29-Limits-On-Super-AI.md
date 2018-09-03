@@ -23,6 +23,8 @@ For context, here's a <a href="https://arxiv.org/pdf/1805.07917.pdf">recent publ
 
 ![deep evolutionary reinforcement learning](/images/derl.png "Deep Reinforcement Learning algorithm comparison")
 
+!![deep evolutionary reinforcement learning](/images/derl2.png "Deep Reinforcement Learning algorithm comparison")
+
 As you can see, this new algo (in red) allows the agent to learn much faster, but the total episodes required for it to solve the problem still number in the thousands.
 
 We need an algorithm that allows an agent to learn quickly and efficiently, which will significantly reduce the amount of steps it needs, and thus reduces the amount of data it requires as well.
@@ -40,7 +42,7 @@ Also, the issue of memory comes into play. Strong AIs would need to remember man
 
 We must find a way to design an AI that can contain well over a million neurons (probably billion), can store and maintain separate tasks, and still have the ability to learn new tasks/information and store it.
 
-The implementation is difficult. To me, this is mostly because we have no real idea of how the brain stores information in specifics. For example, if you tell me your name is John, and I commit this to memory, where exactly is that piece of information stored? Is it stored in one neuron? Several neurons? Would we be able to make someone forget a small piece of information, leaving the rest of their memory intact, by targeting specifically where the information is stored? 
+The implementation is difficult. To me, this is mostly because we have no real idea of how the brain stores information in specifics. For example, if you tell me your name is John, and I commit this to memory, where exactly is that piece of information stored? Is it stored in one neuron? Several neurons? Would we be able to make someone forget a small piece of information - leaving the rest of their memory intact - by targeting specifically where the information is stored? 
 
 These are all questions we don't have an answer to, and in my opinion this will make a huge difference not only in the field of neuroscience, but also in AI, as we will finally have a living system to build models off. Using nature as an example seems to have proven successful thus far, as the deep neural network breakthrough caused AI research to jump ahead, and its current state-of-the-art algorithms are based on reinforcement learning, a style of learning used by animals and people in real life.
 
