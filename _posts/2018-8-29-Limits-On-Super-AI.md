@@ -31,7 +31,7 @@ As you can see, this new algo (in red) allows the agent to learn much faster, bu
 
 This demonstrates the state of artificial intelligence today - to me this resembles the "diminishing returns" Beethoven that is often used when discussing video game graphics. 
 
-![dim returns beethoven]((/images/drbeethoven.png "Diminishing Returns Beethoven")
+![dim returns beethoven](/images/drbeethoven.png "Diminishing Returns Beethoven")
 
 The more polygons that we include, the better the image looks. However, you can notice a pattern - at first, increasing the original polygon count by 10x makes a massive difference. What was a mess of triangles is now a portrait of a man. Add another 10x worth of polygons, and we clearly have beethoven. However, repeating this process makes no real difference to the next portrait.
 
