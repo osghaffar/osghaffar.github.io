@@ -25,7 +25,7 @@ For context, here's a <a href="https://arxiv.org/pdf/1805.07917.pdf">recent publ
 
 As you can see, this new algo (in red) allows the agent to learn much faster, but the total episodes required for it to solve the problem still number in the thousands.
 
-Although it is much faster than previous state-of-the-art algorithms, it still requires some /{n} million steps to learn a significant amount of information:
+Although it is much faster than previous state-of-the-art algorithms, it still requires some $n$ million steps to learn a significant amount of information:
 
 ![deep evolutionary reinforcement learning](/images/derl2.png "Deep Reinforcement Learning algorithm comparison")
 
