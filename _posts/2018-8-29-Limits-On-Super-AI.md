@@ -23,11 +23,11 @@ For context, here's a <a href="https://arxiv.org/pdf/1805.07917.pdf">recent publ
 
 ![deep evolutionary reinforcement learning](/images/derl.png "Deep Reinforcement Learning algorithm comparison")
 
-Although it is much faster than previous state-of-the-art algorithms, it still requires some _n_ million steps to learn a significant amount of information:
+As you can see, this new algo (in red) allows the agent to learn much faster, but the total episodes required for it to solve the problem still number in the thousands.
+
+Although it is much faster than previous state-of-the-art algorithms, it still requires some /{n} million steps to learn a significant amount of information:
 
 ![deep evolutionary reinforcement learning](/images/derl2.png "Deep Reinforcement Learning algorithm comparison")
-
-As you can see, this new algo (in red) allows the agent to learn much faster, but the total episodes required for it to solve the problem still number in the thousands.
 
 This demonstrates the state of artificial intelligence today - to me this resembles the "diminishing returns" Beethoven that is often used when discussing video game graphics. 
 
