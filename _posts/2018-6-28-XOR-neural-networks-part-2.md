@@ -29,7 +29,7 @@ These two examples are just vanilla feed-forward networks. There exists many typ
 -----------------------
 In the last post, we did a few calculations by hand to see what goes on under the hood when a neural network "learns". However, the mathematically inclined reader may have noticed something wrong.
 
-The XOR function simply cannot be learned by the one layer neural network. When a function is linear, or ***one-to-one***, there is only one $y$ for every $x$. A one layer neural network can learn this type of function quite well, as it requires no complex calculations. 
+The XOR function simply cannot be learned by the one layer neural network. When a function is ***one-to-one***, there is only one $x$ for every $y$. A one layer neural network can learn this type of function quite well, as it requires no complex calculations. 
 
 However, the XOR function is not one-to-one. There are two inputs for each output, both $[1, 0]$ and $[0, 1]$ output $1$, and both $[0, 0]$ and $[1, 1]$ output $0$. This is too nonlinear for the one layer network to learn.
 
