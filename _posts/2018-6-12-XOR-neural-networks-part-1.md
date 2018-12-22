@@ -170,8 +170,6 @@ $$
 
 There are a few reasons to use the error-weighted derivative. 
 
-$${\text{\scriptsize testing}}$$
-
 <pre style= "font-size:12pt; line-height: 1.5;">
 - Firstly, we want to calculate how far off our prediction is from the real output. 
 So we calculate the simple error, which is the difference between the two: (output - predicted output)
