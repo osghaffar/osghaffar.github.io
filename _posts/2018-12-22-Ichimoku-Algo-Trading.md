@@ -3,9 +3,6 @@ layout: post
 mathjax: true
 title: Algorithmic Trading - Ichimoku
 ---
-
-# <center> Algorithmic Trading - Ichimoku </center>
---------------------------------------------------
 ### Introduction
 When trading the financial markets, traders will want to use any and all tools they can to pick out important information from the vast amounts of noisy data. Many technical indicators are used in the financial markets as a way to detect profitable trade signals, as well as entries and exits. 
 
