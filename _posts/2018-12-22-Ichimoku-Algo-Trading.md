@@ -210,5 +210,5 @@ What do you think?
 
 <a name="footnote2">2</a>: <a href="https://docs.mql4.com/indicators/iichimoku">MQL4 iIchimoku documentation</a>
 
-3: <a href="https://www.babypips.com/learn/forex/what-is-the-most-profitable-indicator">What is the Best Technical Indicator?</a>
+3: <a href="https://www.babypips.com/learn/forex/what-is-the-most-profitable-indicator">What is the Best Technical Indicator? - BabyPips</a>
 
