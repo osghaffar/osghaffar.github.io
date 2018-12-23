@@ -173,7 +173,7 @@ This last part of the code is fairly straightforward as well:
 If the conversion line is greater than the baseline, we buy. If the base line is greater, we sell. The order total keeps track of how many trades we have already opened, to prevent us from opening an unnecessary amount. Additionally, ```buyorder``` and ```sellorder``` become true and allow the close signal to become active once the cross over occurs again.
 
 ### Results
-Now that we have our algorithm implemented into code, let's do a backtest to see how our Ichimoku trader does. You can view the <a href="https://docs.mql4.com/indicators/iichimoku">full code on my github.</a>
+Now that we have our algorithm implemented into code, let's do a backtest to see how our Ichimoku trader does. You can view the <a href="https://github.com/osghaffar/Algo-Trading/tree/master/Ichimoku%20Trading%20Algorithm">full code on my github.</a>
 
 Here are the conditions I'm using to test the algorithm:
 
