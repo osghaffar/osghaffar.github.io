@@ -103,7 +103,7 @@ void start()
 
 ```
 The code is relatively straightforward, so we can start breaking it down without too much prelude. 
--------------------------------------------------------------------------------------------------
+_____________________________________________________________________________________________
 The first few lines of code are mostly necessary to help smooth the function out:
 ```c
     int ticket = 0;
