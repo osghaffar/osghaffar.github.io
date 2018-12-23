@@ -173,6 +173,22 @@ This last part of the code is fairly straightforward as well:
 If the conversion line is greater than the baseline, we buy. If the base line is greater, we sell. The order total keeps track of how many trades we have already opened, to prevent us from opening an unnecessary amount. Additionally, ```buyorder``` and ```sellorder``` become true and allow the close signal to become active once the cross over occurs again.
 
 ### Results
+Now that we have our algorithm implemented into code, let's do a backtest to see how our Ichimoku trader does. You can view the <a href="https://docs.mql4.com/indicators/iichimoku">full code on my github.</a>
+
+Here are the conditions I'm using to test the algorithm:
+
+![Settings for algo test](/images/ichi-test.png "Settings for algo test")
+
+I'm using EUR/USD on a 4 hour chart (so all of our periods that the Ichimoku uses to calculate will be 4 hours) and I'm testing it from January 1st, 2018 to December 20th, 2018. I'm also using a spread of 5, just so it doesn't interfere with our algorithm's performance too much. For now, I care more about how it performs in the market rather than robustness. 
+
+Here are the results:
+
+![Profit results of algo test](/images/ichimoku-profit.png "profit results of algo test")
+
+And here is the more detailed report:
+
+![Report of algo test](/images/ichimoku-report.png "report of algo test")
+
 
 #### References
 -----------------
