@@ -127,7 +127,7 @@ The first few lines of code are mostly necessary to help smooth the function out
 ```
 The ```int ticket``` simply is a way for MQL4 to keep track of your trades. It will number each subsequent trade you place, e.g. trade #1, trade #2, and so on. 
 
-Our ```buyorder``` and ```sellorder``` booleans are in place as a trigger. Once we have placed an order, we will set these to true and they will be the "gate" to start the process to check for cloing.
+Our ```buyorder``` and ```sellorder``` booleans are in place as a trigger. Once we have placed an order, we will set these to true and they will be the "gate" to start the process to check for closing.
 
 The ```OrderTotal``` is part of another function; in short, it's just a way to keep track of how many trades have been opened.
 
