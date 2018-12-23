@@ -193,7 +193,7 @@ We can see that the algorithm made a net profit of $3089, which is about a ~31% 
 
 One thing definite positive is that the maximal drawdown was 13.45%, and you can see in the profit graph that the equity (green line) never dipped below the account balance very much. This means that we weren't holding a large losing trade.
 
-Additionally, our short trades were only successful 50% of the time, and our long trades were only successful ~39% of the time. The fact that we still made a profit off those numbers is surprising, and points to the power of the Ichimoku system, as our largest profit trade ($438) was about 4x as high as our biggest losing trade (-$101). 
+Additionally, our short trades were only successful 50% of the time, and our long trades were only successful ~39% of the time. The fact that we still made a profit off those numbers is surprising, and alludes to the power of the Ichimoku system, as our largest profit trade ($438) was about 4x as high as our biggest losing trade (-$101). 
 
 ### Conclusion
 To conclude, I would say that this system is definitely effective and has great potential. The 9, 26, and 52 appear to be a definite sweet spot, as they allow the system to be reactive to the market - not too reactive where it will trigger a trade when there is volatility, and not _not_ reactive enough, to the point where you're missing out on profitable trades.
