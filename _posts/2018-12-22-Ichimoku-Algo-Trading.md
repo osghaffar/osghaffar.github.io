@@ -23,15 +23,15 @@ At first glance, this indicator seems ridiculously messy and unnecessarily compl
 
 Let's break down this indicator part by part. Ichimoku Kinko Hyo has 6 components:
 
-- **Tenkan-sen**: Also known as the _conversion line_, this is calculated by adding the maximum price of the last 9 periods to the minimum price of the last 9 periods, and dividing this value by 2. In the picture above, Tenkan-sen is the red line. In terms of moving averages, this can be thought of as a short-term, faster moving line.
+- **Tenkan-sen** (red line): Also known as the _conversion line_, this is calculated by adding the maximum price of the last 9 periods to the minimum price of the last 9 periods, and dividing this value by 2. In terms of moving averages, this can be thought of as a short-term, faster moving line.
 
-- **Kijun-sen**: Also known as the _base line_, this is calculated by adding the maximum price of the last 26 periods to the minimum price of the last 9 periods, and dividing this value by 2. In the picture above, Kijun-sen is the blue line. This can be thought of as a slower, long-term version of Tenkan-sen.
+- **Kijun-sen** (blue line): Also known as the _base line_, this is calculated by adding the maximum price of the last 26 periods to the minimum price of the last 9 periods, and dividing this value by 2. This can be thought of as a slower, long-term version of Tenkan-sen.
 
-- **Chiko span**: Also known as the _lagging line_, this is simply the prices plotted 26 periods behind the actual price. So, on a daily chart, the price for November 26 would be shown on the chart at November 1. In the picture above, the Chiko span is the green line. This one is slightly more confusing to look at, but it gets easier once you start matching up where the indicator is lagging behind.
+- **Chiko span** (green line): Also known as the _lagging line_, this is simply the prices plotted 26 periods behind the actual price. So, on a daily chart, the price for November 26 would be shown on the chart at November 1. This one is slightly more confusing to look at, but it gets easier once you start matching up where the indicator is lagging behind.
 
-- **Senkou span A**: This is the orange-ish line you see on the chart. This is calculated by adding the Tenkan-sen and Kijun sen, and dividing by 2. The line is plotted 26 periods ahead, the opposite direction that the Chiko span is plotted.
+- **Senkou span A** (orange-ish line): This is calculated by adding the Tenkan-sen and Kijun sen, and dividing by 2. The line is plotted 26 periods ahead, the opposite direction that the Chiko span is plotted.
 
-- **Senkou span B**: This is the tan line you see on the chart. This is calculated by adding the highest high of the last 52 periods and the lowest low of the last 52 periods, and dividing by 2. Like Senkou span A, it is also plotted 26 periods ahead.
+- **Senkou span B** (tan line): This is calculated by adding the highest high of the last 52 periods and the lowest low of the last 52 periods, and dividing by 2. Like Senkou span A, it is also plotted 26 periods ahead.
 
 - Together, Senkou span A and B make a cloud shaped area that is filled in. This area is known as **Kumo**. Kumo serves as indicators of support and resistance.
 
@@ -62,11 +62,11 @@ There is lots more you can garner by using this indicator, but we won't go too f
 
 ### The Algorithm
 
-For this tutorial, we aren't going to create an overly complex trading bot; rather it will be super simple and use the most basic Ichimoku signals to trade. The idea is to highlight the simplicity but effectiveness of the indicator and to demonstrate that it can be utilized algorithmically.
+For this tutorial, we aren't going to create an overly complicated trading bot; rather it will be pretty simple and use the most basic Ichimoku signals to trade. The idea is to highlight the simplicity but effectiveness of the indicator and to demonstrate that it can be utilized algorithmically.
 
 We will be using the basic cross over of Tenkan-sen and Kijun-sen. When the conversion line crosses above the base line, we'll buy, and when the conversion line crosses below the base line, we will sell. 
 
-To close the trades, we have a few options - either we can set a take profit, meaning once we've made a certain amount of money we close the trade automatically, or we can wait until the conversion line crosses the base line back the opposite way. Although the take profit may be more economically satisfying, choosing a take profit that maximizes our possible profit would take far too long and require a lot of statistical analysis. So, for the sake of brevity and for the sake of demonstrating the indicator, we will simply use the second cross over as our close signal.
+To close the trades, we have a couple of options: either we can set a take profit - meaning once we've made a certain amount of money we close the trade automatically - or we can wait until the conversion line crosses the base line back the opposite way. Although the take profit may be more economically satisfying, choosing a take profit that maximizes our possible profit would take far too long and require a lot of statistical analysis. Thus, for the sake of brevity and for the sake of demonstrating the indicator, we will simply use the second cross over as our close signal.
 
 So, in short, here's the algorithm put together:
 
@@ -95,9 +95,21 @@ void start()
         buyorder = true;
     }
             
+    if(buyorder == true){
+        if(baseLine > conversionLine) && (OrderTotal1 >= 1){
+            OrderClose(OrderTicket(), OrderLots(), Bid, 3, Green);
+        }
+    }
+            
     if((baseLine > conversionLine) && (OrderTotal2 <= 2)){
         ticket = OrderSend(Symbol(),OP_SELL,LotSize,Bid,3,0,0,NULL,2222,0,Green);
         sellorder = true;
+    }
+    
+    if(sellorder == true){
+        if(conversionLine > baseLine) && (OrderTotal1 >= 1){
+            OrderClose(OrderTicket(), OrderLots(), Ask, 3, Red);
+        }
     }
 }
 
