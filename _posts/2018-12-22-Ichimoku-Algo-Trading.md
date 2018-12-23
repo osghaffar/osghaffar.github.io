@@ -1,6 +1,6 @@
 ---
 layout: post
-mathjax: true
+mathjax: false
 title: Algorithmic Trading - Ichimoku
 ---
 ### Introduction
