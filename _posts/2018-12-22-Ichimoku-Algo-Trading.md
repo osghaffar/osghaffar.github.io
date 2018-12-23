@@ -143,7 +143,7 @@ According to the docs<sup>[2](#footnote2)</sup>, the parameters are as follows:
 
 ```iIchimoku(Symbol, Timeframe, Tenkan-sen, Kijun-sen, Senkou Span B period, Data Source, Time Shift)```
 
-Using this, we can fill it in with the information we have - we don't want any specific symbol, or currency pair, so we can leave that as NULL. Our timeframe is the current one, so we leave that as 0. Then, we replace the next three values with our 9, 26, and 52 respectively. The data source is which line you want as the return value - the conversion line, base line, or other. For this, we put 1 in the conversion line and 2 for the base line. Finally, we don't want to shift the time at all, so we keep that as 0.
+Using this, we can fill it in with the information we have - we don't want any specific symbol, or currency pair, so we can leave that as NULL. Our timeframe is the current one, so we leave that as 0. Then, we replace the next three values with our 9, 26, and 52 respectively. The data source is which line you want as the return value - the conversion line, base line, or one of the Senkou Span lines. For this, we put 1 in the conversion line and 2 for the base line. Finally, we don't want to shift the time at all, so we keep that as 0.
 
 _____________________________________________________________________________________________
 This last part of the code is fairly straightforward as well:
@@ -179,7 +179,7 @@ Here are the conditions I'm using to test the algorithm:
 
 ![Settings for algo test](/images/ichi-test.png "Settings for algo test")
 
-I'm using EUR/USD on a 4 hour chart (so all of our periods that the Ichimoku uses to calculate will be 4 hours) and I'm testing it from January 1st, 2018 to December 20th, 2018. I'm also using a spread of 5, just so it doesn't interfere with our algorithm's performance too much. For now, I care more about how it performs in the market rather than robustness. 
+I'm using EUR/USD on a 4 hour chart (so all of our periods that the Ichimoku uses to calculate will be 4 hours) and I'm testing it from January 1st, 2018 to December 20th, 2018. It has a starting balance of $10,000 and uses a lot size of 0.1. I'm also using a spread of 5, just so that it doesn't interfere with our algorithm's performance too much. For now, I care more about how it performs in the market rather than robustness. 
 
 Here are the results:
 
@@ -189,10 +189,22 @@ And here is the more detailed report:
 
 ![Report of algo test](/images/ichimoku-report.png "report of algo test")
 
+We can see that the algorithm made a net profit of $3089, which is about a ~31% return on the year. Not bad at all! But there are certainly improvements that can be made.
+
+One thing definite positive is that the maximal drawdown was 13.45%, and you can see in the profit graph that the equity (green line) never dipped below the account balance very much. This means that we weren't holding a large losing trade.
+
+Additionally, our short trades were only successful 50% of the time, and our long trades were only successful ~39% of the time. The fact that we still made a profit off those numbers is surprising, and points to the power of the Ichimoku system, as our largest profit trade ($438) was about 4x as high as our biggest losing trade (-$101). 
+
+### Conclusion
+To conclude, I would say that this system is definitely effective and has great potential. The 9, 26, and 52 appear to be a definite sweet spot, as they allow the system to be reactive to the market - not too reactive where it will trigger a trade when there is volatility, and not _not_ reactive enough, to the point where you're missing out on profitable trades - to be effective. 
+
+I would also go as far as to say this is one of the only trading systems that can be profitable by itself, without other indicators being involved. <a href="https://www.babypips.com/learn/forex/what-is-the-most-profitable-indicator">This experiment done by BabyPips</a> appears to corroborate this, as they did a very similar trading system as we did in this blog post.
 
 #### References
 -----------------
 <a name="footnote1">1</a>: <a href="https://docs.mql4.com">MQL4 documentation</a>
 
 <a name="footnote2">2</a>: <a href="https://docs.mql4.com/indicators/iichimoku">MQL4 iIchimoku documentation</a>
+
+3: <a href="https://www.babypips.com/learn/forex/what-is-the-most-profitable-indicator">What is the Best Technical Indicator?</a>
 
