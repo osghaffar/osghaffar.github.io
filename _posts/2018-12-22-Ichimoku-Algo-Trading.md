@@ -31,7 +31,7 @@ Let's break down this indicator part by part. Ichimoku Kinko Hyo has 6 component
 
 - **Senkou span A** (orange-ish line): This is calculated by adding the Tenkan-sen and Kijun sen, and dividing by 2. The line is plotted 26 periods ahead, the opposite direction that the Chiko span is plotted.
 
-- **Senkou span B** (tan line): This is calculated by adding the highest high of the last 52 periods and the lowest low of the last 52 periods, and dividing by 2. Like Senkou span A, it is also plotted 26 periods ahead.
+- **Senkou span B** (purple-ish line): This is calculated by adding the highest high of the last 52 periods and the lowest low of the last 52 periods, and dividing by 2. Like Senkou span A, it is also plotted 26 periods ahead.
 
 - Together, Senkou span A and B make a cloud shaped area that is filled in. This area is known as **Kumo**. Kumo serves as indicators of support and resistance.
 
