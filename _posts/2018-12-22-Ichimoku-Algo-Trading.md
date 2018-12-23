@@ -103,7 +103,7 @@ void start()
 
 ```
 The code is relatively straightforward, so we can start breaking it down without too much prelude. 
-_____________
+-------------------------------------------------------------------------------------------------
 The first few lines of code are mostly necessary to help smooth the function out:
 ```c
     int ticket = 0;
@@ -117,8 +117,7 @@ The ```int ticket``` simply is a way for MQL4 to keep track of your trades. It w
 Our ```buyorder``` and ```sellorder``` booleans are in place as a trigger. Once we have placed an order, we will set these to true and they will be the "gate" to start the process to check for cloing.
 
 The ```OrderTotal``` is part of another function that I'll get to later; in short, it's just a way to keep track of how many trades have been opened.
-
-_________
+______________________________________________________________________________________________
 Moving on, we have these two lines:
 ```c
     double conversionLine = iIchimoku(NULL, 0, 9, 26, 52, 1, 0);
@@ -131,7 +130,7 @@ According to the docs<sup>[2](#footnote2)</sup>, the parameters are as follows:
    iIchimoku(Symbol, Timeframe, Tenkan-sen, Kijun-sen, Senkou Span B period, Data Source, Time Shift)
 ```
 Using this, we can fill it in with the information we have - we don't want any specific symbol, or currency pair, so we can leave that as NULL. Our timeframe is the current one, so we leave that as 0. Then, we replace the next three values with our 9, 26, and 52 respectively. The data source is which line you want as the return value - the conversion line, base line, or other. For this, we put 1 in the conversion line and 2 for the base line. Finally, we don't want to shift the time at all, so we keep that as 0.
-_____________
+_____________________________________________________________________________________________
 This last part of the code is fairly straightforward as well:
 ```c
     if((conversionLine > baseLine) && (OrderTotal1 <= 2)){
