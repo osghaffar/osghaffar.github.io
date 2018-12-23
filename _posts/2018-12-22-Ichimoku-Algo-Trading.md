@@ -191,7 +191,7 @@ And here is the more detailed report:
 
 We can see that the algorithm made a net profit of $3089, which is about a ~31% return on the year. Not bad at all! But there are certainly improvements that can be made.
 
-One thing definite positive is that the maximal drawdown was 13.45%, and you can see in the profit graph that the equity (green line) never dipped below the account balance very much. This means that we weren't holding a large losing trade.
+One definite positive is that the maximal drawdown was 13.45%, and you can see in the profit graph that the equity (green line) never dipped below the account balance very much. This means that we weren't holding a large losing trade.
 
 Additionally, our short trades were only successful 50% of the time, and our long trades were only successful ~39% of the time. The fact that we still made a profit off those numbers is surprising, and alludes to the power of the Ichimoku system, as our largest profit trade ($438) was about 4x as high as our biggest losing trade (-$101). 
 
