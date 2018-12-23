@@ -128,9 +128,9 @@ Moving on, we have these two lines:
 Here is where we define our conversion (Tenkan-sen) and base (Kijun-sen) lines. As I said earlier, MQL4 has some nicely built-in functions that take care of the calculations for us. In this case, it is ```iIchimoku```. 
 
 According to the docs<sup>[2](#footnote2)</sup>, the parameters are as follows:
-```
-   iIchimoku(Symbol, Timeframe, Tenkan-sen, Kijun-sen, Senkou Span B period, Data Source, Time Shift)
-```
+
+```iIchimoku(Symbol, Timeframe, Tenkan-sen, Kijun-sen, Senkou Span B period, Data Source, Time Shift)```
+
 Using this, we can fill it in with the information we have - we don't want any specific symbol, or currency pair, so we can leave that as NULL. Our timeframe is the current one, so we leave that as 0. Then, we replace the next three values with our 9, 26, and 52 respectively. The data source is which line you want as the return value - the conversion line, base line, or other. For this, we put 1 in the conversion line and 2 for the base line. Finally, we don't want to shift the time at all, so we keep that as 0.
 
 _____________________________________________________________________________________________
