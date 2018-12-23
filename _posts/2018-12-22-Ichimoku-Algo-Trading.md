@@ -196,9 +196,13 @@ One thing definite positive is that the maximal drawdown was 13.45%, and you can
 Additionally, our short trades were only successful 50% of the time, and our long trades were only successful ~39% of the time. The fact that we still made a profit off those numbers is surprising, and points to the power of the Ichimoku system, as our largest profit trade ($438) was about 4x as high as our biggest losing trade (-$101). 
 
 ### Conclusion
-To conclude, I would say that this system is definitely effective and has great potential. The 9, 26, and 52 appear to be a definite sweet spot, as they allow the system to be reactive to the market - not too reactive where it will trigger a trade when there is volatility, and not _not_ reactive enough, to the point where you're missing out on profitable trades - to be effective. 
+To conclude, I would say that this system is definitely effective and has great potential. The 9, 26, and 52 appear to be a definite sweet spot, as they allow the system to be reactive to the market - not too reactive where it will trigger a trade when there is volatility, and not _not_ reactive enough, to the point where you're missing out on profitable trades.
 
 I would also go as far as to say this is one of the only trading systems that can be profitable by itself, without other indicators being involved. <a href="https://www.babypips.com/learn/forex/what-is-the-most-profitable-indicator">This experiment done by BabyPips</a> appears to corroborate this, as they did a very similar trading system as we did in this blog post.
+
+I also wonder what tweaks can be made to improve the system - in particular, how we can effectively use the Kumo cloud as a trading signal. There's lots of possibilities, and Ichimoku is certainly a promising indicator.
+
+What do you think? 
 
 #### References
 -----------------
