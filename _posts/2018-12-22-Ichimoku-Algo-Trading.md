@@ -114,9 +114,7 @@ void start()
     }
     
     if((baseLine > conversionLine) && (OrderTotal2 <= 2)){
-        // B > C, Open Sell Trades, Close Buy Trades
         ticket = OrderSend(Symbol(),OP_SELL,LotSize,Bid,3,0,0,NULL,2222,0,Red);
-        //for loop checks for buy orders and closes them
         for(int c = 0; c < OrdersTotal(); c++){
             order = OrderSelect(c, SELECT_BY_POS);
             if(OrderType() == OP_BUY){
