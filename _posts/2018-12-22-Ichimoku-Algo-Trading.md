@@ -194,6 +194,7 @@ This will yield us
     double baseLine = iIchimoku(NULL, 0, 9, 26, 52, 2, 0);
 ```
 instead of all that work. Nice, eh?
+
 _____________________________________________________________________________________________
 This last part of the code is fairly straightforward as well:
 ```c
