@@ -151,9 +151,9 @@ Moving on, we have these few lines:
     double conv = CopyClose(Symbol(), 0, 0, 9, convline);
     double base = CopyClose(Symbol(), 0, 0, 26, baseline);
 ```
-Here is where we define our conversion (Tenkan-sen) and base (Kijun-sen) lines. As I said earlier, MQL4 has some nicely built-in functions that take care of the calculations for us. In this case, it is ```iIchimoku```. 
+Here is where we define our conversion (Tenkan-sen) and base (Kijun-sen) lines. As I said earlier, MQL4 has some nicely built-in functions that take care of the calculations for us. However, we're gonna look into how to implement the algorithm manually. 
 
-However, we're gonna look into how to implement the algorithm manually. We will create 2 arrays, one for the conversion line and one for the baseline. Since we know how many elements are in each array (9 and 26), we can statically allocate them when we define them.
+We will create 2 arrays, one for the conversion line and one for the baseline. Since we know how many elements are in each array (9 and 26), we can statically allocate them when we define them.
 
 The way to fill the arrays is through a function called ```CopyClose``` which will copy the last x prices into our array for us. 
 
@@ -179,12 +179,13 @@ Here we are passing our arrays into simple maximum and minimum functions to obta
 
 After that, we write out our equation and plug in our maximum and minimum values.
 
+_____________________________________________________________________________________________
 Additionally, there is a simpler, built-in way to do this - we can use the iIchimoku function:
 
-According to the docs<sup>[3](#footnote3)</sup>, the parameters are as follows:
-
+Looking at the documentation<sup>[3](#footnote3)</sup>, the parameters are as follows:
+```
 iIchimoku(Symbol, Timeframe, Tenkan-sen, Kijun-sen, Senkou Span B period, Data Source, Time Shift)
-
+```
 Using this, we can fill it in with the information we have - we don’t want any specific symbol, or currency pair, so we can leave that as NULL. Our timeframe is the current one, so we leave that as 0. Then, we replace the next three values with our 9, 26, and 52 respectively. The data source is which line you want as the return value - the conversion line, base line, or one of the Senkou Span lines. For this, we put 1 in the conversion line and 2 for the base line. Finally, we don’t want to shift the time at all, so we keep that as 0.
 
 This will yield us
