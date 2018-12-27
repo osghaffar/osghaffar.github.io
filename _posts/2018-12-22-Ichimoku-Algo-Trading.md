@@ -82,37 +82,49 @@ Here's the main algorithm inside a function:
 void start()
 {
     int ticket = 0;
-    bool buyorder = false, sellorder = false;
+    int order;
+    int orderclose;
     
     int OrderTotal1 = OrderCounter(1111);
     int OrderTotal2 = OrderCounter(2222);
     
-    double conversionLine = iIchimoku(NULL, 0, 9, 26, 52, 1, 0);
-    double baseLine = iIchimoku(NULL, 0, 9, 26, 52, 2, 0);
+    double convline[9];
+    double baseline[26];
+    
+    double conv = CopyClose(Symbol(), 0, 0, 9, convline);
+    double base = CopyClose(Symbol(), 0, 0, 26, baseline);
+    
+    double maxOfConversionLine = maximum(convline, 9);
+    double minOfConversionLine = minimum(convline, 9);
+    
+    double maxOfBaseLine = maximum(baseline, 26);
+    double minOfBaseLine = minimum(baseline, 26);
+    
+    double conversionLine = (maxOfConversionLine + minOfConversionLine) / 2;
+    double baseLine = (maxOfBaseLine + minOfBaseLine) / 2;
     
     if((conversionLine > baseLine) && (OrderTotal1 <= 2)){
         ticket = OrderSend(Symbol(),OP_BUY,LotSize,Ask,3,0,0,NULL,1111,0,Green);
-        buyorder = true;
-    }
-            
-    if(buyorder == true){
-        if(baseLine > conversionLine) && (OrderTotal1 >= 1){
-            OrderClose(OrderTicket(), OrderLots(), Bid, 3, Green);
+        for(int c = 0; c < OrdersTotal(); c++){
+            order = OrderSelect(c, SELECT_BY_POS);
+            if(OrderType() == OP_SELL){
+                orderclose = OrderClose(OrderTicket(), OrderLots(), Ask, 3, Red);
+            }
         }
     }
-            
-    if((baseLine > conversionLine) && (OrderTotal2 <= 2)){
-        ticket = OrderSend(Symbol(),OP_SELL,LotSize,Bid,3,0,0,NULL,2222,0,Green);
-        sellorder = true;
-    }
     
-    if(sellorder == true){
-        if(conversionLine > baseLine) && (OrderTotal1 >= 1){
-            OrderClose(OrderTicket(), OrderLots(), Ask, 3, Red);
+    if((baseLine > conversionLine) && (OrderTotal2 <= 2)){
+        // B > C, Open Sell Trades, Close Buy Trades
+        ticket = OrderSend(Symbol(),OP_SELL,LotSize,Bid,3,0,0,NULL,2222,0,Red);
+        //for loop checks for buy orders and closes them
+        for(int c = 0; c < OrdersTotal(); c++){
+            order = OrderSelect(c, SELECT_BY_POS);
+            if(OrderType() == OP_BUY){
+                orderclose = OrderClose(OrderTicket(), OrderLots(), Bid, 3, Green);
+            }
         }
     }
 }
-
 ```
 The code is relatively straightforward, so we can start breaking it down without too much prelude. 
 
@@ -120,57 +132,95 @@ ________________________________________________________________________________
 The first few lines of code are mostly necessary to help smooth the function out:
 ```c
     int ticket = 0;
-    bool buyorder = false, sellorder = false;
+    int order;
+    int orderclose;
     
     int OrderTotal1 = OrderCounter(1111);
     int OrderTotal2 = OrderCounter(2222);
 ```
 The ```int ticket``` simply is a way for MQL4 to keep track of your trades. It will number each subsequent trade you place, e.g. trade #1, trade #2, and so on. 
 
-Our ```buyorder``` and ```sellorder``` booleans are in place as a trigger. Once we have placed an order, we will set these to true and they will be the "gate" to start the process to check for closing.
+Our ```order``` and ```orderclose``` variables are in place for when we place our order functions later on. They don't have an extremely important role, rather, its an MQL4-specific nuance.
 
 The ```OrderTotal``` is part of another function; in short, it's just a way to keep track of how many trades have been opened.
 
 ______________________________________________________________________________________________
-Moving on, we have these two lines:
+Moving on, we have these few lines:
+```c
+    double convline[9];
+    double baseline[26];
+    
+    double conv = CopyClose(Symbol(), 0, 0, 9, convline);
+    double base = CopyClose(Symbol(), 0, 0, 26, baseline);
+```
+Here is where we define our conversion (Tenkan-sen) and base (Kijun-sen) lines. As I said earlier, MQL4 has some nicely built-in functions that take care of the calculations for us. In this case, it is ```iIchimoku```. 
+
+However, we're gonna look into how to implement the algorithm manually. We will create 2 arrays, one for the conversion line and one for the baseline. Since we know how many elements are in each array (9 and 26), we can statically allocate them when we define them.
+
+The way to fill the arrays is through a function called ```CopyClose``` which will copy the last x prices into our array for us. 
+
+According to the docs<sup>[2](#footnote2)</sup>, the parameters are as follows:
+
+```int CopyClose(string symbol_name, int timeframe, int start_pos, int count, close_array[]);```
+
+Using this, we can fill it in with the information we have - we don't want any specific symbol, or currency pair, so we can leave that as NULL. Our timeframe is the current one, so we leave that as 0. Our start value is our most recent one, which means we also put 0. Our count is 9 and 26, so for one instance of the function we put 9 and for the other we put 26. For our close array, we simply put our array name - conversion line or base line. 
+
+_____________________________________________________________________________________________
+Now we have this part:
+```c
+    double maxOfConversionLine = maximum(convline, 9);
+    double minOfConversionLine = minimum(convline, 9);
+    
+    double maxOfBaseLine = maximum(baseline, 26);
+    double minOfBaseLine = minimum(baseline, 26);
+    
+    double conversionLine = (maxOfConversionLine + minOfConversionLine) / 2;
+    double baseLine = (maxOfBaseLine + minOfBaseLine) / 2;
+```
+Here we are passing our arrays into simple maximum and minimum functions to obtain the max and min values needed for the algorithm. I won't include the functions here, but they're your basic iterator through the array to find the max and min values.
+
+After that, we write out our equation and plug in our maximum and minimum values.
+
+Additionally, there is a simpler, built-in way to do this - we can use the iIchimoku function:
+
+According to the docs<sup>[3](#footnote3)</sup>, the parameters are as follows:
+
+iIchimoku(Symbol, Timeframe, Tenkan-sen, Kijun-sen, Senkou Span B period, Data Source, Time Shift)
+
+Using this, we can fill it in with the information we have - we don’t want any specific symbol, or currency pair, so we can leave that as NULL. Our timeframe is the current one, so we leave that as 0. Then, we replace the next three values with our 9, 26, and 52 respectively. The data source is which line you want as the return value - the conversion line, base line, or one of the Senkou Span lines. For this, we put 1 in the conversion line and 2 for the base line. Finally, we don’t want to shift the time at all, so we keep that as 0.
+
+This will yield us
 ```c
     double conversionLine = iIchimoku(NULL, 0, 9, 26, 52, 1, 0);
     double baseLine = iIchimoku(NULL, 0, 9, 26, 52, 2, 0);
 ```
-Here is where we define our conversion (Tenkan-sen) and base (Kijun-sen) lines. As I said earlier, MQL4 has some nicely built-in functions that take care of the calculations for us. In this case, it is ```iIchimoku```. 
-
-According to the docs<sup>[2](#footnote2)</sup>, the parameters are as follows:
-
-```iIchimoku(Symbol, Timeframe, Tenkan-sen, Kijun-sen, Senkou Span B period, Data Source, Time Shift)```
-
-Using this, we can fill it in with the information we have - we don't want any specific symbol, or currency pair, so we can leave that as NULL. Our timeframe is the current one, so we leave that as 0. Then, we replace the next three values with our 9, 26, and 52 respectively. The data source is which line you want as the return value - the conversion line, base line, or one of the Senkou Span lines. For this, we put 1 in the conversion line and 2 for the base line. Finally, we don't want to shift the time at all, so we keep that as 0.
-
+instead of all that work. Nice, eh?
 _____________________________________________________________________________________________
 This last part of the code is fairly straightforward as well:
 ```c
     if((conversionLine > baseLine) && (OrderTotal1 <= 2)){
         ticket = OrderSend(Symbol(),OP_BUY,LotSize,Ask,3,0,0,NULL,1111,0,Green);
-        buyorder = true;
-    }
-            
-    if(buyorder == true){
-        if(baseLine > conversionLine) && (OrderTotal1 >= 1){
-            OrderClose(OrderTicket(), OrderLots(), Bid, 3, Green);
+        for(int c = 0; c < OrdersTotal(); c++){
+            order = OrderSelect(c, SELECT_BY_POS);
+            if(OrderType() == OP_SELL){
+                orderclose = OrderClose(OrderTicket(), OrderLots(), Ask, 3, Red);
+            }
         }
     }
-            
-    if((baseLine > conversionLine) && (OrderTotal2 <= 2)){
-        ticket = OrderSend(Symbol(),OP_SELL,LotSize,Bid,3,0,0,NULL,2222,0,Green);
-        sellorder = true;
-    }
     
-    if(sellorder == true){
-        if(conversionLine > baseLine) && (OrderTotal1 >= 1){
-            OrderClose(OrderTicket(), OrderLots(), Ask, 3, Red);
+    if((baseLine > conversionLine) && (OrderTotal2 <= 2)){
+        ticket = OrderSend(Symbol(),OP_SELL,LotSize,Bid,3,0,0,NULL,2222,0,Red);
+        for(int c = 0; c < OrdersTotal(); c++){
+            order = OrderSelect(c, SELECT_BY_POS);
+            if(OrderType() == OP_BUY){
+                orderclose = OrderClose(OrderTicket(), OrderLots(), Bid, 3, Green);
+            }
         }
     }
 ```
-If the conversion line is greater than the baseline, we buy. If the base line is greater, we sell. The order total keeps track of how many trades we have already opened, to prevent us from opening an unnecessary amount. Additionally, ```buyorder``` and ```sellorder``` become true and allow the close signal to become active once the cross over occurs again.
+If the conversion line is greater than the baseline, we buy. If the base line is greater, we sell. The order total keeps track of how many trades we have already opened, to prevent us from opening an unnecessary amount. 
+
+It then loops through all current open orders and closes any sell orders if it is a buy signal, and closes any buy orders if it is a sell order.
 
 ### Results
 Now that we have our algorithm implemented into code, let's do a backtest to see how our Ichimoku trader does. You can view the <a href="https://github.com/osghaffar/Algo-Trading/tree/master/Ichimoku%20Trading%20Algorithm">full code on my github.</a>
@@ -208,7 +258,9 @@ What do you think?
 -----------------
 <a name="footnote1">1</a>: <a href="https://docs.mql4.com">MQL4 documentation</a>
 
-<a name="footnote2">2</a>: <a href="https://docs.mql4.com/indicators/iichimoku">MQL4 iIchimoku documentation</a>
+<a name="footnote2">2</a>: <a href="https://docs.mql4.com/series/copyclose">MQL4 CopyClose[] documentation</a>
 
-3: <a href="https://www.babypips.com/learn/forex/what-is-the-most-profitable-indicator">What is the Best Technical Indicator? - BabyPips</a>
+<a name="footnote3">3</a>: <a href="https://docs.mql4.com/indicators/iichimoku">MQL4 Ichimoku documentation</a>
+
+4: <a href="https://www.babypips.com/learn/forex/what-is-the-most-profitable-indicator">What is the Best Technical Indicator? - BabyPips</a>
 
