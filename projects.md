@@ -3,13 +3,11 @@ layout: page
 title: Projects
 permalink: /projects/
 ---
-Soon come
+Coming soon:
 
-_EUR/USD Price Prediction Convolutional Neural Network_
+_EUR/USD Price Prediction LSTM Neural Network_
 
 _Self-Driving R/C Car_
-
-_Data Visualization in Python with Seaborn_
 
 _Al-Hayaat Trading Co._
 
