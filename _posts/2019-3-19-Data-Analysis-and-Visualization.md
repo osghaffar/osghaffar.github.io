@@ -110,12 +110,14 @@ It will seem like employed has a higher value than unemployed, and not in labor 
 <style>
 table {
   font-family: arial, sans-serif;
+  font-size: 14pt;
   border-collapse: collapse;
   width: 30%;
 }
 
 td, th {
   border: 1px solid #dddddd;
+  font-size: 12pt;
   text-align: left;
   padding: 8px;
 }
