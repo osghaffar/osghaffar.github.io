@@ -111,7 +111,7 @@ It will seem like employed has a higher value than unemployed, and not in labor 
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  width: 100%;
+  width: 30%;
 }
 
 td, th {
