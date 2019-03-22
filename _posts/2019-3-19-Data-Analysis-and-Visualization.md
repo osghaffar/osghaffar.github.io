@@ -107,12 +107,50 @@ If we change it simply into numbers like we did above, for example reassign valu
 
 It will seem like employed has a higher value than unemployed, and not in labor force has a higher value than being employed. However, they are not better or worse than the others, they are just different classification labels. So, we use one-hot encoding to create binary options like this:
 
-|Unemployed   | Employed  | Not in labor force  |
-|---|---|---|
-| 1 | 0  | 0  |
-| 0  | 1  | 0  |
-| 0  | 1  |  0 |
-| 0  | 0  | 1  |
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+<table>
+  <tr>
+    <th>Unemployed</th>
+    <th>Employed</th>
+    <th>Not in labor force</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>0</td>
+    <td>1</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>0</td>
+    <td>1</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+  </tr>
+</table>
 
 This way, when the data is fed into a machine learning algorithm, it will be able to learn that these are labels/results that every person is grouped into, not characteristics with specific values assigned to them.
 
