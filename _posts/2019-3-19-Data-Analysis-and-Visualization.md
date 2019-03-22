@@ -98,7 +98,7 @@ One-hot encoding is a simple process commonly used in machine learning which all
 
 If we change it simply into numbers like we did above, for example reassign values from 1-3:
 
-|Employment Status  |
+|**Employment Status**|
 |---|
 |1  |
 |2   |
