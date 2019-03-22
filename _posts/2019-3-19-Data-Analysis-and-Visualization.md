@@ -5,7 +5,7 @@ title: Data Analysis and Visualization - Python
 ---
 ### Introduction
 This post is based off a dataset I was working with recently as a side project. I wanted to put some of Python's
-libraries to use, like ```matplotlib```, ```seaborn```, ```keras``` and ```pandas```. My goal was to identify some correlations
+libraries to use, like matplotlib, seaborn, keras and pandas. My goal was to identify some correlations
 in the data through visualization techniques, and design a multi-layer perceptron that could leverage these correlations in order
 to make accurate predictions on previously unseen parts of the dataset.
 
@@ -90,10 +90,10 @@ For "Gender" and "Education Status", however, the process was a bit different. B
 One-hot encoding is a simple process commonly used in machine learning which allows for us to change a list of classifications or results into binary options. For "Employment Status", the table looked like this:
 
 |Employment Status  |
-|---|
-|Unemployed  |
-|Employed   |
-|Employed   |
+|-------------------|
+|Unemployed         |
+|Employed           |
+|Employed           |
 |Not in labor force |
 
 If we change it simply into numbers like we did above, for example reassign values from 1-3:
@@ -116,7 +116,7 @@ It will seem like employed has a higher value than unemployed, and not in labor 
 
 This way, when the data is fed into a machine learning algorithm, it will be able to learn that these are labels/results that every person is grouped into, not characteristics with specific values assigned to them.
 
-###Visualizing the Data
+### Visualizing the Data
 Now that the data has been cleaned up a bit, I find it useful to start visualizing the data to see how certain features correlate. This can give us some insight and intuition on how we should build our ML algorithm.
 
 I used the correlation function built into ```pandas``` in order to create a chart. This shows us generally where we should draw our attention depending on the strength of correlation between different features:
