@@ -9,7 +9,7 @@ libraries to use, like matplotlib, seaborn, keras and pandas. My goal was to ide
 in the data through visualization techniques, and design a multi-layer perceptron that could leverage these correlations in order
 to make accurate predictions on previously unseen parts of the dataset.
 
-So, this is my novice experimentation with visualizing, analyzing and predicting the dataset.
+So, this is my (novice) experimentation with visualizing, analyzing and predicting the dataset.
 
 ### The Dataset
 The dataset is a collection of ~80,000 rows (split into roughly 60,000 training and 20,000 test) of information about how 
@@ -158,7 +158,10 @@ This way, when the data is fed into a machine learning algorithm, it will be abl
 ### Visualizing the Data
 Now that the data has been cleaned up a bit, I find it useful to start visualizing the data to see how certain features correlate. This can give us some insight and intuition on how we should build our ML algorithm.
 
-I used the correlation function built into ```pandas``` in order to create a chart. This shows us generally where we should draw our attention depending on the strength of correlation between different features:
+I used the correlation function built into ```pandas``` in order to create a chart. This shows us generally where we should draw our attention, depending on the strength of correlation between different features:
 
 ![correlation heatmap](/images/Graphs/correlation.png "Correlation heatmap")
 
+I won't break down the whole thing, but some pertinent conclusions we can draw from the data:
+- there are the expected correlations, like weekly hours worked/weekly earnings being highly correlated with each other, and with employment
+- there are also the expected negative correlations, like socializing and relaxing having an inverse relationship with weekly hours worked
