@@ -110,7 +110,6 @@ It will seem like employed has a higher value than unemployed, and not in labor 
 <style>
 table {
   font-family: arial, sans-serif;
-  font-size: 14pt;
   border-collapse: collapse;
   width: 30%;
 }
@@ -128,9 +127,9 @@ tr:nth-child(even) {
 </style>
 <table>
   <tr>
-    <th>Unemployed</th>
-    <th>Employed</th>
-    <th>Not in labor force</th>
+    <th><strong>Unemployed</strong></th>
+    <th><strong>Employed</strong></th>
+    <th><strong>Not in labor force</strong></th>
   </tr>
   <tr>
     <td>1</td>
