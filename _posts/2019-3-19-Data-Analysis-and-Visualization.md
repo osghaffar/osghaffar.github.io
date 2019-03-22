@@ -163,7 +163,8 @@ I used the correlation function built into ```pandas``` in order to create a cha
 ![correlation heatmap](/images/Graphs/correlation.png "Correlation heatmap")
 
 I won't break down the whole thing, but some pertinent conclusions we can draw from the data:
-- there are the expected correlations, like weekly hours worked/weekly earnings being highly correlated with each other, and with employment
-- there are also the expected negative correlations, like socializing and relaxing having an inverse relationship with weekly hours worked
-- there are some interesting ones, like
-- there are also ones I would consider useless, as they barely correlate with anything - for example, "Year" and "Shopping". These can likely be tossed out of the dataset in order to decrease the noise.
+
+  - there are the expected correlations, like weekly hours worked/weekly earnings being highly correlated with each other, and with employment
+  - there are also the expected negative correlations, like socializing and relaxing having an inverse relationship with weekly hours worked
+  - there are some interesting ones, like
+  - there are also ones I would consider useless, as they barely correlate with anything - for example, "Year" and "Shopping". These can likely be tossed out of the dataset in order to decrease the noise.
