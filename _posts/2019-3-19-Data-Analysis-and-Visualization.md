@@ -89,7 +89,7 @@ For "Gender" and "Education Status", however, the process was a bit different. B
 
 One-hot encoding is a simple process commonly used in machine learning which allows for us to change a list of classifications or results into binary options. For "Employment Status", the table looked like this:
 
-|Employment Status  |
+|**Employment Status**|
 |-------------------|
 |Unemployed         |
 |Employed           |
