@@ -162,12 +162,18 @@ I used the correlation function built into ```pandas``` in order to create a cha
 
 ![correlation heatmap](/images/Graphs/correlation.png "Correlation heatmap")
 
-I won't break down the whole thing, but some pertinent conclusions we can draw from the data:
+I won't break down the whole thing, but here are some pertinent conclusions we can draw from the data:
 
   - there are the expected correlations, like weekly hours worked/weekly earnings being highly correlated with each other, and with employment
   
   - there are also the expected negative correlations, like socializing and relaxing having an inverse relationship with weekly hours worked
   
-  - there are some interesting ones, like
-  
-  - there are also ones I would consider useless, as they barely correlate with anything - for example, "Year" and "Shopping". These can likely be tossed out of the dataset in order to decrease the noise.
+  - there are also ones I would consider useless, as they barely correlate with anything - for example, "Golfing" and "Shopping". These can likely be tossed out of the dataset in order to decrease the noise.
+
+I also wanted to create some additional heatmaps that would help us to visualize the data. Since the correlation heatmap only describes a general sort of correlation, it is useful to see it up close, especially for correlations that are on the weaker side (closer to 0).
+
+Here are a few heatmaps I made using seaborn, which is a library that can create some beautiful visualizations:
+
+![relax-income heatmap](/images/Graphs/Relax-Income.png "Relax-Income Heatmap")
+
+![relax-age heatmap](/images/Graphs/relax-age.png "Relax-Age Heatmap")
