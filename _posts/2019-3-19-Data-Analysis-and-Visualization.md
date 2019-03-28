@@ -187,5 +187,17 @@ Here's a multi-layer neural network I designed for predicting employment status:
 
 ![neural-network](/images/Graphs/neuralnetwork.png "Neural Network")
 
+The basic design is a feed-forward network with the columns being the inputs (with a few being dropped, due to them being noise like "ID", "Golfing", "Shopping"). Then, it moves onto a hidden layer and finally on to the output layer, which uses a softmax function for the output.
+
+The softmax function works by assigning a probability out of 1 to each of the three possible output values.
+
+For example, it could look something like this:
+
+$[0.1, 0.3, 0.6]$
+
+Where $0.1$ is the probability of the person being employed, $0.3$ is the probability of them being unemployed, and $0.6$ is the probability that they aren't in the labor force. This is useful, as it shows that no prediction can really be certain, and allows us to see what the algorithm is thinking.
+
+However, we don't want an array of probabilities, so we'll add a line of code that will output the only probability out of the three that is above $0.5$. This way, it'll give us it's most likely prediction.
+
 
 
