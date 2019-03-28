@@ -177,3 +177,15 @@ Here are a few heatmaps I made using seaborn, which is a library that can create
 ![relax-income heatmap](/images/Graphs/Relax-Income.png "Relax-Income Heatmap")
 
 ![relax-age heatmap](/images/Graphs/relax-age.png "Relax-Age Heatmap")
+
+Here we can see how socializing and relaxing correlates with both age and earnings - the more time spent relaxing, the less the person tends to earn per week, and the older they tend to be. 
+
+### The Algorithm
+Now that we have a better understanding of the data, and have techniques to visualize it, designing an algorithm for prediction will be easier and more intuitive. 
+
+Here's a multi-layer neural network I designed for predicting employment status:
+
+![neural-network](/images/Graphs/neuralnetwork.png "Neural Network")
+
+
+
