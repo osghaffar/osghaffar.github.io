@@ -199,5 +199,52 @@ Where $0.1$ is the probability of the person being employed, $0.3$ is the probab
 
 However, we don't want an array of probabilities, so we'll add a line of code that will output the only probability out of the three that is above $0.5$. This way, it'll give us it's most likely prediction.
 
+Here's our neural network laid out in short:
 
+```python
+##initialize the neural net
+classifier = Sequential()
 
+classifier.add(Dense(input_dim=22, units=22, 
+                    kernel_initializer= 'uniform'))
+
+# hidden layer
+classifier.add(Dense(activation= 'relu', units=15, 
+                     kernel_initializer='uniform'))
+
+#Output layer
+classifier.add(Dense(activation= 'softmax', units=3, 
+                     kernel_initializer= 'uniform'))
+
+#Compile NN
+classifier.compile(optimizer = 'adam', loss = 'categorical_crossentropy',
+                   metrics = ['accuracy'])
+
+#Fitting
+history = classifier.fit(X_train, y_train, batch_size = 500, epochs = 50)
+
+#Predict
+y_pred = classifier.predict(X_test)
+y_pred = (y_pred > .5)
+```
+In the last line, we change y_pred to values greater than $0.5$.
+
+### Predicting
+Once I trained the model, I checked the accuracy using a graph:
+
+![accuracy](/images/Graphs/accuracy.png "Accuracy")
+
+By the 50th epoch, the accuracy reaches nearly 95%. This does have me concerned about potential overfitting, so I decided 
+to check the distributions of each of the three employment statuses, in both the training and test data. If they are similarly distributed, this shows the model is on the right track in terms of learning the trend.
+
+Here is the training data's distribution:
+
+![employment](/images/Graphs/employment.png "Employment")
+
+and here is the predicted data's distribution:
+
+![predicted-employment](/images/Graphs/predicted-employment.png "Predicted Employment")
+
+They seem to be similar in the overall pattern, with employment being the vast majority, followed by not in the labor force, and unemployment being a small percentage.
+
+Overall, there are several improvements and tweaks that can be made, but this was my experimentation with the dataset. Any feedback is appreciated. Let me know what you think!
