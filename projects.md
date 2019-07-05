@@ -5,8 +5,6 @@ permalink: /projects/
 ---
 Coming soon:
 
-_EUR/USD Price Prediction LSTM Neural Network_
-
 _Self-Driving R/C Car_
 
 _Al-Hayaat Trading Co._
