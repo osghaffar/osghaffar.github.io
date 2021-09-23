@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Cognitive Science
+title: CogSci
 permalink: /cogsci/
 ---
 Cognitive Science related articles + research
