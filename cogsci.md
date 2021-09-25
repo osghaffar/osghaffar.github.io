@@ -9,6 +9,7 @@ Studying the brain and how it functions may provide us with not only answers for
 
 Points of interest:
 
+<html>
 <span style="font-size:16px;">
 - What are some neurobiological mechanisms of the brain that we can learn from?
 - What is intelligence? How can it be accurately measured, and how can we guage it in other than humans?
@@ -16,6 +17,7 @@ Points of interest:
 - What is consciousness? Does AI need "consciousness"?
 - What is it that makes humans so different to other creatures? Can it be objectively defined? 
 </span>
+</html>
 
 ---
 <html>
