@@ -6,6 +6,13 @@ permalink: /cogsci/
 Research, articles & discussion. [Under construction]
 
 ---
+<style>
+a:link {
+  font-family: $helveticaNeue;
+  color: $darkerGray;
+  font-weight: bold;
+}
+    
 ## <a href="https://osghaffar.github.io/cogsci/RL-and-Memory-Replay/">Memory Replay in Biological and Deep Reinforcement Learning: A Comparison</a>
 
 <div class="date">
