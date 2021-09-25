@@ -7,7 +7,7 @@ Research, articles & discussion. [Under construction]
 
 ---
 <html>
-<h3><a href="https://osghaffar.github.io/cogsci/RL-and-Memory-Replay/">Memory Replay in Biological and Deep Reinforcement Learning: A Comparison</a></h2>
+<h3><a href="https://osghaffar.github.io/cogsci/RL-and-Memory-Replay/" style="color:black;">Memory Replay in Biological and Deep Reinforcement Learning: A Comparison</a></h3>
 </html>
     
 <div class="date">
