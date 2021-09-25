@@ -7,7 +7,7 @@ Research, articles & discussion. [Under construction]
 
 ---
 <html>
-  
+<head>
 <style>
 a:link {
   font-family: $helveticaNeue;
@@ -15,6 +15,7 @@ a:link {
   font-weight: bold;
 }
 </style>
+</head>
     
 ## <a href="https://osghaffar.github.io/cogsci/RL-and-Memory-Replay/">Memory Replay in Biological and Deep Reinforcement Learning: A Comparison</a>
 
