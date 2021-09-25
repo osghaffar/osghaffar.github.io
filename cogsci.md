@@ -6,7 +6,7 @@ permalink: /cogsci/
 Research, articles & discussion. [Under construction]
 
 ---
-<body>
+<div>
     
 <h2><a href="https://osghaffar.github.io/cogsci/RL-and-Memory-Replay/">Memory Replay in Biological and Deep Reinforcement Learning: A Comparison</a></h2>
 
@@ -19,5 +19,5 @@ A tried and tested source of inspiration for artificial intelligence has always 
 There is an interesting article I recently came across, titled...
 
 <a href="https://osghaffar.github.io/cogsci/RL-and-Memory-Replay/" class="read-more">Read More</a>
-</body>
+</div>
 ---
