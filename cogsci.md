@@ -6,7 +6,7 @@ permalink: /cogsci/
 Research, articles & discussion. [Under construction]
 
 ---
-<a href="https://osghaffar.github.io/cogsci/RL-and-Memory-Replay/">Memory Replay in Biological and Deep Reinforcement Learning: A Comparison</a>
+### <a href="https://osghaffar.github.io/cogsci/RL-and-Memory-Replay/">Memory Replay in Biological and Deep Reinforcement Learning: A Comparison</a>
 
 <div class="date">
     Written on September 24, 2021
