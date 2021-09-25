@@ -8,7 +8,7 @@ Research, articles & discussion.
 [Under construction]
 
 ---
-### Deep Reinforcement Learning and Memory Replay
+### Memory Replay in Biological and Deep Reinforcement Learning: A Comparison
 
 <div class="date">
     Written on September 24, 2021
