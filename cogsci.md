@@ -11,7 +11,7 @@ Research, articles & discussion.
 ### Deep Reinforcement Learning and Memory Replay
 
 <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
+    Written on September 24, 2021
   </div>
   
 A tried and tested source of inspiration for artificial intelligence has always been biology, and neural networks are no different. One of the most powerful approaches, reinforcement learning, is directly inspired by the natural process through which animals learn, namely a reward-and-punishment system paired with a trial-and-error mechanism of action. Combined with deep neural networks, this approach has seen unprecendented success.
