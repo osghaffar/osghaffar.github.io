@@ -13,6 +13,7 @@ a:link {
   color: $darkerGray;
   font-weight: bold;
 }
+</style>
     
 ## <a href="https://osghaffar.github.io/cogsci/RL-and-Memory-Replay/">Memory Replay in Biological and Deep Reinforcement Learning: A Comparison</a>
 
