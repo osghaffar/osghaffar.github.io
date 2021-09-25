@@ -8,7 +8,7 @@ Research, articles & discussion.
 [Under construction]
 
 ---
-### Memory Replay in Biological and Deep Reinforcement Learning: A Comparison
+### [Memory Replay in Biological and Deep Reinforcement Learning: A Comparison](https://osghaffar.github.io/cogsci/RL-and-Memory-Replay/)
 
 <div class="date">
     Written on September 24, 2021
