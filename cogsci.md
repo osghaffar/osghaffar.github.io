@@ -6,6 +6,7 @@ permalink: /cogsci/
 Research, articles & discussion. [Under construction]
 
 ---
+
 <html>
 <head>
 <style>
