@@ -11,11 +11,13 @@ Points of interest:
 
 <html>
 <span style="font-size:16px;">
-- What are some neuro/biological mechanisms of the brain that we can learn from?
-- What is intelligence? How can it be accurately measured, and how can we guage it in other than humans?
-- Is general/super/real artificial intelligence possible? What would it entail? Are our current stastical optimization methods not good enough?
-- What is consciousness? Does AI need "consciousness"?
-- What is it that makes humans so different to other creatures? Can it be objectively defined? 
+  <ul>
+  <li>What are some neuro/biological mechanisms of the brain that we can learn from?</li>
+  <li>What is intelligence? How can it be accurately measured, and how can we guage it in other than humans?</li>
+  <li>Is general/super/real artificial intelligence possible? What would it entail? Are our current stastical optimization methods not good enough?</li>
+  <li>What is consciousness? Does AI need "consciousness"?</li>
+  <li>What is it that makes humans so different to other creatures? Can it be objectively defined? </li>
+</ul>
 </span>
 </html>
 
