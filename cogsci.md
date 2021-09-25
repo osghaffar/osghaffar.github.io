@@ -16,5 +16,7 @@ A tried and tested source of inspiration for artificial intelligence has always 
 
 There is an interesting article I recently came across, titled...
 
+<html>
 <a href="https://osghaffar.github.io/cogsci/RL-and-Memory-Replay/" class="read-more">Read More</a>
+    </html>
 ---
