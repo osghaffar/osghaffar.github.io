@@ -3,9 +3,7 @@ layout: page
 title: Cognitive Science
 permalink: /cogsci/
 ---
-Research, articles & discussion. 
-
-[Under construction]
+Research, articles & discussion. [Under construction]
 
 ---
 ### [Memory Replay in Biological and Deep Reinforcement Learning: A Comparison](https://osghaffar.github.io/cogsci/RL-and-Memory-Replay/)
