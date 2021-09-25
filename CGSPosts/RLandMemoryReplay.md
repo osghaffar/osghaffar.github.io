@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Memory Replay in Biological and Deep Reinforcement Learning: A Comparison
+title: Memory Replay in Biological and Deep Reinforcement Learning A Comparison
 permalink: /cogsci/RL-and-Memory-Replay/
 ---
 
