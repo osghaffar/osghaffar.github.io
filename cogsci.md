@@ -14,6 +14,7 @@ Points of interest:
 - Is general/super/real artificial intelligence possible? What would it entail? Are our current stastical optimization methods not good enough?
 - What is consciousness? Does AI need "consciousness"?
 - What is it that makes humans so different to other creatures? Can it be objectively defined? 
+
 ---
 <html>
 <h3><a href="https://osghaffar.github.io/cogsci/RL-and-Memory-Replay/" style="color:black;">Memory Replay in Biological and Deep Reinforcement Learning: A Comparison</a></h3>
