@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Cognitive Science
+mathjax: true
 permalink: /cogsci/RL-and-Memory-Replay/
 ---
 
