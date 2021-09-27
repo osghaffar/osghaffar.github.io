@@ -14,7 +14,7 @@ permalink: /cogsci/RL-and-Memory-Replay/
     border-left-width: thick;
     border-left-color: lightgray;
     padding: 0.1em 1em;
-    font-size: 15px;
+    font-size: 16px;
   }
 </style>
 
