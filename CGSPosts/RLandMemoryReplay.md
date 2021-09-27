@@ -10,10 +10,11 @@ permalink: /cogsci/RL-and-Memory-Replay/
 <style>
     blockquote{
     margin: 1.8em .8em;
-    border-left: 8px solid $ccc;
+    border-left-style: solid;
+    border-left-width: thick;
+    border-left-color: lightgray;
     padding: 0.1em 1em;
-    color: $lightgray;
-    font-size: 16px;
+    font-size: 15px;
   }
 </style>
 
