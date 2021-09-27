@@ -13,8 +13,7 @@ permalink: /cogsci/RL-and-Memory-Replay/
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
     color: $gray;
-    font-size: 22px;
-    font-style: italic;
+    font-size: 16px;
   }
 </style>
 
