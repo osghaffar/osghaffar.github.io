@@ -9,7 +9,7 @@ permalink: /cogsci/RL-and-Memory-Replay/
 
 <style>
     blockquote{
-    margin: 1.5em .8em;
+    margin: 1.3em 1.9em;
     border-left-style: solid;
     border-left-width: thick;
     border-left-color: lightgray;
