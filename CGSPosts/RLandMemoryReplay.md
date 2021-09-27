@@ -6,6 +6,18 @@ permalink: /cogsci/RL-and-Memory-Replay/
 ---
 
 ---
+
+<style>
+    blockquote{
+    margin: 1.8em .8em;
+    border-left: 2px solid $gray;
+    padding: 0.1em 1em;
+    color: $gray;
+    font-size: 22px;
+    font-style: italic;
+  }
+</style>
+
 ## Memory Replay in Biological and Deep Reinforcement Learning: A Comparison
 A tried and tested source of inspiration for artificial intelligence has always been biology, and neural networks are no different. One of the most powerful approaches, reinforcement learning, is directly inspired by the natural process through which animals learn, namely a reward-and-punishment system paired with a trial-and-error mechanism of action. Combined with deep neural networks, this approach has seen unprecedented success.
 
@@ -18,17 +30,9 @@ and Artificial Reinforcement Learning*](https://arxiv.org/pdf/2109.10034.pdf), b
 
 The authors elaborate how it is related to the success of these modern-day deep reinforcement learning algorithms:
 
-<style>
-    blockquote{
-    margin: 1.8em .8em;
-    border-left: 2px solid $gray;
-    padding: 0.1em 1em;
-    color: $gray;
-    font-size: 22px;
-    font-style: italic;
-  }
+<blockquote>
 >  Key to the success of these algorithms is the practice of interleaving new trials with old ones, a technique known as experience replay.
-</style>
+</blockquote>
 ___
 
 <div class="date">
