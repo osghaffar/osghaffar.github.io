@@ -10,7 +10,7 @@ permalink: /cogsci/RL-and-Memory-Replay/
 <style>
     blockquote{
     margin: 1.8em .8em;
-    border-left: 2px solid $gray;
+    border-left: 3px solid $gray;
     padding: 0.1em 1em;
     color: $lightgray;
     font-size: 16px;
@@ -30,7 +30,7 @@ and Artificial Reinforcement Learning*](https://arxiv.org/pdf/2109.10034.pdf), b
 The authors elaborate how it is related to the success of these modern-day deep reinforcement learning algorithms:
 
 <blockquote>
-| Key to the success of these algorithms is the practice of interleaving new trials with old ones, a technique known as experience replay.
+Key to the success of these algorithms is the practice of interleaving new trials with old ones, a technique known as experience replay.
 </blockquote>
 ___
 
