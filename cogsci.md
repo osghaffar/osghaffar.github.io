@@ -5,7 +5,7 @@ permalink: /cogsci/
 ---
 Research, articles & discussion. [Under construction]
 
-Studying the brain and how it functions may provide us with not only answers for artificial intelligence, but a closer look into who and what we are.
+Studying the brain and how it functions may provide us with not only answers for artificial intelligence, but a closer look into what we are.
 
 Points of interest:
 
