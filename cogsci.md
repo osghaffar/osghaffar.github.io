@@ -16,7 +16,8 @@ Points of interest:
   <li>What is intelligence? How can it be accurately measured, and how can we gauge it in other than humans?</li>
   <li>Is general/super/real artificial intelligence possible? What would it entail? Are our current stastical optimization methods not good enough?</li>
   <li>What is consciousness?</li>
-  <li>What is it that makes humans so different to other creatures? Can it be objectively defined? </li>
+  <li>What is it that makes humans so different to other creatures?</li>
+  <li>What is our 'natural' epistemology?</li>
 </ul>
 </span>
 </html>
