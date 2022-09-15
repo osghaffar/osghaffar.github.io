@@ -30,6 +30,15 @@ Think of a notorious problem for AI -- the ambiguity of language. Words often ha
 
 Here, we use this type of reasoning to understand what a person most likely means, given background data and situational context, even if we have never heard the word before or seen a sentence used this way before.
 
-This indicates that abduction, or inference to the best explanation, is not merely a higher-order cognitive process that we do with intention and awareness (like, studying, for example). Rather, it appears to be much more deeply rooted, as an intuition.
+This indicates that abduction, or inference to the best explanation, is not merely a higher-order cognitive process that we do with intention and awareness (like, studying, for example). Rather, it must be something more deeply rooted, like most other intuitions we have.
 
 ### Experimental Evidence
+
+
+
+### Other considerations
+It seems clear that abduction, or inference to the best explanation, is built into our cognitive processes. We use this reasoning consciously and subconsciously, and to great success. A few points of interest can be raised. Can we trust this intuition despite not really knowing how it works? What exactly is it that makes one explanation *better* than another, objectively speaking? How do other cognitive biases affect the way we see the "best explanation"? 
+
+Additionally, what are the evolutionary origins of such an intuition? Bas van Fraassen notes that an evolutionary explanation, based on fitness, seems puzzling. 
+
+"The naturalistic response bases the conclusion on the fact of our adaptation to nature, our evolutionary success which must be due to a certain fitness. But in this particular case, the conclusion will not follow without a hypothesis of preadaptation, contrary to what is allowed by Darwinism. The jungle red in tooth and claw does not select for internal virtues—not even ones that could increase the chance of adaptation or even survival beyond the short run. Our new theories cannot be more likely to be true, merely given that we were the ones to think of them and we have characteristics selected for in the past, because the success at issue is success in the future."
