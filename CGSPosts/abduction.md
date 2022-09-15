@@ -13,9 +13,11 @@ Imagine it's a cold winter day, and it snowed the night before. As you reach you
 
 This type of thinking is everywhere in our daily lives. We use this consciously and deliberately in all types of jobs. Let's look at three examples:
 
-  - (1): Doctors or other medical professionals do not have some logical certainty behind their reasoning. Rather, they diagnose a patient based on symptoms, observations, and test results, which narrow down the options until the doctor can decide which is most likely.
+<p class="has-text-align-justify" style="font-size:18px">
+  - (1): Doctors or other medical professionals do not have certainty behind their reasoning. Rather, they diagnose a patient based on symptoms, observations, and test results, which narrow down the options until the doctor can decide which is most likely.
   - (2): Criminal investigators use all the data they can to tell the most plausible story about how the crime occurred. They may only have parts here and there -- a murder weapon, partial surveillance footage, cell tower data -- and have to piece it together.
   - (3): Scientists choose what appears to be the best theory based on how it explains the data. The Big Bang theory, famously, held out on replacing the previous steady-state view of the universe until it became more and more obvious that it did indeed explain the data better. This is generally how older theories (phlogiston, for example) get replaced by newer ones (oxidation) as more data is discovered and put into consideration. Science is built on the very idea of IBE.
+</p>
 
 But a more interesting aspect of this thinking is the way we seem to use it subconsciously as well. 
 
