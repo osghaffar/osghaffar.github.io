@@ -16,7 +16,7 @@ Imagine it's a cold winter day, and it snowed the night before. As you reach you
 
 This type of thinking is everywhere in our daily lives. We use this consciously and deliberately in all types of jobs. Let's look at three examples:
 
-<p class="has-text-align-justify" style="font-size:18px">
+<p class="has-text-align-justify" style="font-size:16px">
   <ul>
   <li> (1): Doctors or other medical professionals do not have certainty behind their reasoning. Rather, they diagnose a patient based on symptoms, observations, and test results, which narrow down the options until the doctor can decide which is most likely.</li>
   <li> (2): Criminal investigators use all the data they can to tell the most plausible story about how the crime occurred. They may only have parts here and there -- a murder weapon, partial surveillance footage, cell tower data -- and have to piece it together. </li>
