@@ -10,7 +10,7 @@ permalink: /cogsci/abduction-as-intuition/
 <style> blockquote{ margin: 1.3em 1.9em; border-left-style: solid; border-left-width: thick; border-left-color: lightgray; padding: 0.1em 1em; font-size: 16px; color: lightslategray; } </style>
 
 ## Abduction as Intuition
-*Abduction* is a type of reasoning that is also known as "Inference to the Best Explanation". This entails choosing what seems to be the best explanation, given some number of explanations.
+**Abduction** is a type of reasoning that is also known as 'inference to the best explanation'. This entails choosing what seems to be the best explanation given some data.
 
 Imagine it's a cold winter day, and it snowed the night before. As you reach your car, evading the ice all over the ground, you hear a loud thud, followed by a person groaning in pain. You turn to see a person laying on the ground, with a patch of ice nearby. What would you conclude? It seems the most obvious interpretation of such an event is that the person slipped on some ice and fell. Is it the *only* possible explanation? Certainly not. But it is the *best* explanation given some set of observations or data.
 
