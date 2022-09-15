@@ -34,7 +34,7 @@ This indicates that abduction, or inference to the best explanation, is not mere
 
 ### Experimental Evidence
 
-
+![experiment](/images/abduction.png "Experiment")
 
 ### Other considerations
 It seems clear that abduction, or inference to the best explanation, is built into our cognitive processes. We use this reasoning consciously and subconsciously, and to great success. A few points of interest can be raised. Can we trust this intuition despite not really knowing how it works? What exactly is it that makes one explanation *better* than another, objectively speaking? How do other cognitive biases affect the way we see the "best explanation"? 
