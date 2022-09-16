@@ -28,7 +28,7 @@ But a more interesting aspect of this thinking is the way we seem to use it subc
 
 Think of a notorious problem for AI -- the ambiguity of language. Words often have multiple correct meanings, depending on the context (a frustrating fact for someone learning a new language) and the lines between which words can or cannot be used in a particular context may be rather vague -- "let's hit the road" does not mean to stand over the concrete and begin striking it; nor does "that song was a hit" have anything to do with physical contact. Even more complex are cases like "the economy took a hit", where it has negative connotations, contrary to the music, but still does not relate to physical contact.
 
-Here, we use this type of reasoning to understand what a person most likely means, given background data and situational context, even if we have never heard the word before or seen a sentence used this way before.
+Here, we use this type of reasoning to understand what a person most likely means, given background data and situational context, even if we have never heard the word before or seen a sentence used this way before. But the noteworthy thing about this is that we often do this subconsciously; we follow along with a conversation with minimal effort, piecing together the intended meaning of the speaker as they talk. 
 
 This indicates that abduction, or inference to the best explanation, is not merely a higher-order cognitive process that we do with intention and awareness (like, studying, for example). Rather, it must be something more deeply rooted, like most other intuitions we have.
 
