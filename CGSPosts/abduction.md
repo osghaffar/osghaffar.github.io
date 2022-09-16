@@ -18,7 +18,7 @@ This type of thinking is everywhere in our daily lives. We use this consciously 
 
 <p class="has-text-align-justify" style="font-size:16px">
   <ul style="font-size:16px">
-  <li> (1): Doctors or other medical professionals do not have certainty behind their reasoning. Rather, they diagnose a patient based on symptoms, observations, and test results, which narrow down the options until the doctor can decide which is most likely.</li>
+  <li> (1): Doctors or other medical professionals do not have certainty behind their reasoning. Rather, they diagnose a patient based on symptoms, observations, and test results, which narrow down the options until the doctor can decide which is most likely (i.e, the best explanation).</li>
   <li> (2): Criminal investigators use all the data they can to tell the most plausible story about how the crime occurred. They may only have parts here and there -- a murder weapon, partial surveillance footage, cell tower data -- and have to piece it together. </li>
  <li> (3): Scientists choose what appears to be the best theory based on how it explains the data. The Big Bang theory, famously, held out on replacing the previous steady-state view of the universe until it became more and more obvious that it did indeed explain the data better. This is generally how older theories (phlogiston, for example) get replaced by newer ones (oxidation) as more data is discovered and put into consideration. Science is built on the very idea of IBE. </li>
   </ul>
@@ -36,9 +36,13 @@ This indicates that abduction, or inference to the best explanation, is not mere
 
 ![experiment](/images/abduction.png "Experiment")
 
+
+
 ### Other considerations
 It seems clear that abduction, or inference to the best explanation, is built into our cognitive processes. We use this reasoning consciously and subconsciously, and to great success. A few points of interest can be raised. Can we trust this intuition despite not really knowing how it works? What exactly is it that makes one explanation *better* than another, objectively speaking? How do other cognitive biases affect the way we see the "best explanation"? 
 
 Additionally, what are the evolutionary origins of such an intuition? Bas van Fraassen notes that an evolutionary explanation, based on fitness, seems puzzling. 
 
+<blockquote>
 "The naturalistic response bases the conclusion on the fact of our adaptation to nature, our evolutionary success which must be due to a certain fitness. But in this particular case, the conclusion will not follow without a hypothesis of preadaptation, contrary to what is allowed by Darwinism. The jungle red in tooth and claw does not select for internal virtues—not even ones that could increase the chance of adaptation or even survival beyond the short run. Our new theories cannot be more likely to be true, merely given that we were the ones to think of them and we have characteristics selected for in the past, because the success at issue is success in the future."
+</blockquote>
