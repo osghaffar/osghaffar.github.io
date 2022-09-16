@@ -36,7 +36,9 @@ This indicates that abduction, or inference to the best explanation, is not mere
 
 ![experiment](/images/abduction.png "Experiment")
 
-In addition to the other reasons suggesting abduction is intuitive, there are some experiments which also seem to indicate this. The above, taken from Irvin Rock's _The Logic of Perception_ (1983), is an optical illusion which indicates 
+In addition to the other reasons suggesting abduction is intuitive, there are some experiments which also seem to indicate this. The above, taken from Irvin Rock's _The Logic of Perception_ (1983), is an optical illusion that seems to add evidence to this view.
+
+Take a look at the left. There appears to be a transparent square overlayed over the larger, checkered square. However, it isn't really there. Instead, corners of each section are colored differently, and our brain arrives at this view because it is the "best" explanation of the data, given our background information, cognitive faculties, and other factors. When the colors are shifted, the 'transparent square' seems to disappear. 
 
 ### Other considerations
 It seems clear that abduction, or inference to the best explanation, is built into our cognitive processes. We use this reasoning consciously and subconsciously, and to great success. A few points of interest can be raised. Can we trust this intuition despite not really knowing how it works? What exactly is it that makes one explanation *better* than another, objectively speaking? How do other cognitive biases affect the way we see the "best explanation"? 
