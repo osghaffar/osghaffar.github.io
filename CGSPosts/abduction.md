@@ -36,7 +36,7 @@ This indicates that abduction, or inference to the best explanation, is not mere
 
 ![experiment](/images/abduction.png "Experiment")
 
-In addition to the other reasons suggesting abduction is intuitive, there are some experiments which also seem to indicate this. The above, taken from Irvin Rock's _The Logic of Perception_ (1983), is an optical illusion that seems to add evidence to this view.
+In addition to the other reasons suggesting abduction is intuitive, there are some experiments which also seem to indicate this. The above, an experiment found in Irvin Rock's _The Logic of Perception_ (1983), is an optical illusion that seems to add evidence to this view.
 
 Take a look at the left. There appears to be a transparent square overlayed over the larger, checkered square. However, it isn't really there. Instead, corners of each section are colored differently, and our brain arrives at this view because it is the "best" explanation of the data, given our background information, cognitive faculties, and other factors. When the colors are shifted, the 'transparent square' seems to disappear. 
 
