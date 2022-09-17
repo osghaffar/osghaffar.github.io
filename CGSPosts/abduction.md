@@ -18,9 +18,9 @@ This type of thinking is everywhere in our daily lives. We use this consciously 
 
 <p class="has-text-align-justify" style="font-size:16px">
   <ul style="font-size:16px">
-  <li> (1): Doctors or other medical professionals do not have certainty behind their reasoning. Rather, they diagnose a patient based on symptoms, observations, and test results, which narrow down the options until the doctor can decide which is most likely (i.e, the best explanation).</li>
-  <li> (2): Criminal investigators use all the data they can to tell the most plausible story about how the crime occurred. They may only have parts here and there -- a murder weapon, partial surveillance footage, cell tower data -- and have to piece it together. </li>
- <li> (3): Scientists choose what appears to be the best theory based on how it explains the data. The Big Bang theory, famously, held out on replacing the previous steady-state view of the universe until it became more and more obvious that it did indeed explain the data better. This is generally how older theories (phlogiston, for example) get replaced by newer ones (oxidation) as more data is discovered and put into consideration. Science is built on the very idea of IBE. </li>
+  <li> Doctors or other medical professionals do not have certainty behind their reasoning. Rather, they diagnose a patient based on symptoms, observations, and test results, which narrow down the options until the doctor can decide which is most likely (i.e, the best explanation).</li>
+  <li> Criminal investigators use all the data they can to tell the most plausible story about how the crime occurred. They may only have parts here and there -- a murder weapon, partial surveillance footage, cell tower data -- and have to piece it together. </li>
+ <li> Scientists choose what appears to be the best theory based on how it explains the data. The Big Bang theory, famously, held out on replacing the previous steady-state view of the universe until it became more and more obvious that it did indeed explain the data better. This is generally how older theories (phlogiston, for example) get replaced by newer ones (oxidation) as more data is discovered and put into consideration. Science is built on the very idea of IBE. </li>
   </ul>
 </p>
 
