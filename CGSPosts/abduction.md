@@ -12,9 +12,13 @@ permalink: /cogsci/abduction-as-intuition/
 ## Abduction as Intuition
 **Abduction** is a type of reasoning that is also known as 'inference to the best explanation'. This entails choosing what seems to be the best explanation given some data.
 
-Imagine it's a cold winter day, and it snowed the night before. As you reach your car, evading the ice all over the ground, you hear a loud thud, followed by a person groaning in pain. You turn to see a person laying on the ground, with a patch of ice nearby. What would you conclude? It seems the most obvious interpretation of such an event is that the person slipped on some ice and fell. Is it the *only* possible explanation? Certainly not. But it is the *best* explanation given some set of observations or data.
+If we want to be formal, we can define it like so:
 
-This type of thinking is everywhere in our daily lives. We use this consciously and deliberately in all types of jobs. Let's look at three examples:
+- If hypothesis H gives the best explanation of phenomena in a given domain when compared with other rival hypotheses *H<sub>1</sub>*, . . . , *H<sub>n</sub>*, we may accept *H* as true, or at least we should prefer *H* over *H<sub>1</sub>*, . . . , *H<sub>n</sub>*.
+
+Imagine, for example, it's a cold winter day, and it snowed the night before. As you reach your car, evading the ice all over the ground, you hear a loud thud, followed by a person groaning in pain. You turn to see a person laying on the ground, with a patch of ice nearby. What would you conclude? It seems the most obvious interpretation of such an event is that the person slipped on some ice and fell. Is it the *only* possible explanation? Certainly not. But it is the *best* explanation given some set of observations or data.
+
+This type of thinking is everywhere in our daily lives. We use this consciously and deliberately in all types of jobs. Let's look at more examples:
 
 <p class="has-text-align-justify" style="font-size:16px">
   <ul style="font-size:16px">
