@@ -16,7 +16,7 @@ If we want to be formal, we can define it like so:
 
 <p class="has-text-align-justify" style="font-size:16px">
   <ul style="font-size:16px">
-  <li> <b>Inference to the Best Explanation<b>: If hypothesis H gives the best explanation of phenomena in a given domain when compared with other rival hypotheses <i>H<sub>1</sub></i>, . . . , <i>H<sub>n</sub></i>, we may accept <i>H</i> as true, or at least we should prefer <i>H</i> over <i>H<sub>1</sub></i>, . . . , <i>H<sub>n</sub></i>. </li>
+  <li> <b>Inference to the Best Explanation</b>: If hypothesis H gives the best explanation of phenomena in a given domain when compared with other rival hypotheses <i>H<sub>1</sub></i>, . . . , <i>H<sub>n</sub></i>, we may accept <i>H</i> as true, or at least we should prefer <i>H</i> over <i>H<sub>1</sub></i>, . . . , <i>H<sub>n</sub></i>. </li>
   </ul>
 </p>
 
