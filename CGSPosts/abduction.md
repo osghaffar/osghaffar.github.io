@@ -14,7 +14,11 @@ permalink: /cogsci/abduction-as-intuition/
 
 If we want to be formal, we can define it like so:
 
-- **Inference to the Best Explanation**: If hypothesis H gives the best explanation of phenomena in a given domain when compared with other rival hypotheses *H<sub>1</sub>*, . . . , *H<sub>n</sub>*, we may accept *H* as true, or at least we should prefer *H* over *H<sub>1</sub>*, . . . , *H<sub>n</sub>*.
+<p class="has-text-align-justify" style="font-size:16px">
+  <ul style="font-size:16px">
+  <li> **Inference to the Best Explanation**: If hypothesis H gives the best explanation of phenomena in a given domain when compared with other rival hypotheses *H<sub>1</sub>*, . . . , *H<sub>n</sub>*, we may accept *H* as true, or at least we should prefer *H* over *H<sub>1</sub>*, . . . , *H<sub>n</sub>*. </li>
+  </ul>
+</p>
 
 Imagine, for example, it's a cold winter day, and it snowed the night before. As you reach your car, evading the ice all over the ground, you hear a loud thud, followed by a person groaning in pain. You turn to see a person laying on the ground, with a patch of ice nearby. What would you conclude? It seems the most obvious interpretation of such an event is that the person slipped on some ice and fell. Is it the *only* possible explanation? Certainly not. But it is the *best* explanation given some set of observations or data.
 
