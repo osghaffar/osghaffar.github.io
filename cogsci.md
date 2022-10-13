@@ -35,10 +35,10 @@ Abduction is a type of reasoning that is also known as ‘inference to the best 
 
 If we want to be formal, we can define it like so: ...
 
-
 <html>  
 <a href="https://osghaffar.github.io/cogsci/abduction-as-intuition/" style="text-transform: uppercase; font-size: 15px">Read More</a>
 </html>
+
 ---
 <html>
 <h3><a href="https://osghaffar.github.io/cogsci/RL-and-Memory-Replay/" style="color:black;">Memory Replay in Biological and Deep Reinforcement Learning: A Comparison</a></h3>
