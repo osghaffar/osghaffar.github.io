@@ -32,7 +32,7 @@ This type of thinking is everywhere in our daily lives. We use this consciously 
   </ul>
 </p>
 
-Another (possibly more interesting) aspect of this thinking is that we seem to use it subconsciously as well. 
+Another more interesting aspect of this reasoning is that we seem to use it subconsciously as well. 
 
 For example, think of a notorious problem for AI -- the ambiguity of language. Words often have multiple correct meanings, depending on the context (a frustrating fact for someone learning a new language) and the lines between which words can or cannot be used in a particular context may be rather vague -- "let's hit the road" does not mean to stand over the concrete and begin striking it; nor does "that song was a hit" have anything to do with physical contact. Even more complex are cases like "the economy took a hit", where it has negative connotations, contrary to the music, but still does not relate to physical contact. Although NLP models have come a long way via the "curve-fitting" strategy, a novel example of such ambiguity not found in the training data is enough to trip any model up.
 
@@ -44,7 +44,7 @@ This indicates that abduction, or inference to the best explanation, is not only
 
 ![experiment](/images/abduction.png "Experiment")
 
-Additionally, there are some experiments which also seem to indicate that abduction may be intuitive. The above image, an experiment found in Irvin Rock's _The Logic of Perception_ (1983), is an optical illusion that has some interesting implications.
+Additionally, there are some experiments which also seem to indicate that abduction may be intuitive. The above image, an experiment found in Irvin Rock's _The Logic of Perception_ (1983), is an optical illusion that has some interesting implications.[1]
 
 Take a look at the image on the left. There appears to be a transparent square overlayed over the larger, checkered square. However, the transparent square isn't actually there, overlayed on top. Instead, the inner corners of the larger square are colored differently, and our brain generates this second overlayed square because it is the "best" explanation of the data, given our background information, cognitive faculties, and some other factors. When the colors are shifted, as in the image on the right, the 'transparent square' seems to disappear. 
 
@@ -56,5 +56,12 @@ A few points of interest can be raised. Can we trust this intuition, despite not
 Additionally, what are the evolutionary origins of such an intuition? The philosopher Bas van Fraassen notes that an evolutionary explanation, based on fitness, seems puzzling. 
 
 <blockquote>
-"The naturalistic response bases the conclusion on the fact of our adaptation to nature, our evolutionary success which must be due to a certain fitness. But in this particular case, the conclusion will not follow without a hypothesis of preadaptation, contrary to what is allowed by Darwinism. ... [It] does not select for internal virtues—not even ones that could increase the chance of adaptation or even survival beyond the short run. Our new theories cannot be more likely to be true, merely given that we were the ones to think of them and we have characteristics selected for in the past, because the success at issue is success in the future."
+"The naturalistic response bases the conclusion on the fact of our adaptation to nature, our evolutionary success which must be due to a certain fitness. But in this particular case, the conclusion will not follow without a hypothesis of preadaptation, contrary to what is allowed by Darwinism. ... [It] does not select for internal virtues—not even ones that could increase the chance of adaptation or even survival beyond the short run. Our new theories cannot be more likely to be true, merely given that we were the ones to think of them and we have characteristics selected for in the past, because the success at issue is success in the future."[2]
 </blockquote>
+
+---
+
+References:
+
+1. Igor Douven, _The Art of Abduction_ (MIT Press: 2022), pg. 3, and Chapter 1 more generally; Irvin Rock, _The Logic of Perception_, (MIT Press: 1983), pg. 140.
+2. Bas van Frassen, _Laws and Symmetry_ (Oxford University Press: 1989), pg. 143.
