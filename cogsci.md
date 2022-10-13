@@ -24,7 +24,7 @@ Points of interest:
 
 ---
 <html>
-<h3><a href="https://osghaffar.github.io/cogsci/abduction-as-intuition/" style="color:black;">Abduction as Intuitive Reasoning</a></h3>
+<h3><a href="https://osghaffar.github.io/cogsci/abduction-as-intuition/" style="color:black;">Abduction as an Intuitive Form of Reasoning</a></h3>
 </html>
 
 <div class="date">
