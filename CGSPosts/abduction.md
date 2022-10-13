@@ -63,5 +63,7 @@ Additionally, what are the evolutionary origins of such an intuition? The philos
 
 #### References:
 
-1. Igor Douven, _The Art of Abduction_ (MIT Press: 2022), pg. 3, and Chapter 1 more generally; Irvin Rock, _The Logic of Perception_, (MIT Press: 1983), pg. 140.
-2. Bas van Frassen, _Laws and Symmetry_ (Oxford University Press: 1989), pg. 143.
+<p class="has-text-align-justify" style="font-size:16px">
+  <ol style="font-size:16px">
+  <li> Igor Douven, _The Art of Abduction_ (MIT Press: 2022), pg. 3, and Chapter 1 more generally; Irvin Rock, _The Logic of Perception_, (MIT Press: 1983), pg. 140. </li>
+  <li> Bas van Frassen, _Laws and Symmetry_ (Oxford University Press: 1989), pg. 143. </li>
