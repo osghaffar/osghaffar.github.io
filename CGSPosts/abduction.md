@@ -32,26 +32,28 @@ This type of thinking is everywhere in our daily lives. We use this consciously 
   </ul>
 </p>
 
-But a more interesting aspect of this thinking is the way we seem to use it subconsciously as well. 
+Another (possibly more interesting) aspect of this thinking is that we seem to use it subconsciously as well. 
 
-Think of a notorious problem for AI -- the ambiguity of language. Words often have multiple correct meanings, depending on the context (a frustrating fact for someone learning a new language) and the lines between which words can or cannot be used in a particular context may be rather vague -- "let's hit the road" does not mean to stand over the concrete and begin striking it; nor does "that song was a hit" have anything to do with physical contact. Even more complex are cases like "the economy took a hit", where it has negative connotations, contrary to the music, but still does not relate to physical contact.
+For example, think of a notorious problem for AI -- the ambiguity of language. Words often have multiple correct meanings, depending on the context (a frustrating fact for someone learning a new language) and the lines between which words can or cannot be used in a particular context may be rather vague -- "let's hit the road" does not mean to stand over the concrete and begin striking it; nor does "that song was a hit" have anything to do with physical contact. Even more complex are cases like "the economy took a hit", where it has negative connotations, contrary to the music, but still does not relate to physical contact. Although NLP models have come a long way via the "curve-fitting" strategy, a novel example of such ambiguity not found in the training data is enough to trip any model up.
 
-Here, we use this type of reasoning to understand what a person most likely means, given background data and situational context, even if we have never heard the word before or seen a sentence used this way before. But the noteworthy thing about this is that we often do this subconsciously; we follow along with a conversation with minimal effort, piecing together the intended meaning of the speaker as they talk. 
+In such cases, we use an abductive method of reasoning to infer what a person most likely means given background data and the situational context, even if we have never heard the word before or seen a sentence used this way before. But the noteworthy thing is that this is generally a subconscious and automatic process; we follow along a conversation with minimal effort, piecing together the intended meaning of the speaker as they talk. 
 
-This indicates that abduction, or inference to the best explanation, is not merely a higher-order cognitive process that we do with intention and awareness (like, studying, for example). Rather, it must be something more deeply rooted, like most other intuitions we have.
+This indicates that abduction, or inference to the best explanation, is not only found as a higher-order process that we do with conscious intention and awareness. Rather, it seems to be something more deeply rooted, something more akin to an intuition.
 
 ### Experimental Evidence
 
 ![experiment](/images/abduction.png "Experiment")
 
-In addition to the other reasons suggesting abduction is intuitive, there are some experiments which also seem to indicate this. The above, an experiment found in Irvin Rock's _The Logic of Perception_ (1983), is an optical illusion that seems to add evidence to this view.
+Additionally, there are some experiments which also seem to indicate that abduction may be intuitive. The above image, an experiment found in Irvin Rock's _The Logic of Perception_ (1983), is an optical illusion that has some interesting implications.
 
-Take a look at the left. There appears to be a transparent square overlayed over the larger, checkered square. However, it isn't really there. Instead, corners of each section are colored differently, and our brain arrives at this view because it is the "best" explanation of the data, given our background information, cognitive faculties, and other factors. When the colors are shifted, the 'transparent square' seems to disappear. 
+Take a look at the image on the left. There appears to be a transparent square overlayed over the larger, checkered square. However, the transparent square isn't actually there, overlayed on top. Instead, the inner corners of the larger square are colored differently, and our brain generates this second overlayed square because it is the "best" explanation of the data, given our background information, cognitive faculties, and some other factors. When the colors are shifted, as in the image on the right, the 'transparent square' seems to disappear. 
 
 ### Other considerations
-It seems clear that abduction, or inference to the best explanation, is built into our cognitive processes. We use this reasoning consciously and subconsciously, and to great success. A few points of interest can be raised. Can we trust this intuition despite not really knowing how it works? What exactly is it that makes one explanation *better* than another, objectively speaking? How do other cognitive biases affect the way we see the "best explanation"? 
+It seems clear that abduction, or inference to the best explanation, is built into us as a type of reasoning. We use this form of reasoning consciously and subconsciously, to great success. 
 
-Additionally, what are the evolutionary origins of such an intuition? Bas van Fraassen notes that an evolutionary explanation, based on fitness, seems puzzling. 
+A few points of interest can be raised. Can we trust this intuition, despite not really knowing how it works? What exactly is it that makes one explanation *better* than another, objectively speaking? IBE has been subject to criticism by epistemologists. How do our cognitive biases affect the way we see the "best explanation", as in the case of the illusion?
+
+Additionally, what are the evolutionary origins of such an intuition? The philosopher Bas van Fraassen notes that an evolutionary explanation, based on fitness, seems puzzling. 
 
 <blockquote>
 "The naturalistic response bases the conclusion on the fact of our adaptation to nature, our evolutionary success which must be due to a certain fitness. But in this particular case, the conclusion will not follow without a hypothesis of preadaptation, contrary to what is allowed by Darwinism. ... [It] does not select for internal virtues—not even ones that could increase the chance of adaptation or even survival beyond the short run. Our new theories cannot be more likely to be true, merely given that we were the ones to think of them and we have characteristics selected for in the past, because the success at issue is success in the future."
