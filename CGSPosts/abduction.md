@@ -22,7 +22,7 @@ If we want to be formal, we can define it like so:
 
 Imagine, for example, it's a cold winter day, and it snowed the night before. As you reach your car, evading the ice all over the ground, you hear a loud thud, followed by a person groaning in pain. You turn to see a person laying on the ground, with a patch of ice nearby. What would you conclude? It seems the most obvious interpretation of such an event is that the person slipped on some ice and fell. Is it the *only* possible explanation? Certainly not. But it is the *best* explanation given some set of observations or data.
 
-This type of thinking is everywhere in our daily lives. We use this consciously and deliberately in all types of jobs. Let's look at more examples:
+This type of thinking is everywhere in our daily lives. We use this consciously and deliberately in all types of situations. Let's consider some more examples:
 
 <p class="has-text-align-justify" style="font-size:16px">
   <ul style="font-size:16px">
@@ -44,11 +44,11 @@ This indicates that abduction, or inference to the best explanation, is not only
 
 ![experiment](/images/abduction.png "Experiment")
 
-Additionally, there are some experiments which also seem to indicate that abduction may be intuitive. The above image, an experiment found in Irvin Rock's _The Logic of Perception_ (1983), is an optical illusion that has some interesting implications.[1]
+There are some experiments which also seem to indicate that abduction may be intuitive. The above image, an experiment found in Irvin Rock's _The Logic of Perception_ (1983), is an optical illusion that has some interesting implications.[1]
 
 Take a look at the image on the left. There appears to be a transparent square overlayed over the larger, checkered square. However, the transparent square isn't actually there, overlayed on top. Instead, the inner corners of the larger square are colored differently, and our brain generates this second overlayed square because it is the "best" explanation of the data, given our background information, cognitive faculties, and some other factors. When the colors are shifted, as in the image on the right, the 'transparent square' seems to disappear. 
 
-
+This occurs immediately and subconsciously, as we are not consciously considering two explanations and then seeing which fits the evidence best. W
 
 ### Other considerations
 It seems clear that abduction, or inference to the best explanation, is built into us as a type of reasoning. We use this form of reasoning consciously and subconsciously, to great success. 
