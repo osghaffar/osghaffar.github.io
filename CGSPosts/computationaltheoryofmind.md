@@ -19,6 +19,6 @@ There are still, of course, other algorithms or models which take different theo
 
 One good example of adopting a computational model of the mind, as something that stores and processes information, is George Miller's hypothesis that working memory was around seven items. For example, if we take the set 
 
-$$ \set{cat, dog, apple, sky, tree, fruit, person, car} $$
+$$ \set{\text{cat, dog, apple, sky, tree, fruit, person, car}} $$
 
 the average person will not be able to memorize these in a short-term sort of way.
