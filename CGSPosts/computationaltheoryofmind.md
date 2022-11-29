@@ -19,7 +19,7 @@ The theory states that the brain acts akin to a computer; the brain and neural c
 
 There are still, of course, other algorithms or models which take different theories as their core assumption. Reinforcement learning, for example, adopts a behaviorist approach. An agent performs an action $A$, either to receive some reward $R$ or some punishment $P$, until the behavior of the agent (over many, many training sets) is optimized for the task and the environment, very similar to how a behaviorist like B.F. Skinner would have defined behavior as a conditioned response to some stimuli.
 
---
+---
 
 One good example of adopting a computational model of the mind, as something that stores and processes information, is George Miller's hypothesis that working memory was around seven items. For example, if we take the set 
 
