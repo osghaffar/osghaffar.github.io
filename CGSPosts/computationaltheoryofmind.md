@@ -29,4 +29,4 @@ One good example of adopting a computational model of the mind, as something tha
 
 $$ \text{\{cat, dog, apple, sky, tree, fruit, person, car\}} $$
 
-the average person will not be able to memorize these in a short-term sort of way. But if we decrease the size to 6 or 7, a person typically will be able to memorize them in a short-term sense and perhaps transfer the information to paper or elsewhere (this is why authentication confirmation codes are around seven digits).
+the average person will not be able to memorize these in a short-term sort of way. But if we decrease the size to 6 or 7, a person typically will be able to memorize them in a short-term sense and perhaps transfer the information to paper or elsewhere (this is, incidentally, why authentication confirmation codes are around seven digits).
