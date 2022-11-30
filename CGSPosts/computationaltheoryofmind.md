@@ -17,9 +17,9 @@ The theory states that the brain acts akin to a computer; the brain and neural c
 
 <p style="text-align:center">—————</p>
 
--- There are still, of course, other computational algorithms and models which take different theories as their core assumption. One significant example is reinforcement learning, which adopts what is essentially a classical behaviorist approach. In particular, it draws on the concept of operant conditioning, described by the influential psychologist B.F Skinner in his 1938 book _The Behaviour of Organisms_. In this model, behavior was thought to occur as a result of repeated interactions between an organism and its environment, in which the organism adapts its behavior as a result of consequences. Operant conditioning uses behavior-reinforcing (reward) or behavior-suppressing (punishment) in order to optimize a particular behavior. 
+-- There are still, of course, other computational algorithms and models which take different theories as their core assumption. One significant example is reinforcement learning, which adopts an essentially classical behaviorist approach. In particular, it draws on the concept of operant conditioning, described by the influential psychologist B.F Skinner in his 1938 book _The Behaviour of Organisms_. In this model, behavior was thought to occur as a result of repeated interactions between an organism and its environment, in which the organism adapts its behavior as a result of consequences. Operant conditioning uses behavior-reinforcing (reward) or behavior-suppressing (punishment) in order to optimize a particular behavior. 
 
-Reinforcement learning follows the basic idea and formalizes this process into an algorithm. An agent performs an action $a$ while in state $s$ either to receive some reward or some punishment $R$, until the behavior of the agent (over many, many training sets) is optimized (measured by say, a Q-score) for the task and for the environment.
+Reinforcement learning follows the basic idea and formalizes this process into an algorithm. An agent in some state $s$ performs an action $a$, either to receive some reward or some punishment $R$, until the behavior of the agent (over many, many training sets) is optimized (measured by say, a Q-score) for the particular task in the given environment. 
 
 $$ Q = R(s, a) $$
 
