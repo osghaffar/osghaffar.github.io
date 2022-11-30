@@ -29,7 +29,7 @@ One good example of adopting a computational model of the mind, as something tha
 
 The average person will not be able to memorize these in a short-term, working memory way, given that the set contains 8 items. 
 
-<img src="/images/workingmemory.png" width="400" height="400">
+<img src="/images/workingmemory.png" width="800" height="600">
 
 A basic schema imagining working memory as an array, storing seven items. The 'array' can then be used to store and recall. "sun", the eighth item, has no place, and thus is left out of the working memory, corresponding to a failure to remember. 
 
