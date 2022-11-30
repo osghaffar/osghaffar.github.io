@@ -58,7 +58,7 @@ A few points of interest can be raised. Can we trust this intuition, despite not
 Additionally, what are the evolutionary origins of such an intuition? The philosopher Bas van Fraassen notes that an evolutionary explanation, based on fitness, seems puzzling. 
 
 <blockquote>
-"The naturalistic response bases the conclusion on the fact of our adaptation to nature, our evolutionary success which must be due to a certain fitness. But in this particular case, the conclusion will not follow without a hypothesis of preadaptation, contrary to what is allowed by Darwinism. ... [It] does not select for internal virtues—not even ones that could increase the chance of adaptation or even survival beyond the short run. Our new theories cannot be more likely to be true, merely given that we were the ones to think of them and we have characteristics selected for in the past, because the success at issue is success in the future."[2]
+<p class="has-text-align-justify">"The naturalistic response bases the conclusion on the fact of our adaptation to nature, our evolutionary success which must be due to a certain fitness. But in this particular case, the conclusion will not follow without a hypothesis of preadaptation, contrary to what is allowed by Darwinism. ... [It] does not select for internal virtues—not even ones that could increase the chance of adaptation or even survival beyond the short run. Our new theories cannot be more likely to be true, merely given that we were the ones to think of them and we have characteristics selected for in the past, because the success at issue is success in the future."[2]</p>
 </blockquote>
 
 ---
