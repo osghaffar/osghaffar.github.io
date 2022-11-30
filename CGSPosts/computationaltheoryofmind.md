@@ -25,9 +25,7 @@ $$ Q = R(s, a) $$
 
 <p style="text-align:center">—————</p>
 
-One good example of adopting a computational model of the mind, as something that stores and processes information, is George Miller's hypothesis that working memory was around seven items. For example, suppose you are at the park and want to memorize several things you see, taken as the following set:
-
-$$ \text{\{cat, dog, apple, sky, tree, fruit, person, car\}} $$
+One good example of adopting a computational model of the mind, as something that stores and processes information, is George Miller's hypothesis that working memory was around seven items. For example, suppose you are at the park and want to memorize several things you see, taken as the following set:  $\text{\{cat, dog, apple, sky, tree, fruit, person, car\}}$
 
 The average person will not be able to memorize these in a short-term, working memory way, given that the set contains 8 items. 
 
