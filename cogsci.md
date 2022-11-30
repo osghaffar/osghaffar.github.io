@@ -58,7 +58,7 @@ There is an interesting article I recently came across, titled...
 
 ---
 <html>
-  <h3><a href="https://osghaffar.github.io/cogsci/RL-and-Memory-Replay/" style="color:black;">The Computational Theory of Mind</a></h3>
+  <h3><a href="https://osghaffar.github.io/cogsci/ctm/" style="color:black;">The Computational Theory of Mind</a></h3>
 </html>
 
 <div class="date">
@@ -68,5 +68,5 @@ There is an interesting article I recently came across, titled...
 It is worth taking a post or so to lay out the main theory of how the mind works, which undergirds the entire field of cognitive science -- a theory known as the 'computational' theory of mind. Ever since the explosion of progress in computer science, the question arose of whether or not the brain/mind could be seen as a type of extremely complex computer; one that takes in some inputs, then stores, manipulates, or transforms information, and then outputs it...
 
 <html>  
-<a href="https://osghaffar.github.io/cogsci/RL-and-Memory-Replay/" style="text-transform: uppercase; font-size: 15px">Read More</a>
+<a href="https://osghaffar.github.io/cogsci/ctm/" style="text-transform: uppercase; font-size: 15px">Read More</a>
 </html>
