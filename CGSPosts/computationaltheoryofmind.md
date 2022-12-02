@@ -15,6 +15,8 @@ We should begin by discussing the main theory of cognitive science -- what is kn
 
 The theory states that the brain acts akin to a computer; the brain and neural circuits throughout the body form a type of connective network. Using some type of input-output mechanism, information can be transferred via complex pathways, or can be represented physically somehow, like a program on a computer stores information. 
 
+Such a **connectionist** theory undergirds the current-day deep learning approach to intelligent systems. The idea is to mimic a very closely connected network of neurons in order to produce high level input-output systems. Such systems will be probabilistic, but ultimately serve as a universal functional approximator and are thus, in-principle, capable of fitting to any problem.
+
 <p style="text-align:center">—————</p>
 
 --- There are still, of course, other computational algorithms and models which take different theories as their core assumption. One significant example is reinforcement learning, which adopts an essentially classical behaviorist approach. In particular, it draws on the concept of operant conditioning, described by the influential psychologist B.F Skinner in his 1938 book _The Behaviour of Organisms_. In this model, behavior was thought to occur as a result of repeated interactions between an organism and its environment, in which the organism adapts its behavior as a result of consequences. Operant conditioning uses behavior-reinforcing (reward) or behavior-suppressing (punishment) in order to optimize a particular behavior. Behavior, then, under Skinner's theory, can be seen as an optimization achieved by maximizing reward and minimizing punishment in some particular task.
