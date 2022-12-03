@@ -35,11 +35,9 @@ The average person will not be able to memorize these in a short-term, working m
 
 
 <figure>
-  <p style="font-size: 10;">
-  
+  <p style="text-align:center;">
     <img src="/images/workingmemory1.png">
-    <figcaption align = "center"><b><p style="text-align:center;">Fig.1 - A basic schema of working memory as an array</p></b></figcaption>
-  </p>
+    <figcaption align = "center"><b><p style="font-size: 10;">Fig.1 - A basic schema of working memory as an array</p></b></figcaption>
   </p>
 </figure>
 
