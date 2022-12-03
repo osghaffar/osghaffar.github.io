@@ -19,7 +19,9 @@ Such a **connectionist** theory undergirds the current-day deep learning approac
 
 <p style="text-align:center">—————</p>
 
-$\longrightarrow$ There are still, of course, other computational algorithms and models which take different theories as their core assumption. One significant example is reinforcement learning, which adopts an essentially classical behaviorist approach. In particular, it draws on the concept of operant conditioning, described by the influential psychologist B.F Skinner in his 1938 book _The Behaviour of Organisms_. In this model, behavior was thought to occur as a result of repeated interactions between an organism and its environment, in which the organism adapts its behavior as a result of consequences. Operant conditioning uses behavior-reinforcing (reward) or behavior-suppressing (punishment) in order to optimize a particular behavior. Behavior, then, under Skinner's theory, can be seen as an optimization achieved by maximizing reward and minimizing punishment in some particular task.
+$\longrightarrow$ There are still, of course, other computational algorithms and models which take different theories as their core assumption. 
+
+One significant example is reinforcement learning, which adopts an essentially classical behaviorist approach. In particular, it draws on the concept of operant conditioning, described by the influential psychologist B.F Skinner in his 1938 book _The Behavior of Organisms_. In this model, behavior was thought to occur as a result of repeated interactions between an organism and its environment, in which the organism adapts its behavior as a result of consequences. Operant conditioning uses behavior-reinforcing (reward) or behavior-suppressing (punishment) in order to optimize a particular behavior. Behavior, then, under Skinner's theory, can be seen as an optimization achieved by maximizing reward and minimizing punishment in some particular task.
 
 Reinforcement learning follows the basic idea and formalizes this process into an algorithm. An agent in some state $s$ performs an action $a$ -- often starting with random actions -- either to receive some reward or some punishment $R$, until the behavior of the agent (over many, many training sets) is optimized (measured by say, a Q-score) for the particular task in the given environment. 
 
@@ -34,9 +36,9 @@ The average person will not be able to memorize these in a short-term, working m
 
 <figure>
   <p style="font-size: 10;">
-  <p style="text-align:center;">
+  
     <img src="/images/workingmemory1.png">
-    <figcaption align = "center"><b>Fig.1 - A basic schema of working memory as an array</b></figcaption>
+    <figcaption align = "center"><b><p style="text-align:center;">Fig.1 - A basic schema of working memory as an array</p></b></figcaption>
   </p>
   </p>
 </figure>
