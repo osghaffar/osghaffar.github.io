@@ -37,10 +37,10 @@ The average person will not be able to memorize these in a short-term, working m
 <figure>
   <p style="text-align:center;">
     <img src="/images/workingmemory1.png">
-    <figcaption align = "center"><b><p style="font-size: 10;">Fig.1 - A basic schema of working memory as an array</p></b></figcaption>
+    <figcaption align = "center"><b><p style="font-size: 14px;">A basic schema imagining working memory as an array capable of storing seven items. The 'array' can then be used for storage and recall.</p></b></figcaption>
   </p>
 </figure>
 
-A basic schema imagining working memory as an array, storing seven items. The 'array' can then be used to store and recall. "sun", the eighth item, has no place, and thus is left out of the working memory, corresponding to a failure to remember. 
+<"sun">, the eighth item, has no place, and thus is left out of the working memory, which corresponds to a failure to remember. 
 
 But if we decrease the size to 6 or 7, a person typically will be able to memorize them in a short-term sense and perhaps transfer the information to elsewhere (this is, incidentally, why authentication confirmation codes are around seven digits).
