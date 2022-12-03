@@ -22,6 +22,7 @@ If we want to be formal, we can define it like so:
 
 Imagine, for example, it's a cold winter day, and it snowed the night before. As you reach your car, evading the ice all over the ground, you hear a loud thud, followed by a person groaning in pain. You turn to see a person laying on the ground, with a patch of ice nearby. What would you conclude? It seems the most obvious interpretation of such a series of events is that the person slipped on some ice and fell. Is it the *only* possible explanation? Certainly not. But it is the *best* explanation given some set of observations or data.
 
+### Examples
 This type of thinking can be found everywhere in our daily lives, across all types of different situations. Let's consider some more examples:
 
 <p class="has-text-align-justify" style="font-size:16px">
@@ -32,7 +33,7 @@ This type of thinking can be found everywhere in our daily lives, across all typ
   </ul>
 </p>
 
-Another more interesting aspect of this reasoning is that we seem to use it subconsciously as well. 
+Another very common use of this reasoning is in daily communication. This seems to indicate that we seem to use abductive reasoning subconsciously as well. 
 
 For example, think of a notorious problem for AI -- the ambiguity of language. Words often have multiple correct meanings, depending on the context (a frustrating fact for someone learning a new language) and the lines between which words can or cannot be used in a particular context may be rather vague -- "let's hit the road" does not mean to stand over the concrete and begin striking it; nor does "that song was a hit" have anything to do with physical contact. More complicated still, one could say, "the economy took a hit", where 'hit' now has negative connotations, contrary to a hit song, but still does not relate to physical contact. Although NLP models have come a long way via the large-language model strategy, a novel example of such ambiguity not found in the training data is enough to trip any model up. Time flies like an arrow, fruit flies like a banana, after all.
 
