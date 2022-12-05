@@ -11,9 +11,11 @@ permalink: /cogsci/ctm/
 
 ## The Computational Theory of Mind
 
-We should begin by discussing the main theory of cognitive science -- what is known as the **computational theory of mind**. Following after behaviorism and other schools of thought, this model of cognition took off after the explosion of progress in computer science. Alan Turing was a main proponent
+Given that the focus of this part of the blog will be the relationship between AI, cognitive science, and various research questions, we should begin by discussing the main theory of cognitive science, or at least the one which undergirds machine learning and artificial intelligence -- what is known as the **computational theory of mind**. 
 
-The theory states that the brain acts akin to a computer; the brain and neural circuits throughout the body form a type of connective network. Using some type of input-output mechanism, information can be transferred via complex pathways, or can be represented physically somehow, like a program on a computer stores information. 
+This approach to studying the brian, cognition and behavior emerged in the 1950s, after the explosion of progress in computer science. Alan Turing was a main proponent of the theory, devising his Turing test for artificial intelligence. In addition, the decline of behaviorism and mind-body identity theory (both of which came under significant philosophical and theoretical cricisims) brought about functionalism, proposed by Hilary Putnam, which was an approach to studying the mind by studying its functions.
+
+The theory states that the brain acts akin to a computer; the brain and neural circuits throughout the body form a type of connective network. Using some type of input-output mechanism, information can be transferred via complex pathways, or can be represented physically somehow, like a program on a computer stores information. In the case of the brain, this computer would be extremely complex. The number of neurons in the brain is upwards of x million, and in theory, this could be modeled precisely by a complex, connected network of computational units.
 
 Such a **connectionist** theory undergirds the current-day deep learning approach to intelligent systems. The idea is to mimic a very closely connected network of neurons in order to produce high level input-output systems. Such systems will be probabilistic, but ultimately serve as a universal functional approximator and are thus, in-principle, capable of fitting to any problem.
 
