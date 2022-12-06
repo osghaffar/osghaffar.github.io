@@ -9,7 +9,7 @@ permalink: /cogsci/abduction-as-intuition/
 
 <style> blockquote{ margin: 1.3em 1.9em; border-left-style: solid; border-left-width: thick; border-left-color: lightgray; padding: 0.1em 1em; font-size: 16px; color: lightslategray; } </style>
 
-## Abduction as Intuition
+## Abduction as Intuitive Reasoning
 **Abduction** is a type of reasoning that is also known as 'inference to the best explanation'. This entails choosing what seems to be the best explanation given some data.
 
 If we want to be formal, we can define it like so:
@@ -20,7 +20,7 @@ If we want to be formal, we can define it like so:
   </ul>
 </p>
 
-Imagine, for example, it's a cold winter day, and it snowed the night before. As you reach your car, evading the ice all over the ground, you hear a loud thud, followed by a person groaning in pain. You turn to see a person laying on the ground, with a patch of ice nearby. What would you conclude? It seems the most obvious interpretation of such a series of events is that the person slipped on some ice and fell. Is it the *only* possible explanation? Certainly not. But it is the *best* explanation given some set of observations or data.
+Imagine, for example, it's a cold winter day, and it snowed the night before. As you reach your car, evading the ice all over the ground, you hear a loud thud, followed by a person groaning in pain. You turn to see a person laying on the ground, with a patch of ice nearby. What would you conclude? It seems the most obvious interpretation of such a series of events is that the person slipped on some ice and fell. Is it the *only* possible explanation? Certainly not. But it is the best explanation given some set of observations or data.
 
 ### Examples
 This type of thinking can be found everywhere in our daily lives, across all types of different situations. Let's consider some more examples:
@@ -28,7 +28,7 @@ This type of thinking can be found everywhere in our daily lives, across all typ
 <p class="has-text-align-justify" style="font-size:16px">
   <ul style="font-size:16px">
   <li> Doctors or other medical professionals do not have certainty behind their reasoning. Rather, they diagnose a patient based on symptoms, observations, and test results, which narrow down the options until the doctor can decide which is most likely (i.e, the best explanation).</li>
-  <li> Criminal investigators use all the data they can to tell the most plausible story about how the crime occurred. They may only have parts here and there -- a murder weapon, partial surveillance footage, cell tower data -- and have to piece it together. </li>
+  <li> Criminal investigators use all the data they can to tell the most plausible story about how the crime occurred. They may only have parts here and there -- a murder weapon, partial surveillance footage, cell tower data -- and have to piece it together. Several possible theories will be proposed and then narrowed down to the best explanation. </li>
  <li> Scientists choose what appears to be the best theory based on how it explains the data. The Big Bang theory, famously, held out on replacing the previous steady-state view of the universe until it became more and more obvious that it did indeed explain the data better. This is generally how older theories (phlogiston, for example) get replaced by newer ones (oxygen) as more data is discovered and put into consideration. Science is built on the very idea of IBE. </li>
   </ul>
 </p>
