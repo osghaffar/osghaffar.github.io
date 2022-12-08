@@ -13,14 +13,14 @@ permalink: /cogsci/ctm/
 
 Given that the focus of this part of the blog will be the relationship between AI, cognitive science, and various research questions, we should begin by discussing the main theory of cognitive science, or at least the one which undergirds machine learning and artificial intelligence -- what is known as the **computational theory of mind**. 
 
-This approach to studying the brian, cognition and behavior emerged in the 1950s, after the explosion of progress in computer science. Alan Turing was a main proponent of the theory, devising his Turing test for artificial intelligence. In addition, the decline of behaviorism and mind-body identity theory (both of which came under significant philosophical and theoretical cricisims) brought about functionalism, proposed by Hilary Putnam, which was an approach to studying the mind by studying its functions.
+This approach to studying the brain, cognition and behavior emerged in the 1950s, after the explosion of progress in computer science. Alan Turing was a main proponent of the theory, devising his Turing test for artificial intelligence. In addition, the decline of behaviorism and mind-body identity theory (both of which came under significant philosophical objections and theoretical criticisms) brought about functionalism, proposed by Hilary Putnam, which was an approach to studying the mind by studying its functions.
 
 The theory states that the brain acts akin to a computer; the brain and neural circuits throughout the body form a type of connective network. Using some type of input-output mechanism, information can be transferred via complex pathways, or can be represented physically somehow, like a program on a computer stores information. In the case of the brain, this computer would be extremely complex. The number of neurons in the brain is upwards of x million, and in theory, this could be modeled precisely by a complex, connected network of computational units.
 
 <figure>
   <p style="text-align:center;">
     <img src="/images/connectionism.png">
-    <figcaption align = "center"><b><p style="font-size: 14px;">An example of a fully-connected neural network.</p></b></figcaption>
+    <figcaption align = "center"><b><p style="font-size: 14px;">An example of a fully-connected neural network. Nodes represent neurons, and the connections between each node represent neural connections.</p></b></figcaption>
   </p>
 </figure>
 
