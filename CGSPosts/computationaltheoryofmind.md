@@ -17,6 +17,13 @@ This approach to studying the brian, cognition and behavior emerged in the 1950s
 
 The theory states that the brain acts akin to a computer; the brain and neural circuits throughout the body form a type of connective network. Using some type of input-output mechanism, information can be transferred via complex pathways, or can be represented physically somehow, like a program on a computer stores information. In the case of the brain, this computer would be extremely complex. The number of neurons in the brain is upwards of x million, and in theory, this could be modeled precisely by a complex, connected network of computational units.
 
+<figure>
+  <p style="text-align:center;">
+    <img src="/images/connectionism.png">
+    <figcaption align = "center"><b><p style="font-size: 14px;">An example of a fully-connected neural network.</p></b></figcaption>
+  </p>
+</figure>
+
 Such a **connectionist** theory undergirds the current-day deep learning approach to intelligent systems. The idea is to mimic a very closely connected network of neurons in order to produce high level input-output systems. Such systems will be probabilistic, but ultimately serve as a universal functional approximator and are thus, in-principle, capable of fitting to any problem.
 
 <p style="text-align:center">—————</p>
