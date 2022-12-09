@@ -15,7 +15,16 @@ Given that the focus of this part of the blog will be the relationship between A
 
 This approach to studying the brain, cognition and behavior emerged in the 1950s, after the explosion of progress in computer science. Alan Turing was a main proponent of the theory, devising his Turing test for artificial intelligence. In addition, the decline of behaviorism and mind-body identity theory (both of which came under significant philosophical objections and theoretical criticisms) brought about functionalism, proposed by Hilary Putnam, which was an approach to studying the mind by studying its functions.
 
-The theory states that the brain acts akin to a computer; the brain and neural circuits throughout the body form a type of connective network. Using some type of input-output mechanism, information can be transferred via complex pathways, or can be represented physically somehow, like a program on a computer stores information. In the case of the brain, this computer would be extremely complex. The number of neurons in the brain is upwards of x million, and in theory, this could be modeled precisely by a complex, connected network of computational units.
+The theory states that the brain acts akin to a computer; the brain and neural circuits throughout the body form a type of connective network. Using some type of input-output mechanism, information can be transferred via complex pathways, or can be represented physically somehow, like a program on a computer stores information. In the case of the brain, this computer would be extremely complex. Each neuron could be defined as some mathematical function, taking in inputs and producing some output.
+
+<figure>
+  <p style="text-align:center;">
+    <img src="/images/bnn-ann.png">
+    <figcaption align = "center"><b><p style="font-size: 14px;">A comparison between a biological neuron and neural connection with an artificial neural network. The image attempts to draw an analogy between the biological function and the computational unity. From Zhengzu et al, 2020. [2]</p></b></figcaption>
+  </p>
+</figure>
+
+The number of neurons in the brain is upwards of x million, and in theory, this could be modeled precisely by a complex, connected network of computational units.
 
 <figure>
   <p style="text-align:center;">
