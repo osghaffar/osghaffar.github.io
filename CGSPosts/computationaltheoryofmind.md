@@ -24,7 +24,7 @@ The theory states that the brain acts akin to a computer; the brain and neural c
   </p>
 </figure>
 
-Such a **connectionist** theory undergirds the current-day deep learning approach to intelligent systems. The idea is to mimic a very closely connected network of neurons in order to produce high level input-output systems. Such systems will be probabilistic, but ultimately serve as a universal functional approximator and are thus, in-principle, capable of fitting to any problem.
+Such a **connectionist** theory undergirds the current-day deep learning approach to intelligent systems. The idea is to mimic a very closely connected network of neurons in order to produce high level input-output systems. In this case, simulating the functions and behavior of the brain would merely be a matter of scalea nd computational power, and in theory, any function of the brain could be computationally recreated. The output of such systems is probabilistic, but ultimately serve as a universal functional approximator and are thus, in-principle, capable of fitting to any problem.
 
 <p style="text-align:center">—————</p>
 
