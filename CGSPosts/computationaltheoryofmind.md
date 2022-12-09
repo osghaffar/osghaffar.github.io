@@ -20,7 +20,7 @@ The theory states that the brain acts akin to a computer; the brain and neural c
 <figure>
   <p style="text-align:center;">
     <img src="/images/bnn-ann.png">
-    <figcaption align = "center"><b><p style="font-size: 14px;">A comparison between a biological neuron and neural connection with an artificial neural network. The image attempts to draw an analogy between the biological function and the computational unity. From Zhengzu et al, 2020. [2]</p></b></figcaption>
+    <figcaption align = "center"><b><p style="font-size: 14px;">A comparison between a biological neuron and neural connection with an artificial neural network. The image attempts to draw an analogy between the biological neuron and the computational unit. A) represents a neuron, B) represents the computational version, C) represents two connected biological neurons, and D) represents an artificial neural network. From Zhengzu et al, 2020. [2]</p></b></figcaption>
   </p>
 </figure>
 
