@@ -30,13 +30,6 @@ The number of neurons in the brain is upwards of x million, and in theory, this 
 
 <figure>
   <p style="text-align:center;">
-    <img src="/images/connectionism.png">
-    <figcaption align = "center"><b><p style="font-size: 14px;">An example of a fully-connected neural network. Nodes represent neurons, and the connections between each node represent neural connections.</p></b></figcaption>
-  </p>
-</figure>
-
-<figure>
-  <p style="text-align:center;">
     <img src="/images/connect2.png">
     <figcaption align = "center"><b><p style="font-size: 14px;">A fully-connected neural network can support an unlimited number of inputs, hidden layers, and outputs, each layer connected to the previous one.</p></b></figcaption>
   </p>
