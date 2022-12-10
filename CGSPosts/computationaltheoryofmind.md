@@ -38,7 +38,7 @@ The number of neurons in the brain is upwards of x million, and in theory, this 
 <figure>
   <p style="text-align:center;">
     <img src="/images/connect2.png">
-    <figcaption align = "center"><b><p style="font-size: 14px;">A basic schema imagining working memory as an array capable of storing seven items. The 'array' can then be used for storage and recall.</p></b></figcaption>
+    <figcaption align = "center"><b><p style="font-size: 14px;">A fully-connected neural network can support an unlimited number of inputs, hidden layers, and outputs, each layer connected to the previous one.</p></b></figcaption>
   </p>
 </figure>
 
