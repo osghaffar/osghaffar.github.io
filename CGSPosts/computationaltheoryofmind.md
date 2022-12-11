@@ -26,7 +26,7 @@ That is, things like "thinking" or "visual recognition" should not be identified
   <center> $$ \downarrow $$ </center>
   
 <p style="text-align: center; font-size: 17px; font-family: serif"> 
-  <b>Functionalism</b>: Visual recognition involves processing some input data by comparing it to previously seen data
+  <b>Functionalism</b>: Visual recognition involves processing some input data by comparing it to previously seen data.
 </p>
 
 By moving away from biological restrictions and focusing instead on the functions the mind carried out, an easy analogy could be drawn to a computer, which is instantiable in any sort of machine (from very simple to very complex). The theory states that the brain acts akin to a computer; the brain and neural circuits throughout the body form a type of connective network. Using some type of input-output mechanism, information can be transferred via complex pathways, or can be represented physically somehow, like how a computer stores information in the hard drive. In the case of the brain, this computer would be extremely complex. Each neuron could be defined as some mathematical function, taking in inputs and producing some output.
