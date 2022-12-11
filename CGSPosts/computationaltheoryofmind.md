@@ -43,6 +43,13 @@ The number of neurons in the brain is upwards of x million, and in theory, this 
 
 Such a **connectionist** theory undergirds the current-day deep learning approach to intelligent systems. The idea is to mimic a very closely connected network of neurons in order to produce high level input-output systems. In this case, simulating the functions and behavior of the brain would merely be a matter of scalea nd computational power, and in theory, any function of the brain could be computationally recreated. The output of such systems is probabilistic, but ultimately serve as a universal functional approximator and are thus, in-principle, capable of fitting to any problem.
 
+<figure>
+  <p style="text-align:center;">
+    <img src="/images/visualmechanism.png">
+    <figcaption align = "center"><b><p style="font-size: 14px;">Paul Churchland imagines the visual system to be a highly complex neural network. From <i> The Engine of Reason </i></p></b></figcaption>
+  </p>
+</figure>
+
 <p style="text-align:center">—————</p>
 
 $\longrightarrow$ There are still, of course, other computational algorithms and models which take different theories as their core assumption. 
