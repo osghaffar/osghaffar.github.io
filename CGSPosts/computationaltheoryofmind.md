@@ -19,6 +19,10 @@ Putnam defined functionalism, or as he originally called it, the 'functional sta
 
 That is, things like "thinking" or "visual recognition" should not be identified merely with particular biological events like nerves firing, but by their function. Visual recogition, for example, takes in particular input data, 'processes' it with existing memories, and is able to recognize certain elements. In this definition, such a behavior can be multiply realized -- you don't have to have a retina and visual cortex in order to see, anything able to do these actions could be said to be capable of visual recognition.
 
+$$ \text{Mind-Brain identity theory: Visual recognition is neural activity in the visual cortex, etc}$$ 
+
+$$ \text{Functionalism: Visual recognition is processing some input by comparing it to previously seen data}$$ 
+
 The theory states that the brain acts akin to a computer; the brain and neural circuits throughout the body form a type of connective network. Using some type of input-output mechanism, information can be transferred via complex pathways, or can be represented physically somehow, like how a computer stores information in the hard drive. In the case of the brain, this computer would be extremely complex. Each neuron could be defined as some mathematical function, taking in inputs and producing some output.
 
 <figure>
