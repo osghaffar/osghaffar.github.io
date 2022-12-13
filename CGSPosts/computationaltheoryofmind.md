@@ -34,7 +34,7 @@ By moving away from biological restrictions and focusing instead on the function
 <figure>
   <p style="text-align:center;">
     <img src="/images/bnn-ann.png">
-    <figcaption align = "center"><b><p style="font-size: 12px;">A comparison between a biological neuron and neural connection with an artificial neural network. The image attempts to draw an analogy between the biological neuron and the computational unit. A) represents a neuron, B) represents the computational version, C) represents two connected biological neurons, and D) represents an artificial neural network. From Zhengzu et al, 2020. [2]</p></b></figcaption>
+    <figcaption align = "center"><b><p style="font-size: 13px;">A comparison between a biological neuron and neural connection with an artificial neural network. The image attempts to draw an analogy between the biological neuron and the computational unit. A) represents a neuron, B) represents the computational version, C) represents two connected biological neurons, and D) represents an artificial neural network. From Zhengzu et al, 2020. [2]</p></b></figcaption>
   </p>
 </figure>
 
@@ -43,7 +43,7 @@ The number of neurons in the brain is upwards of x million, and in theory, this 
 <figure>
   <p style="text-align:center;">
     <img src="/images/connect2.png">
-    <figcaption align = "center"><b><p style="font-size: 12px;">A fully-connected neural network can support an unlimited number of inputs, hidden layers, and outputs, each layer connected to the previous one.</p></b></figcaption>
+    <figcaption align = "center"><b><p style="font-size: 13px;">A fully-connected neural network can support an unlimited number of inputs, hidden layers, and outputs, each layer connected to the previous one.</p></b></figcaption>
   </p>
 </figure>
 
@@ -52,7 +52,7 @@ Such a **connectionist** theory undergirds the current-day deep learning approac
 <figure>
   <p style="text-align:center;">
     <img src="/images/visualmechanism.png">
-    <figcaption align = "center"><b><p style="font-size: 12px;">Paul Churchland imagines the visual system to be a highly complex neural network. From <i> The Engine of Reason </i></p></b></figcaption>
+    <figcaption align = "center"><b><p style="font-size: 13px;">Paul Churchland imagines the visual system to be a highly complex neural network. From <i> The Engine of Reason </i></p></b></figcaption>
   </p>
 </figure>
 
@@ -78,7 +78,7 @@ The average person will not be able to memorize these in a short-term, working m
 <figure>
   <p style="text-align:center;">
     <img src="/images/workingmemory1.png">
-    <figcaption align = "center"><b><p style="font-size: 12px;">A basic schema imagining working memory as an array capable of storing seven items. The 'array' can then be used for storage and recall.</p></b></figcaption>
+    <figcaption align = "center"><b><p style="font-size: 13px;">A basic schema imagining working memory as an array capable of storing seven items. The 'array' can then be used for storage and recall.</p></b></figcaption>
   </p>
 </figure>
 
