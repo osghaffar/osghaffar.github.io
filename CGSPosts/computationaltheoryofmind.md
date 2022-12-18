@@ -22,7 +22,7 @@ That is, things like "thinking" or "visual recognition" should not be identified
 As Turing himself wrote, "May not machines carry out something which ought to be described as thinking but which is very different from what a man does?"[1] Implicit in this is the concept of multiple realizability, in that biological structure matters little as long as a common function is accomplished.
 
 <p style="text-align: center; font-size: 17px;">
-    <b> Theoretical Shift </b>
+    <b> Theory Shift </b>
 </p> 
 
 <p style="text-align: center; font-size: 17px; font-family: serif">
