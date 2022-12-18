@@ -25,8 +25,9 @@ That is, things like "thinking" or "visual recognition" should not be identified
 <b>Theory Shift</b></p>
 <p style='margin-left:1em; font-size: 17px; font-family: serif'>
     <b>Mind-Brain Identity Theory</b>: Identify visual recognition with some neural activity in the visual cortex, etc.
-    <b>Functionalism:</b>:
+    <b>Functionalism:</b>: Visual recognition involves processing some input data by comparing it to previously seen data.
 </p>
+</span>
 </div>
 
 <p style="text-align: center; font-size: 17px; font-family: serif">
