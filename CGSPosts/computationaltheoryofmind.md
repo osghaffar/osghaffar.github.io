@@ -35,7 +35,27 @@ As Turing himself wrote, "May not machines carry out something which ought to be
   <b>Functionalism</b>: Visual recognition involves processing some input data by comparing it to previously seen data.
 </p>
 
-By moving away from biological restrictions and focusing instead on the functions the mind carried out, an easy analogy could be drawn to a computer, which is instantiable in any sort of machine (from very simple to very complex). The theory states that the brain acts akin to a computer; the brain and neural circuits throughout the body form a type of connective network. Using some type of input-output mechanism, information can be transferred via complex pathways, or can be represented physically somehow, like how a computer stores information in the hard drive. In the case of the brain, this computer would be extremely complex. Each neuron could be defined as some mathematical function, taking in inputs and producing some output.
+By moving away from biological restrictions and focusing instead on the functions the mind carried out, an easy analogy could be drawn to a computer, which is instantiable in any sort of machine (from very simple to very complex). 
+
+A Turing machine, as originally devised, is a rather simple input-output program that accomplishes a certain task. For example, "if position #4505 contains 0, obey the next instruction stored in position #6707, otherwise move on to position #7820". Put in pseudocode, it would resemble an if-then statement like so:
+
+```
+if position[4505] == 0:
+    go to position[6707]
+    
+else:
+    go to position[7820]
+```
+
+Turing then compares this to a real-life example of 'instruction following', and this is where we can begin drafting the theory itself:
+
+<blockquote>
+<p class="has-text-align-justify">"To take a domestic analogy. Suppose Mother wants Tommy to call at the cobbler's every morning on his way to school to see if her shoes are done; ... she can stick up a notice ... in the hall which he will see when he leaves for school and which tells him to call for the shoes, and also to destroy the notice when he comes back if he has the shoes with him."[2]</p>
+</blockquote>
+
+Here, Turing remarks, "the reader must accept it as a fact that digital computers can be constructed ... according to the principles we have described, and that they can in fact mimic the actions of a human computer very closely."
+
+The theory states that the brain acts akin to a computer; the brain and neural circuits throughout the body form a type of connective network. Using some type of input-output mechanism, information can be transferred via complex pathways, or can be represented physically somehow, like how a computer stores information in the hard drive. In the case of the brain, this computer would be extremely complex. Each neuron could be defined as some mathematical function, taking in inputs and producing some output.
 
 <figure>
   <p style="text-align:center;">
