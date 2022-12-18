@@ -17,18 +17,13 @@ This approach to studying the brain, cognition and behavior emerged in the 1950s
 
 Functionalism is based around the idea of "multiple realizability", in that the same function, once clearly defined, can be instantiated by any number of different things. The original Turing machine, for example, could be realized by any type of machine as long as it is able to carry out the intended function (symbol manipulation). Nowadays, a Turing machine could be implemented fully digitally. The upshot is that function is emphasized, and not material composition. 
 
-That is, things like "thinking" or "visual recognition" should not be identified merely with particular biological events like nerves firing, but by their function. Visual recogition, for example, takes in particular input data, 'processes' it with existing memories, and is able to recognize certain elements. In this definition, such a behavior can be multiply realized -- you don't have to have a retina and visual cortex in order to see; anything that is able to perform these actions could be said to be capable of visual recognition, just as anything able to do basic symbol manipulation (regardless of its material form) could be considered a Turing machine. As Turing himself wrote, "May not machines carry out something which ought to be described as thinking but which is very different from what a man does?"[1] Implicit in this is the concept of multiple realizability, in that biological structure matters little as long as a common function is accomplished.
+That is, things like "thinking" or "visual recognition" should not be identified merely with particular biological events like nerves firing, but by their function. Visual recogition, for example, takes in particular input data, 'processes' it with existing memories, and is able to recognize certain elements. In this definition, such a behavior can be multiply realized -- you don't have to have a retina and visual cortex in order to see; anything that is able to perform these actions could be said to be capable of visual recognition, just as anything able to do basic symbol manipulation (regardless of its material form) could be considered a Turing machine. 
 
-<div class="warning" style='padding:0.1em; background-color:#FFFFFF; color:#000000; border-left: solid #000000 3px; border-radius: 4px; padding:0.7em;'>
-<span>
-<p style='margin-top:1em; text-align:center'>
-<b>Theory Shift</b></p>
-<p style='margin-left:1em; font-size: 17px; font-family: serif'>
-    <b>Mind-Brain Identity Theory</b>: Identify visual recognition with some neural activity in the visual cortex, etc.
-    <b>Functionalism:</b>: Visual recognition involves processing some input data by comparing it to previously seen data.
-</p>
-</span>
-</div>
+As Turing himself wrote, "May not machines carry out something which ought to be described as thinking but which is very different from what a man does?"[1] Implicit in this is the concept of multiple realizability, in that biological structure matters little as long as a common function is accomplished.
+
+<p style="text-align: center; font-size: 17px;">
+    <b> Theoretical Shift </b>
+</p> 
 
 <p style="text-align: center; font-size: 17px; font-family: serif">
   <b>Mind-Brain Identity Theory</b>: Identify visual recognition with some neural activity in the visual cortex, etc.
