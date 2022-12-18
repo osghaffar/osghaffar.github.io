@@ -19,16 +19,13 @@ Functionalism is based around the idea of "multiple realizability", in that the 
 
 That is, things like "thinking" or "visual recognition" should not be identified merely with particular biological events like nerves firing, but by their function. Visual recogition, for example, takes in particular input data, 'processes' it with existing memories, and is able to recognize certain elements. In this definition, such a behavior can be multiply realized -- you don't have to have a retina and visual cortex in order to see; anything that is able to perform these actions could be said to be capable of visual recognition, just as anything able to do basic symbol manipulation (regardless of its material form) could be considered a Turing machine. As Turing himself wrote, "May not machines carry out something which ought to be described as thinking but which is very different from what a man does?"[1] Implicit in this is the concept of multiple realizability, in that biological structure matters little as long as a common function is accomplished.
 
-<div class="warning" style='padding:0.1em; background-color:#E9D8FD; color:#69337A'>
+<div class="warning" style='padding:0.1em; background-color:#FFFFFF; color:#000000'>
 <span>
 <p style='margin-top:1em; text-align:center'>
-<b>On the importance of sentence length</b></p>
-<p style='margin-left:1em;'>
-This sentence has five words. Here are five more words. Five-word sentences are fine. But several together bocome monotonous. Listen to what is happening. The writing is getting boring. The sound of it drones. It's like a stuck record. The ear demands some variety.<br><br>
-    Now listen. I vary the sentence length, and I create music. Music. The writing sings. It has a pleasent rhythm, a lilt, a harmony. I use short sentences. And I use sentences of medium length. And sometimes when I am certain the reader is rested, I will engage him with a sentence of considerable length, a sentence that burns with energy and builds with all the impetus of a crescendo, the roll of the drums, the crash of the cymbals -- sounds that say listen to this, it is important.
+<b>Theory Shift</b></p>
+<p style='margin-left:1em; font-size: 17px; font-family: serif'>
+    <b>Mind-Brain Identity Theory</b>: Identify visual recognition with some neural activity in the visual cortex, etc.
 </p>
-<p style='margin-bottom:1em; margin-right:1em; text-align:right; font-family:Georgia'> <b>- Gary Provost</b> <i>(100 Ways to Improve Your Writing, 1985)</i>
-</p></span>
 </div>
 
 <p style="text-align: center; font-size: 17px; font-family: serif">
