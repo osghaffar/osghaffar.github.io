@@ -19,7 +19,7 @@ Functionalism is based around the idea of "multiple realizability", in that the 
 
 That is, things like "thinking" or "visual recognition" should not be identified merely with particular biological events like nerves firing, but by their function. Visual recogition, for example, takes in particular input data, 'processes' it with existing memories, and is able to recognize certain elements. In this definition, such a behavior can be multiply realized -- you don't have to have a retina and visual cortex in order to see; anything that is able to perform these actions could be said to be capable of visual recognition, just as anything able to do basic symbol manipulation (regardless of its material form) could be considered a Turing machine. As Turing himself wrote, "May not machines carry out something which ought to be described as thinking but which is very different from what a man does?"[1] Implicit in this is the concept of multiple realizability, in that biological structure matters little as long as a common function is accomplished.
 
-<div class="warning" style='padding:0.1em; background-color:#FFFFFF; color:#000000'>
+<div class="warning" style='padding:0.1em; background-color:#FFFFFF; color:#000000; border-left: solid #000000 3px; border-radius: 4px; padding:0.7em;'>
 <span>
 <p style='margin-top:1em; text-align:center'>
 <b>Theory Shift</b></p>
