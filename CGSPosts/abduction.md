@@ -39,13 +39,13 @@ For example, think of a notorious problem for AI -- the ambiguity of language. W
 
 <table style="border:1px solid black; margin-left:auto; margin-right:auto; font-family:serif">
   <tr>
-    <td>"Let's <i>hit</i> the road"</td>
+    <td>"I. Let's <i>hit</i> the road"</td>
   </tr>
   <tr>
-    <td>"That song was a <i>hit</i>"</td>
+    <td>"II. That song was a <i>hit</i>"</td>
   </tr>
   <tr>
-    <td>"The economy took a <i>hit</i>"</td>
+    <td>"III. The economy took a <i>hit</i>"</td>
   </tr>
 </table>
   
