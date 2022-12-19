@@ -38,7 +38,7 @@ Another very common use of this reasoning is in daily communication. This seems 
 For example, think of a notorious problem for AI -- the ambiguity of language. Words often have multiple correct meanings, depending on the context (a frustrating fact for someone learning a new language) and the lines between which words can or cannot be used in a particular context may be rather vague:
 
 
-<table class="center" style="font-family: serif">
+<table border="0.5" class="center" style="font-family: serif">
   <tr>
     <td>"Let's <i>hit</i> the road"</td>
   </tr>
