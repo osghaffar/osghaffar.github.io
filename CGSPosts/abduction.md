@@ -37,10 +37,12 @@ Another very common use of this reasoning is in daily communication. This seems 
 
 For example, think of a notorious problem for AI -- the ambiguity of language. Words often have multiple correct meanings, depending on the context (a frustrating fact for someone learning a new language) and the lines between which words can or cannot be used in a particular context may be rather vague:
 
+<p style="text-align: center; font-size: 18px; font-family: serif">
 | <"let's hit the road"> |
 | <"that song was a hit"> |
 | <"the economy took a hit"> |
-
+</p>
+  
 <$\text{"let's hit the road"}$> does not mean to stand over the concrete and begin striking it; nor does <$\text{"that song was a hit"}$> have anything to do with physical contact. More complicated still, one could say, <$\text{"the economy took a hit"}$>, where 'hit' now has negative connotations, contrary to a 'hit song', but still does not relate to physical contact. Although NLP models have come a long way via the large-language model strategy, a novel example of such ambiguity not found in the training data is enough to trip any model up. Time flies like an arrow, fruit flies like a banana, after all.
 
 In such cases, we use an abductive method of reasoning to infer what a person most likely means given background data and the situational context, even if we have never heard the word before or seen a sentence used this way before. But the noteworthy thing is that this is generally a subconscious and automatic process; we follow along a conversation with minimal effort, piecing together the intended meaning of the speaker as they talk. 
