@@ -37,10 +37,18 @@ Another very common use of this reasoning is in daily communication. This seems 
 
 For example, think of a notorious problem for AI -- the ambiguity of language. Words often have multiple correct meanings, depending on the context (a frustrating fact for someone learning a new language) and the lines between which words can or cannot be used in a particular context may be rather vague:
 
-<p style="text-align: center; font-size: 18px; font-family: serif">
-| <"let's hit the road"> |
-| <"that song was a hit"> |
-| <"the economy took a hit"> |
+<p style="text-align: center; font-size: 20px; font-family: serif">
+<table>
+  <tr>
+    <td>"Let's <i>hit</i> the road"</td>
+  </tr>
+  <tr>
+    <td>"That song was a <i>hit</i>"</td>
+  </tr>
+  <tr>
+    <td>"The economy took a <i>hit</i>"</td>
+  </tr>
+</table>
 </p>
   
 <$\text{"let's hit the road"}$> does not mean to stand over the concrete and begin striking it; nor does <$\text{"that song was a hit"}$> have anything to do with physical contact. More complicated still, one could say, <$\text{"the economy took a hit"}$>, where 'hit' now has negative connotations, contrary to a 'hit song', but still does not relate to physical contact. Although NLP models have come a long way via the large-language model strategy, a novel example of such ambiguity not found in the training data is enough to trip any model up. Time flies like an arrow, fruit flies like a banana, after all.
