@@ -35,7 +35,7 @@ This type of thinking can be found everywhere in our daily lives, across all typ
 
 Another very common use of this reasoning is in daily communication. This seems to indicate that we seem to use abductive reasoning subconsciously as well. 
 
-For example, think of a notorious problem for AI -- the ambiguity of language. Words often have multiple correct meanings, depending on the context (a frustrating fact for someone learning a new language) and the lines between which words can or cannot be used in a particular context may be rather vague:
+For example, think of a notorious problem for AI -- the ambiguity of language. Words often have multiple correct meanings, depending on the context (a frustrating fact for someone learning a new language) and the lines between which words can or cannot be used in a particular context may be rather vague. Consider these sentences:
 
 <table style="border:1px solid black; margin-left:auto; margin-right:auto; font-family:serif">
   <tr>
