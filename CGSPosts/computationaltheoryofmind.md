@@ -55,6 +55,7 @@ Turing then compares this to a real-life example of 'instruction following', and
 <p class="has-text-align-justify">"To take a domestic analogy. Suppose Mother wants Tommy to call at the cobbler's every morning on his way to school to see if her shoes are done; ... she can stick up a notice ... in the hall which he will see when he leaves for school and which tells him to call for the shoes, and also to destroy the notice when he comes back if he has the shoes with him."[2]</p>
 </blockquote>
 
+So, again, writing this in pseudocode gets us a set of nested instructions like this:
 ```
 while shoes != done:
     call
@@ -66,7 +67,7 @@ while shoes != done:
             shoes = done
 ```
 
-Here, Turing remarks, "the reader must accept it as a fact that digital computers can be constructed ... according to the principles we have described, and that they can in fact mimic the actions of a human computer very closely."
+Here, Turing remarks, "the reader must accept it as a fact that digital computers can be constructed ... according to the principles we have described, and that they can in fact mimic the actions of a human computer very closely." Turing's point is that any human behavior can in theory be made into some sort of function, and thus, in theory, a sufficiently complex computer could (and would) be doing tasks that resemble human ones. 
 
 The theory states that the brain acts akin to a computer; the brain and neural circuits throughout the body form a type of connective network. Using some type of input-output mechanism, information can be transferred via complex pathways, or can be represented physically somehow, like how a computer stores information in the hard drive. In the case of the brain, this computer would be extremely complex. Each neuron could be defined as some mathematical function, taking in inputs and producing some output.
 
