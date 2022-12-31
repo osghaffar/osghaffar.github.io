@@ -7,7 +7,7 @@ permalink: /cogsci/ctm/
 
 ---
 
-<style> blockquote{ margin: 1.3em 1.9em; border-left-style: solid; border-left-width: thick; border-left-color: lightgray; padding: 0.1em 1em; font-size: 16px; color: lightslategray; } </style>
+<style> blockquote{ margin: 1.3em 1.9em; border-left-style: solid; border-left-width: medium; border-left-color: gray; padding: 0.1em 1em; text-align: justify; font-size: 16px; color: darkslategray; } </style>
 
 ## The Computational Theory of Mind
 
