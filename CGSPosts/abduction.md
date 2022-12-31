@@ -7,7 +7,18 @@ permalink: /cogsci/abduction-as-intuition/
 
 ---
 
-<style> blockquote{ margin: 1.3em 1.9em; border-left-style: solid; border-left-width: thick; border-left-color: lightgray; padding: 0.1em 1em; font-size: 16px; color: lightslategray; } </style>
+<style>
+    blockquote{
+    margin: 1.3em 1.9em;
+    border-left-style: solid;
+    border-left-width: medium;
+    border-left-color: gray;
+    padding: 0.1em 1em;
+    text-align: justify;
+    font-size: 16px;
+    color: darkslategray;
+  }
+</style>
 
 ## Abduction as Intuitive Reasoning
 **Abduction** is a type of reasoning that is also known as 'inference to the best explanation'. This entails choosing what seems to be the best explanation given some data.
