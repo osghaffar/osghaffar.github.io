@@ -69,7 +69,16 @@ while shoes != done:
 
 Here, Turing remarks, "the reader must accept it as a fact that digital computers can be constructed ... according to the principles we have described, and that they can in fact mimic the actions of a human computer very closely." Turing's point is that any human behavior can in theory be made into some sort of function, and thus, in theory, a sufficiently complex computer could (and would) be doing tasks that resemble human ones. 
 
+### Connectionism and Artificial Neural Networks
 The theory states that the brain acts akin to a computer; the brain and neural circuits throughout the body form a type of connective network. Using some type of input-output mechanism, information can be transferred via complex pathways, or can be represented physically somehow, like how a computer stores information in the hard drive. In the case of the brain, this computer would be extremely complex. Each neuron could be defined as some mathematical function, taking in inputs and producing some output.
+
+Frank Rosenblatt, in his seminal paper titled, "The Perceptron: A Probablistic Model for Information Storage and Organization in the Brain", proposed exactly this -- a way to mathematically represent the behavior of a neuron probabilistically, particularly in a way that could be used computationally:
+
+<blockquote>
+The theory has been developed for a hypothetical nervous system, or machine, called a <i>perceptron</i>. The perceptron is designed to illustrate some of the fundamental properties of intelligent systems in general, without becoming too deeply enmeshed in the special, and frequently unknown, conditions which hold for particular biological organisms. The analogy between the perceptron and biological systems should be readily apparent to the reader.[3]
+</blockquote>
+
+In other words, one can represent some of the functions done by the "brain", but in a general way that need not worry about the specifics of particular biological structures, some of which might not even be known (as is the case now, and certainly was the case when Rosenblatt published the paper). However, as he notes, these similarities are enough that a person will be able to recognize them.
 
 <figure>
   <p style="text-align:center;">
