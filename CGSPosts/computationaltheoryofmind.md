@@ -11,7 +11,7 @@ permalink: /cogsci/ctm/
 
 ## The Computational Theory of Mind
 
-Given that the focus of this part of the blog will be the relationship between AI, cognitive science, and various research questions, we should begin by discussing the main theory of cognitive science, or at least the one which undergirds machine learning and artificial intelligence -- what is known as the **computational theory of mind**. 
+Given that the focus of this part of the blog will be the relationship between AI, cognitive science, and various research questions, we should begin by discussing a main theory of cognitive science -- what is known as the **computational theory of mind** -- and in particular, work our way to the theory which undergirds machine learning and artificial intelligence, known as **connectionism**.
 
 This approach to studying the brain, cognition and behavior emerged in the 1950s, after the explosion of progress in computer science. Alan Turing was a main proponent of the theory, devising his Turing test for artificial intelligence. In addition, the decline of behaviorism and mind-body identity theory (both of which came under significant philosophical objections and theoretical criticisms) brought about functionalism, proposed by Hilary Putnam, which was an approach to studying the mind by studying its functions. 
 
