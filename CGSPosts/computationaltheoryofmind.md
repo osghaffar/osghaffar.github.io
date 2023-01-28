@@ -139,3 +139,5 @@ The average person will not be able to memorize these in a short-term, working m
 <"sun">, the eighth item, has no place, and thus is left out of the working memory, which corresponds to a failure to remember. 
 
 But if we decrease the size to 6 or 7, a person typically will be able to memorize them in a short-term sense and perhaps transfer the information to elsewhere (this is, incidentally, why authentication confirmation codes are around seven digits).
+
+Another interesting phenomena that lends itself to a computational model of the mind is the concept of single-neuron representation. This is when a single neuron, at least as it appears to researchers, is responsible for the storage and representation of something. For example, a single neuron is responsible for information about a celebrity, or one's grandmother. This plays into an almost naive view of the mind as a computer, where each neuron would be like a file, storing particular information about some particular thing.
