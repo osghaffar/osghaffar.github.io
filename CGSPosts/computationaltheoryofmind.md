@@ -83,7 +83,7 @@ In other words, one can represent some of the functions done by the "brain", but
 <figure>
   <p style="text-align:center;">
     <img src="/images/bnn-ann.png">
-    <figcaption align = "center"><b><p style="font-size: 13px;">A comparison between a biological neuron and neural connection with an artificial neural network. The image attempts to draw an analogy between the biological neuron and the computational unit. A) represents a neuron, B) represents the computational version, C) represents two connected biological neurons, and D) represents an artificial neural network. From Zhengzu et al, 2020. [2]</p></b></figcaption>
+    <figcaption align = "center"><b><p style="font-size: 13px;">A comparison between a biological neuron and neural connection with an artificial neural network. The image attempts to draw an analogy between the biological neuron and the computational unit. A) represents a neuron, B) represents the computational version, C) represents two connected biological neurons, and D) represents an artificial neural network. From Zhengzu et al, 2020. [4]</p></b></figcaption>
   </p>
 </figure>
 
@@ -96,16 +96,18 @@ The number of neurons in the brain is upwards of x million, and in theory, this 
   </p>
 </figure>
 
-Such a **connectionist** theory undergirds the current-day deep learning approach to intelligent systems. The idea is to mimic a very closely connected network of neurons in order to produce high level input-output systems. In this case, simulating the functions and behavior of the brain would merely be a matter of scalea nd computational power, and in theory, any function of the brain could be computationally recreated. The output of such systems is probabilistic, but ultimately serve as a universal functional approximator and are thus, in-principle, capable of fitting to any problem.
+Such a **connectionist** theory undergirds the current-day deep learning approach to intelligent systems. The idea is to mimic a very closely connected network of neurons in order to produce highly complex input-output systems. In this case, simulating the functions and behavior of the brain would merely be a matter of scale and computational power, and in theory, any function of the brain could be computationally recreated. The output of such systems is probabilistic, but serve as a universal functional approximator and are thus, in-principle, capable of fitting to any problem.
 
 <figure>
   <p style="text-align:center;">
     <img src="/images/visualmechanism.png">
-    <figcaption align = "center"><b><p style="font-size: 13px;">Paul Churchland imagines the visual system to be a highly complex neural network. From <i> The Engine of Reason </i></p></b></figcaption>
+    <figcaption align = "center"><b><p style="font-size: 13px;">Paul Churchland imagines the visual system to be a highly complex neural network. From <i> The Engine of Reason</i>[5]</p></b></figcaption>
   </p>
 </figure>
 
 <p style="text-align:center">—————</p>
+
+### Other Computational Models of Behavior
 
 $\longrightarrow$ There are still, of course, other computational algorithms and models which take different theories as their core assumption. 
 
@@ -119,10 +121,13 @@ $$ Q = R(s, a) $$
 
 <p style="text-align:center">—————</p>
 
-One good example of adopting a computational model of the mind, as something that stores and processes information, is George Miller's hypothesis that working memory was around seven items. For example, suppose you are at the park and want to memorize several things you see, taken as the following set:  $\text{\{cat, dog, apple, sky, tree, fruit, person, car\}}$
+### Examples 
+
+Let's look at a few very simplified examples to see this sort of theory in action.
+
+One good example of adopting a computational model of the mind, as something that stores and processes information, is George Miller's hypothesis that working memory was around seven items[6]. For example, suppose you are at the park and want to memorize several things you see, taken as the following set:  $\text{\{cat, dog, apple, sky, tree, fruit, person, car\}}$
 
 The average person will not be able to memorize these in a short-term, working memory way, given that the set contains 8 items. 
-
 
 <figure>
   <p style="text-align:center;">
