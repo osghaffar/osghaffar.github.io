@@ -23,6 +23,9 @@ permalink: /cogsci/abduction-as-intuition/
 ## Abduction as Intuitive Reasoning
 **Abduction** is a type of reasoning that is also known as 'inference to the best explanation'. This entails choosing what seems to be the best explanation given some data.
 
+Imagine, for example, it's a cold winter day, and the ground has iced over the night before. As you reach your car, evading the ice all over the ground, you hear a loud thud behind you, followed by a person groaning in pain. You turn to see a person laying on the ground, with a solid patch of ice nearby. Their belongings are all over the ground. Based on these observations, what would you conclude? 
+It seems the most obvious interpretation of such a series of events is that the person slipped on some ice and fell. Is it the *only* possible explanation? Certainly not. But it is the best explanation given some set of observations or data.
+
 If we want to be formal, we can define it like so:
 
 <p class="has-text-align-justify" style="font-size:16px">
@@ -31,7 +34,6 @@ If we want to be formal, we can define it like so:
   </ul>
 </p>
 
-Imagine, for example, it's a cold winter day, and it snowed the night before. As you reach your car, evading the ice all over the ground, you hear a loud thud, followed by a person groaning in pain. You turn to see a person laying on the ground, with a patch of ice nearby. What would you conclude? It seems the most obvious interpretation of such a series of events is that the person slipped on some ice and fell. Is it the *only* possible explanation? Certainly not. But it is the best explanation given some set of observations or data.
 
 ### Examples
 This type of thinking can be found everywhere in our daily lives, across all types of different situations. Let's consider some more examples:
