@@ -66,7 +66,7 @@ For example, think of a notorious problem for AI -- the ambiguity of language. W
 
 In such cases, we use an abductive method of reasoning to infer what a person most likely means given background data and the situational context, even if we have never heard the word before or seen a sentence used this way before. But the noteworthy thing is that this is generally a subconscious and automatic process; we follow along a conversation with minimal effort, piecing together the intended meaning of the speaker as they talk. 
 
-This indicates that abduction, or inference to the best explanation, is not only found as a higher-order process that we do with conscious intention and awareness. Rather, it seems to be something more deeply rooted, something more akin to an intuition.
+This indicates that abduction, or inference to the best explanation, is not only found as a higher-order process that we do with conscious intention and awareness. Rather, it also seems to be something more deeply-rooted, something more akin to an intuitive process.
 
 ### Experimental Evidence
 
