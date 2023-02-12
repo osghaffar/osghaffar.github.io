@@ -9,7 +9,7 @@ permalink: /cogsci/ctm/
 
 <style> blockquote{ margin: 1.3em 1.9em; border-left-style: solid; border-left-width: medium; border-left-color: gray; padding: 0.1em 1em; text-align: justify; font-size: 16px; color: darkslategray; } </style>
 
-## The Computational Theory of Mind
+## The Computational Theory of Mind, Connectionism and AI
 
 Given that the focus of this part of the blog will be the relationship between AI, cognitive science, and various research questions, we should begin by discussing a main theory of cognitive science -- what is known as the **computational theory of mind** -- and in particular, work our way to the theory which undergirds machine learning and artificial intelligence, known as **connectionism**.
 
