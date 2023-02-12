@@ -58,7 +58,7 @@ There is an interesting article I recently came across, titled...
 
 ---
 <html>
-  <h3><a href="https://osghaffar.github.io/cogsci/ctm/" style="color:black;">The Computational Theory of Mind</a></h3>
+  <h3><a href="https://osghaffar.github.io/cogsci/ctm/" style="color:black;">The Computational Theory of Mind, Connectionism, and AI</a></h3>
 </html>
 
 <div class="date">
