@@ -75,8 +75,10 @@ while shoes != done:
 
 Here, Turing remarks, "the reader must accept it as a fact that digital computers can be constructed ... according to the principles we have described, and that they can in fact mimic the actions of a human computer very closely." Turing's point is that any human behavior can in theory be made into some sort of function, and thus, in theory, a sufficiently complex computer could (and would) be doing tasks that resemble human ones. 
 
+We don't want to say that functionalism and computationalism are one and the same thing (something the cognitive scientist Jerry Fodor expressed concern about), but merely to draw the connections and similarities between the two. Functionalism is a good way to understand how the abstractions of computational processes can be applied to the mind.
+
 ### The Computational Theory of Mind
-Following this, human thought was seen as a computational process -- one that involved symbol manipulation.
+Following this, human thought was seen as a computational process -- one that involved symbol manipulation
 
 Newell and Simon (1961) posited the "General Problem Solver" (GPS). This was an attempt at explaining how the 
 
