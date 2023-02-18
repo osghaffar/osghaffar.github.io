@@ -74,9 +74,35 @@ This indicates that abduction, or inference to the best explanation, is not only
 
 There are some experiments which also seem to indicate that abduction may be intuitive. The above image, an experiment found in Irvin Rock's _The Logic of Perception_ (1983), is an optical illusion that has some interesting implications.[1]
 
-Take a look at the image on the left. There appears to be a transparent square overlayed over the larger, checkered square. However, the transparent square isn't actually there, overlayed on top. Instead, the inner corners of the larger square are colored differently, and our brain generates this second overlayed square because it is the "best" explanation of the data, given our background information, cognitive faculties, and some other factors. When the colors are shifted, as in the image on the right, the 'transparent square' seems to disappear. 
+Take a look at the image on the left. There appears to be a transparent square overlayed over the larger, checkered square. However, the transparent square isn't actually there, overlayed on top. Instead, the inner corners of the larger square are colored differently, and our brain generates this second overlayed square because it is the "best" explanation of the data, given our background information, cognitive faculties, and some other factors. When the colors are shifted, as in the image on the right, the 'transparent square' seems to disappear. This occurs immediately and subconsciously, as we are not consciously considering two explanations and then seeing which fits the evidence best. 
 
-This occurs immediately and subconsciously, as we are not consciously considering two explanations and then seeing which fits the evidence best. W
+Another more recent experiment, by Jern et al (2021), suggests that people use "rational support" and simplicity to arrive at what they think is the best explanation. Take the example of a woman speeding:
+
+<blockquote>
+    As an example, suppose you saw a reckless driver careening down the
+road, far past the speed limit. You might wonder why she was doing that;
+that is, you might want to explain her behavior. Consider three possible
+explanations: (1) she was late to a meeting and was in a hurry; (2) she
+did not know the speed limit; and (3) her speedometer was broken and
+she did not know how fast she was going.
+</blockquote>[2]
+
+Which of these particular explanations "best" explain why someone might have been speeding? As the authors elaborate, people use what they refer to as "rational support" to prefer some explanations over others:
+
+<blockquote>
+    For example, consider the explanation for the driver’s behavior
+that she was speeding because she knew that George Washington was
+the first president of the United States. This knowledge provides no
+rational support for speeding—it does not motivate someone to be in a
+hurry or to drive recklessly. As a result, this “explanation” does not
+explain anything at all. By contrast, someone who is late to a meeting
+would likely want to hurry to get to the meeting as quickly as possible.
+Therefore, explaining the driver’s speeding by referring to the fact that
+she was late to a meeting does provide rational support for her behavior,
+making the explanation that mentions her being late more satisfying.
+</blockquote>[3]
+
+This, along with simplicity -- that is, the more simple an explanation is, the better -- was a main factor in why people chose certain explanations over others. This provides more support for abductive reasoning being a natural, intuitive process.
 
 ### Other considerations
 It seems clear that abduction, or inference to the best explanation, is built into us as a type of reasoning. We use this form of reasoning consciously and subconsciously, to great success. 
@@ -96,4 +122,6 @@ Additionally, what are the evolutionary origins of such an intuition? The philos
 <p class="has-text-align-justify" style="font-size:16px">
   <ol style="font-size:16px">
     <li> Igor Douven, <i>The Art of Abduction</i> (MIT Press: 2022), pg. 3, and Chapter 1 more generally; Irvin Rock, <i>The Logic of Perception</i>, (MIT Press: 1983), pg. 140. </li>
+    <li> Alan Jern, Austin Derrow-Pinion, AJ Piergiovanni, "A computational framework for understanding the roles of simplicity and rational support in people's behavior explanations", Cognition, Volume 210, 2021, 104606, pg. 1 </li>
+    <li> Jern, et. al, "A computational framework for understanding the roles of simplicity and rational support in people's behavior explanations", pg. 2 </li>
     <li> Bas van Frassen, <i>Laws and Symmetry</i> (Oxford University Press: 1989), pg. 143. </li>
