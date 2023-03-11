@@ -75,14 +75,18 @@ while shoes != done:
 
 Here, Turing remarks, "the reader must accept it as a fact that digital computers can be constructed ... according to the principles we have described, and that they can in fact mimic the actions of a human computer very closely." Turing's point is that any human behavior can in theory be made into some sort of function, and thus, in theory, a sufficiently complex computer could (and would) be doing tasks that resemble human ones. 
 
-We don't want to say that functionalism and computationalism are one and the same thing (something the cognitive scientist Jerry Fodor expressed concern about), but merely to draw the connections and similarities between the two. Functionalism is a good way to understand how the abstractions of computational processes can be applied to the mind.
+We don't want to say that functionalism and computationalism are one and the same thing (something the cognitive scientist and philosopher Jerry Fodor expressed concern about), but merely to draw the connections and similarities between the two. Functionalism is a good way to understand how the abstractions of computational processes can be applied to the mind.
 
 ### The Computational Theory of Mind
-Following this, human thought was seen as a computational process -- one that involved symbol manipulation
+So, following this, human thought could be seen as a computational process -- one that involved symbol manipulation, just like what a Turing machine would do.
 
-Newell and Simon (1961) posited the "General Problem Solver" (GPS). This was an attempt at explaining how the 
+In 1961, Allen Newell and Herbert Simon posited the "General Problem Solver" (GPS). This was an attempt at trying to reproduce the process of "thinking" in computational form. For example, they had a person think out loud as they went about solving a particular logic problem, like reversing a logical expression.
 
+By doing this, human thinking was literally symbol manipulation, and this led Newell and Simon to state outright:
 
+<blockquote>
+    We can postulate that the processes going on inside the subject’s skin – involving sensory organs, neural tissue, and muscular movements controlled by the neural signals – are also symbol-manipulating processes; that is, patterns in various encodings can be detected, recorded, transmitted, stored, copied, and so on, by the mechanisms of this system.[3]
+</blockquote>
 
 ### Connectionism and Artificial Neural Networks
 The theory states that the brain acts akin to a computer; the brain and neural circuits throughout the body form a type of connective network. Using some type of input-output mechanism, information can be transferred via complex pathways, or can be represented physically somehow, like how a computer stores information in the hard drive. In the case of the brain, this computer would be extremely complex. Each neuron could be defined as some mathematical function, taking in inputs and producing some output.
