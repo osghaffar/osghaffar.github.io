@@ -88,6 +88,27 @@ By doing this, human thinking was literally symbol manipulation, and this led Ne
     We can postulate that the processes going on inside the subject’s skin – involving sensory organs, neural tissue, and muscular movements controlled by the neural signals – are also symbol-manipulating processes; that is, patterns in various encodings can be detected, recorded, transmitted, stored, copied, and so on, by the mechanisms of this system.[3]
 </blockquote>
 
+### Examples 
+
+Let's look at a few very simplified examples to see this sort of theory in action.
+
+One good example of adopting a computational model of the mind, as something that stores and processes information, is George Miller's hypothesis that working memory was around seven items[6]. For example, suppose you are at the park and want to memorize several things you see, taken as the following set:  $\text{\{cat, dog, apple, sky, tree, fruit, person, car\}}$
+
+The average person will not be able to memorize these in a short-term, working memory way, given that the set contains 8 items. 
+
+<figure>
+  <p style="text-align:center;">
+    <img src="/images/workingmemory1.png">
+    <figcaption align = "center"><b><p style="font-size: 13px;">A basic schema imagining working memory as an array capable of storing seven items. The 'array' can then be used for storage and recall.</p></b></figcaption>
+  </p>
+</figure>
+
+<"sun">, the eighth item, has no place, and thus is left out of the working memory, which corresponds to a failure to remember. 
+
+But if we decrease the size to 6 or 7, a person typically will be able to memorize them in a short-term sense and perhaps transfer the information to elsewhere (this is, incidentally, why authentication confirmation codes are around seven digits).
+
+Another interesting phenomena that lends itself to a computational model of the mind is the concept of single-neuron representation. This is when a single neuron, at least as it appears to researchers, is responsible for the storage and representation of something. For example, a single neuron is responsible for information about a celebrity, or one's grandmother. This plays into an almost naive view of the mind as a computer, where each neuron would be like a file, storing particular information about some particular thing.
+
 ### Connectionism and Artificial Neural Networks
 The theory states that the brain acts akin to a computer; the brain and neural circuits throughout the body form a type of connective network. Using some type of input-output mechanism, information can be transferred via complex pathways, or can be represented physically somehow, like how a computer stores information in the hard drive. In the case of the brain, this computer would be extremely complex. Each neuron could be defined as some mathematical function, taking in inputs and producing some output.
 
@@ -140,26 +161,7 @@ $$ Q = R(s, a) $$
 
 <p style="text-align:center">—————</p>
 
-### Examples 
 
-Let's look at a few very simplified examples to see this sort of theory in action.
-
-One good example of adopting a computational model of the mind, as something that stores and processes information, is George Miller's hypothesis that working memory was around seven items[6]. For example, suppose you are at the park and want to memorize several things you see, taken as the following set:  $\text{\{cat, dog, apple, sky, tree, fruit, person, car\}}$
-
-The average person will not be able to memorize these in a short-term, working memory way, given that the set contains 8 items. 
-
-<figure>
-  <p style="text-align:center;">
-    <img src="/images/workingmemory1.png">
-    <figcaption align = "center"><b><p style="font-size: 13px;">A basic schema imagining working memory as an array capable of storing seven items. The 'array' can then be used for storage and recall.</p></b></figcaption>
-  </p>
-</figure>
-
-<"sun">, the eighth item, has no place, and thus is left out of the working memory, which corresponds to a failure to remember. 
-
-But if we decrease the size to 6 or 7, a person typically will be able to memorize them in a short-term sense and perhaps transfer the information to elsewhere (this is, incidentally, why authentication confirmation codes are around seven digits).
-
-Another interesting phenomena that lends itself to a computational model of the mind is the concept of single-neuron representation. This is when a single neuron, at least as it appears to researchers, is responsible for the storage and representation of something. For example, a single neuron is responsible for information about a celebrity, or one's grandmother. This plays into an almost naive view of the mind as a computer, where each neuron would be like a file, storing particular information about some particular thing.
 
 ---
 
