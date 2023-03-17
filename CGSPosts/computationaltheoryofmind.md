@@ -155,6 +155,13 @@ One significant example is reinforcement learning, which adopts an essentially c
 
 In this model, behavior was thought to occur as a result of repeated interactions between an organism and its environment, in which the organism adapts its behavior as a result of consequences. Operant conditioning uses behavior-reinforcing (reward) or behavior-suppressing (punishment) in order to optimize a particular behavior. Behavior, then, under Skinner's theory, can be seen as an optimization achieved by maximizing reward and minimizing punishment for some particular task.
 
+<figure>
+  <p style="text-align:center;">
+    <img src="/images/rl.png">
+    <figcaption align = "center"><b><p style="font-size: 13px;">Reinforcement learning involves an interaction between the agent and its environment, with a reward function adjusting the agent's actions based on environmental 'feedback'.</p></b></figcaption>
+  </p>
+</figure>
+
 Reinforcement learning follows the basic idea and formalizes this process into an algorithm. An agent in some state $s$ performs an action $a$ -- often starting with random actions -- either to receive some reward or some punishment $R$, until the behavior of the agent (over many, many training sets) is optimized (measured by some value $V$) for the particular task in the given environment. For any action in a given state:
 
 $$ V = R(s, a) $$
