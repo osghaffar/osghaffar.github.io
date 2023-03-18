@@ -80,7 +80,9 @@ We don't want to say that functionalism and computationalism are one and the sam
 ### The Computational Theory of Mind
 So, following this, human thought could be seen as a computational process -- one that involved symbol manipulation, just like what a Turing machine would do.
 
-In 1961, Allen Newell and Herbert Simon posited the "General Problem Solver" (GPS). This was an attempt at trying to reproduce the process of "thinking" in computational form. For example, they had a person think out loud as they went about solving a particular logic problem, like reversing a logical expression.
+In 1961, Allen Newell and Herbert Simon posited the "General Problem Solver" (GPS). This was an attempt at trying to reproduce the process of "thinking" in computational form. For example, they had a person think out loud as they went about solving a particular logic problem, like reversing a logical expression. 
+
+Say we want to solve a simple math problem: $ 2x = 4$. First, we isolate the variable and then perform the same operation to the other side of the equation -- divide by 2 -- which yields us our answer. 
 
 By doing this, human thinking was literally symbol manipulation, and this led Newell and Simon to state outright:
 
