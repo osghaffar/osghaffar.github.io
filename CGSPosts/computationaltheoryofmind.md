@@ -109,6 +109,8 @@ The average person will not be able to memorize these in a short-term, working m
 
 But if we decrease the size to 6 or 7, a person typically will be able to memorize them in a short-term sense and perhaps transfer the information to elsewhere (this is, incidentally, why authentication confirmation codes are around seven digits).
 
+In another task, subjects were able to memorize four items quickly and accurately, while performance dropped rapidly on five items or less. This also applies to olfactory (4 items), audition (3 voices), and touch (3 items). These are interesting, discrete limitations on our abilities, and we should wonder why. It seems it is best explained by our brains having a built-in limited short-term memory capacity.
+
 Another interesting phenomena that lends itself to a computational model of the mind is the concept of single-neuron representation. This is when a single neuron, at least as it appears to researchers, is responsible for the storage and representation of something. For example, a single neuron is responsible for information about a celebrity, or one's grandmother. This plays into an almost naive view of the mind as a computer, where each neuron would be like a file, storing particular information about some particular thing.
 
 ### Connectionism and Artificial Neural Networks
