@@ -84,8 +84,8 @@ road, far past the speed limit. You might wonder why she was doing that;
 that is, you might want to explain her behavior. Consider three possible
 explanations: (1) she was late to a meeting and was in a hurry; (2) she
 did not know the speed limit; and (3) her speedometer was broken and
-she did not know how fast she was going.
-</blockquote>[2]
+she did not know how fast she was going.[2]
+</blockquote>
 
 Which of these particular explanations "best" explain why someone might have been speeding? As the authors elaborate, people use what they refer to as "rational support" to prefer some explanations over others:
 
@@ -99,8 +99,8 @@ explain anything at all. By contrast, someone who is late to a meeting
 would likely want to hurry to get to the meeting as quickly as possible.
 Therefore, explaining the driver’s speeding by referring to the fact that
 she was late to a meeting does provide rational support for her behavior,
-making the explanation that mentions her being late more satisfying.
-</blockquote>[3]
+making the explanation that mentions her being late more satisfying.[3]
+</blockquote>
 
 This, along with simplicity -- that is, the more simple an explanation is, the better -- was a main factor in why people chose certain explanations over others. This provides more support for abductive reasoning being a natural, intuitive process.
 
