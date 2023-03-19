@@ -75,7 +75,7 @@ while shoes != done:
 
 Here, Turing remarks, "the reader must accept it as a fact that digital computers can be constructed ... according to the principles we have described, and that they can in fact mimic the actions of a human computer very closely." Turing's point is that any human behavior can in theory be made into some sort of function, and thus, in theory, a sufficiently complex computer could (and would) be doing tasks that resemble human ones. 
 
-We don't want to say that functionalism and computationalism are one and the same thing (something the cognitive scientist and philosopher Jerry Fodor expressed concern about), but merely to draw the connections and similarities between the two. Functionalism is a good way to understand how the abstractions of computational processes can be applied to the mind.
+$\longrightarrow$ We don't want to say that functionalism and computationalism are one and the same thing (something the cognitive scientist and philosopher Jerry Fodor expressed concern about), but merely to draw the connections and similarities between the two. Functionalism is a good way to understand how the abstractions of computational processes can be applied to the mind.
 
 ### The Computational Theory of Mind
 So, following this, human thought could be seen as a computational process -- one that involved symbol manipulation, just like what a Turing machine would do.
@@ -150,8 +150,7 @@ Such a **connectionist** theory undergirds the current-day deep learning approac
 <p style="text-align:center">—————</p>
 
 ### Other Computational Models of Behavior
-
-$\longrightarrow$ There are still, of course, other computational algorithms and models which take different theories as their core assumption. 
+There are still, of course, other computational algorithms and models which take different theories as their core assumption. 
 
 One significant example is reinforcement learning, which adopts an essentially classical behaviorist approach. In particular, it draws on the concept of operant conditioning, described by the influential psychologist B.F Skinner in his 1938 book _The Behavior of Organisms_. 
 
