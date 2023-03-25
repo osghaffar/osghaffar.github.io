@@ -44,7 +44,7 @@ else:
 Turing then compares this to a real-life example of 'instruction following', and this is where we can begin drafting the theory itself:
 
 <blockquote>
-<p class="has-text-align-justify">"To take a domestic analogy. Suppose Mother wants Tommy to call at the cobbler's every morning on his way to school to see if her shoes are done; ... she can stick up a notice ... in the hall which he will see when he leaves for school and which tells him to call for the shoes, and also to destroy the notice when he comes back if he has the shoes with him."[2]</p>
+<p class="has-text-align-justify">"To take a domestic analogy. Suppose Mother wants Tommy to call at the cobbler's every morning on his way to school to see if her shoes are done; ... she can stick up a notice ... in the hall which he will see when he leaves for school and which tells him to call for the shoes, and also to destroy the notice when he comes back if he has the shoes with him."[2]<sup><a href="#footnote26">2</a></sup></p>
 </blockquote>
 
 So, again, writing this in pseudocode gets us a set of nested instructions like this:
