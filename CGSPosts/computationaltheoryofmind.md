@@ -76,7 +76,7 @@ By doing this, human thinking is literally a type of symbol manipulation, which 
     We can postulate that the processes going on inside the subject’s skin – involving sensory organs, neural tissue, and muscular movements controlled by the neural signals – are also symbol-manipulating processes; that is, patterns in various encodings can be detected, recorded, transmitted, stored, copied, and so on, by the mechanisms of this system.[3]
 </blockquote>
 
-### Examples 
+#### Examples 
 
 Let's look at a few very simplified examples to see this sort of theory in action.
 
@@ -95,7 +95,7 @@ The average person will not be able to memorize these in a short-term, working m
 
 But if we decrease the size to 6 or 7, a person typically will be able to memorize them in a short-term sense and perhaps transfer the information to elsewhere (this is, incidentally, why authentication confirmation codes are around seven digits).
 
-There are other, similar experiments: in one task, subjects were tested on numerosity judgements by their ability to determine the number of some specific items displayed to them. The participants were able to judge the presence of four items quickly and accurately, while performance dropped rapidly on five items or more[7]. This also applies to our olfactory judgements, as another experiment reveals a limit in the ability to distinguish different odors (3-4 items). These are interesting, discrete limitations on our abilities, and we should wonder why. As one of the researchers put it, "the results indicated this ... could not be increased by training. Therefore, the limit may be imposed physiologically or by processing constraints."[8]
+There are other, similar experiments: in one task, subjects were tested on numerosity judgements by their ability to determine the number of some specific items displayed to them. The participants were able to judge the presence of four items quickly and accurately, while performance dropped rapidly on five items or more[7]. This also applies to our olfactory judgements, as another experiment reveals a limit in the ability to distinguish different odors (3-4 items). There are more experiments which describe other interesting, discrete limitations on our abilities, and we should wonder why this is the case. As one of the researchers put it, "the results indicated this ... could not be increased by training. Therefore, the limit may be imposed physiologically or by processing constraints."[8]
 
 One can also draw on the work on 
 
