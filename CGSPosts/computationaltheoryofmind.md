@@ -13,7 +13,7 @@ permalink: /cogsci/ctm/
 
 Given that the focus of this part of the blog will be the relationship between AI, cognitive science, and various research questions, we should begin by discussing a main theory of cognitive science -- what is known as the **computational theory of mind** -- and in particular, work our way to the theory which undergirds machine learning and artificial intelligence, known as **connectionism**.
 
-This approach to studying the brain, cognition and behavior emerged in the 1950s, after the explosion of progress in computer science. Alan Turing was a main proponent of the theory, devising his Turing test for artificial intelligence. In addition, the decline of behaviorism and mind-body identity theory (both of which came under significant philosophical objections and theoretical criticisms) brought about functionalism, proposed by Hilary Putnam, which was an approach to studying the mind by studying its functions. 
+This approach to studying the brain, cognition and behavior emerged in the 1950s, after the explosion of progress in computer science. Alan Turing was a main proponent of the theory, devising his Turing test for artificial intelligence. In addition, the decline of behaviorism and mind-body identity theory (both of which came under significant philosophical objections and theoretical criticisms) brought about functionalism, proposed by Hilary Putnam, which was an approach to studying the mind by studying its functions.[1]
 
 ### Turing Machines and Functionalism
 
@@ -28,20 +28,6 @@ As Turing himself wrote:
 </blockquote>
     
 Implicit in this is the idea of multiple realizability, that biological structure or even similitarity matters little as long as a common function is accomplished. What are the common elements between what we do when we think, and what a machine could do, that would cause us to describe it as "thinking"? That is the fundamental question.
-
-<p style="text-align: center; font-size: 17px;">
-    <b> Theory Shift </b>
-</p> 
-
-<p style="text-align: center; font-size: 17px; font-family: serif">
-  <b>Mind-Brain Identity Theory</b>: Identify visual recognition with some neural activity in the visual cortex, etc.
-</p>
-
-  <center> $$ \downarrow $$ </center>
-  
-<p style="text-align: center; font-size: 17px; font-family: serif"> 
-  <b>Functionalism</b>: Visual recognition involves processing some input data by comparing it to previously seen data.
-</p>
 
 By moving away from biological restrictions and focusing instead on the functions the mind carried out, an easy analogy could be drawn to a computer, which is instantiable in any sort of machine (from very simple to very complex). 
 
@@ -84,7 +70,7 @@ In 1961, Allen Newell and Herbert Simon posited the "General Problem Solver" (GP
 
 Say we want to solve a simple math problem: $ 2x = 4$. First, we isolate the variable and then perform the same operation to the other side of the equation -- divide by 2 -- which yields us our answer. 
 
-By doing this, human thinking was literally symbol manipulation, and this led Newell and Simon to state outright:
+By doing this, human thinking is literally a type of symbol manipulation, which led Newell and Simon to state outright:
 
 <blockquote>
     We can postulate that the processes going on inside the subject’s skin – involving sensory organs, neural tissue, and muscular movements controlled by the neural signals – are also symbol-manipulating processes; that is, patterns in various encodings can be detected, recorded, transmitted, stored, copied, and so on, by the mechanisms of this system.[3]
@@ -105,11 +91,13 @@ The average person will not be able to memorize these in a short-term, working m
   </p>
 </figure>
 
-<"sun">, the eighth item, has no place, and thus is left out of the working memory, which corresponds to a failure to remember. 
+"sun", the eighth item, has no place in the array, and thus is left out of the working memory, which would corresponod to a failure to remember. 
 
 But if we decrease the size to 6 or 7, a person typically will be able to memorize them in a short-term sense and perhaps transfer the information to elsewhere (this is, incidentally, why authentication confirmation codes are around seven digits).
 
 In another task, subjects were able to memorize four items quickly and accurately, while performance dropped rapidly on five items or less. This also applies to olfactory (4 items), audition (3 voices), and touch (3 items). These are interesting, discrete limitations on our abilities, and we should wonder why. It seems it is best explained by our brains having a built-in limited short-term memory capacity.
+
+One can also draw on the work on 
 
 Another interesting phenomena that lends itself to a computational model of the mind is the concept of single-neuron representation. This is when a single neuron, at least as it appears to researchers, is responsible for the storage and representation of something. For example, a single neuron is responsible for information about a celebrity, or one's grandmother. This plays into an almost naive view of the mind as a computer, where each neuron would be like a file, storing particular information about some particular thing.
 
@@ -179,6 +167,7 @@ $$ V = R(s, a) $$
 
 <p class="has-text-align-justify" style="font-size:16px">
   <ol style="font-size:16px">
+      <li> See Robert M. Harnish, <i>Minds, Brains, Computers: A Historical Introduction to the Foundations of Cognitive Science</i> (Wiley-Blackwell, 2000), pg. 185-186.</li>
       <li> Alan Turing, "Computing Machinery and Intelligence", <i>Mind</i>, Vol. 59, No. 236 (Oct., 1950) pg. 435</li>
       <li> Alan Turing, "Computing Machinery and Intelligence", pg. 438</li>
       <li> Frank Rosenblatt, "The perceptron: A probabilistic model for information storage and organization in the brain.", <i>Psychological Review</i>, 65(6) (1958) pg. 387</li>
