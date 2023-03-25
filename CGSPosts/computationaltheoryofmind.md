@@ -13,7 +13,7 @@ permalink: /cogsci/ctm/
 
 Given that the focus of this part of the blog will be the relationship between AI, cognitive science, and various research questions, we should begin by discussing a main theory of cognitive science -- what is known as the **computational theory of mind** -- and in particular, work our way to the theory which undergirds machine learning and artificial intelligence, known as **connectionism**.
 
-This approach to studying the brain, cognition and behavior emerged in the 1950s, after the explosion of progress in computer science. Alan Turing was a main proponent of the theory, devising his Turing test for artificial intelligence. In addition, the decline of behaviorism and mind-body identity theory (both of which came under significant philosophical objections and theoretical criticisms) brought about functionalism, proposed by Hilary Putnam, which was an approach to studying the mind by studying its functions.[1]
+This approach to studying the brain, cognition and behavior emerged in the 1950s, after the explosion of progress in computer science. Alan Turing was a main proponent of the theory, devising his Turing test for artificial intelligence. In addition, the decline of behaviorism and mind-body identity theory (both of which came under significant philosophical objections and theoretical criticisms) brought about functionalism, proposed by Hilary Putnam, which was an approach to studying the mind by studying its functions.<sup><a href="#footnote1">[1]</a></sup>
 
 ### Turing Machines and Functionalism
 
@@ -24,7 +24,7 @@ That is, things like "thinking" or "visual recognition" should not merely be ide
 As Turing himself wrote:
 
 <blockquote>
-"May not machines carry out something which ought to be described as thinking but which is very different from what a man does?"[1]
+"May not machines carry out something which ought to be described as thinking but which is very different from what a man does?"<sup><a href="#footnote2">[2]</a></sup>
 </blockquote>
     
 Implicit in this is the idea of multiple realizability, that biological structure or even similitarity matters little as long as a common function is accomplished. What are the common elements between what we do when we think, and what a machine could do, that would cause us to describe it as "thinking"? That is the fundamental question.
@@ -44,7 +44,7 @@ else:
 Turing then compares this to a real-life example of 'instruction following', and this is where we can begin drafting the theory itself:
 
 <blockquote>
-<p class="has-text-align-justify">"To take a domestic analogy. Suppose Mother wants Tommy to call at the cobbler's every morning on his way to school to see if her shoes are done; ... she can stick up a notice ... in the hall which he will see when he leaves for school and which tells him to call for the shoes, and also to destroy the notice when he comes back if he has the shoes with him."[2]<sup><a href="#footnote2">[2]</a></sup></p>
+<p class="has-text-align-justify">"To take a domestic analogy. Suppose Mother wants Tommy to call at the cobbler's every morning on his way to school to see if her shoes are done; ... she can stick up a notice ... in the hall which he will see when he leaves for school and which tells him to call for the shoes, and also to destroy the notice when he comes back if he has the shoes with him."<sup><a href="#footnote3">[3]</a></sup>
 </blockquote>
 
 So, again, writing this in pseudocode gets us a set of nested instructions like this:
@@ -59,7 +59,7 @@ while shoes != done:
             shoes = done
 ```
 
-Here, Turing remarks, "the reader must accept it as a fact that digital computers can be constructed ... according to the principles we have described, and that they can in fact mimic the actions of a human computer very closely." Turing's point is that any human behavior can in theory be made into some sort of function, and thus, in theory, a sufficiently complex computer could (and would) be doing tasks that resemble human ones. 
+Here, Turing remarks, "the reader must accept it as a fact that digital computers can be constructed ... according to the principles we have described, and that they can in fact mimic the actions of a human computer very closely."<sup><a href="#footnote4">[4]</a></sup> Turing's point is that any human behavior can in theory be made into some sort of function, and thus, in theory, a sufficiently complex computer could (and would) be doing tasks that resemble human ones. 
 
 $\longrightarrow$ We don't want to say that functionalism and computationalism are one and the same thing (something the cognitive scientist and philosopher Jerry Fodor expressed concern about), but merely to draw the connections and similarities between the two. Functionalism is a good way to understand how the abstractions of computational processes can be applied to the mind.
 
@@ -73,14 +73,14 @@ Say we want to solve a simple math problem: $ 2x = 4$. First, we isolate the var
 By doing this, human thinking is literally a type of symbol manipulation, which led Newell and Simon to state outright:
 
 <blockquote>
-    We can postulate that the processes going on inside the subject’s skin – involving sensory organs, neural tissue, and muscular movements controlled by the neural signals – are also symbol-manipulating processes; that is, patterns in various encodings can be detected, recorded, transmitted, stored, copied, and so on, by the mechanisms of this system.[3]
+    We can postulate that the processes going on inside the subject’s skin – involving sensory organs, neural tissue, and muscular movements controlled by the neural signals – are also symbol-manipulating processes; that is, patterns in various encodings can be detected, recorded, transmitted, stored, copied, and so on, by the mechanisms of this system.<sup><a href="#footnote5">[5]</a></sup>
 </blockquote>
 
 #### Examples 
 
 Let's look at a few very simplified examples to see this sort of theory in action.
 
-One good example of adopting a computational model of the mind, as something that stores and processes information, is George Miller's hypothesis that working memory was around seven items[6]. For example, suppose you are at the park and want to memorize several things you see, taken as the following set:  $\text{\{cat, dog, apple, sky, tree, fruit, person, car\}}$
+One good example of adopting a computational model of the mind, as something that stores and processes information, is George Miller's hypothesis that working memory was around seven items<sup><a href="#footnote6">[6]</a></sup>. For example, suppose you are at the park and want to memorize several things you see, taken as the following set:  $\text{\{cat, dog, apple, sky, tree, fruit, person, car\}}$
 
 The average person will not be able to memorize these in a short-term, working memory way, given that the set contains 8 items. 
 
@@ -95,7 +95,7 @@ The average person will not be able to memorize these in a short-term, working m
 
 But if we decrease the size to 6 or 7, a person typically will be able to memorize them in a short-term sense and perhaps transfer the information to elsewhere (this is, incidentally, why authentication confirmation codes are around seven digits).
 
-There are other, similar experiments: in one task, subjects were tested on numerosity judgements by their ability to determine the number of some specific items displayed to them. The participants were able to judge the presence of four items quickly and accurately, while performance dropped rapidly on five items or more[7]. This also applies to our olfactory judgements, as another experiment reveals a limit in the ability to distinguish different odors (3-4 items). There are more experiments which describe other interesting, discrete limitations on our abilities, and we should wonder why this is the case. As one of the researchers put it, "the results indicated this ... could not be increased by training. Therefore, the limit may be imposed physiologically or by processing constraints."[8]
+There are other, similar experiments: in one task, subjects were tested on numerosity judgements by their ability to determine the number of some specific items displayed to them. The participants were able to judge the presence of four items quickly and accurately, while performance dropped rapidly on five items or more<sup><a href="#footnote7">[7]</a></sup>. This also applies to our olfactory judgements, as another experiment reveals a limit in the ability to distinguish different odors (3-4 items). There are more experiments which describe other interesting, discrete limitations on our abilities, and we should wonder why this is the case. As one of the researchers put it, "the results indicated this ... could not be increased by training. Therefore, the limit may be imposed physiologically or by processing constraints."<sup><a href="#footnote8">[8]</a></sup>
 
 One can also draw on the work on 
 
@@ -107,7 +107,7 @@ The theory states that the brain acts akin to a computer; the brain and neural c
 Frank Rosenblatt, in his seminal paper titled, "The Perceptron: A Probablistic Model for Information Storage and Organization in the Brain", proposed exactly this -- a way to mathematically represent the behavior of a neuron probabilistically, particularly in a way that could be used computationally:
 
 <blockquote>
-The theory has been developed for a hypothetical nervous system, or machine, called a <i>perceptron</i>. The perceptron is designed to illustrate some of the fundamental properties of intelligent systems in general, without becoming too deeply enmeshed in the special, and frequently unknown, conditions which hold for particular biological organisms. The analogy between the perceptron and biological systems should be readily apparent to the reader.[3]
+The theory has been developed for a hypothetical nervous system, or machine, called a <i>perceptron</i>. The perceptron is designed to illustrate some of the fundamental properties of intelligent systems in general, without becoming too deeply enmeshed in the special, and frequently unknown, conditions which hold for particular biological organisms. The analogy between the perceptron and biological systems should be readily apparent to the reader.<sup><a href="#footnote9">[9]</a></sup>
 </blockquote>
 
 In other words, one can represent some of the functions done by the "brain", but in a general way that need not worry about the specifics of particular biological structures, some of which might not even be known (as is the case now, and certainly was the case when Rosenblatt published the paper). However, as he notes, these similarities are enough that a person will be able to recognize them.
@@ -115,7 +115,7 @@ In other words, one can represent some of the functions done by the "brain", but
 <figure>
   <p style="text-align:center;">
     <img src="/images/bnn-ann.png">
-    <figcaption align = "center"><b><p style="font-size: 13px;">A comparison between a biological neuron and neural connection with an artificial neural network. The image attempts to draw an analogy between the biological neuron and the computational unit. A) represents a neuron, B) represents the computational version, C) represents two connected biological neurons, and D) represents an artificial neural network. From Zhengzu et al, 2020. [4]</p></b></figcaption>
+    <figcaption align = "center"><b><p style="font-size: 13px;">A comparison between a biological neuron and neural connection with an artificial neural network. The image attempts to draw an analogy between the biological neuron and the computational unit. A) represents a neuron, B) represents the computational version, C) represents two connected biological neurons, and D) represents an artificial neural network. From Zhengzu et al, 2020.<sup><a href="#footnote10">[10]</a></sup></p></b></figcaption>
   </p>
 </figure>
 
