@@ -70,7 +70,7 @@ In 1961, Allen Newell and Herbert Simon posited the "General Problem Solver" (GP
 
 Say we want to solve a simple math problem: $ 2x = 4$. First, we isolate the variable and then perform the same operation to the other side of the equation -- divide by 2 -- which yields us our answer. 
 
-By doing this, human thinking is literally a type of symbol manipulation, which led Newell and Simon to state outright:
+By doing this, human thinking just <i>is</i> a type of symbol manipulation, which led Newell and Simon to state outright:
 
 <blockquote>
     We can postulate that the processes going on inside the subject’s skin – involving sensory organs, neural tissue, and muscular movements controlled by the neural signals – are also symbol-manipulating processes; that is, patterns in various encodings can be detected, recorded, transmitted, stored, copied, and so on, by the mechanisms of this system.<sup><a href="#footnote5">[5]</a></sup>
@@ -82,7 +82,7 @@ Let's look at a few very simplified examples to see this sort of theory in actio
 
 One good example of adopting a computational model of the mind, as something that stores and processes information, is George Miller's hypothesis that working memory was around seven items<sup><a href="#footnote6">[6]</a></sup>. For example, suppose you are at the park and want to memorize several things you see, taken as the following set:  $\text{\{cat, dog, apple, sky, tree, fruit, person, car\}}$
 
-The average person will not be able to memorize these in a short-term, working memory way, given that the set contains 8 items. 
+The average person will <i>not</i> be able to memorize these in a short-term, working memory way, given that the set contains 8 items. 
 
 <figure>
   <p style="text-align:center;">
