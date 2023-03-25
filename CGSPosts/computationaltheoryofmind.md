@@ -80,7 +80,7 @@ By doing this, human thinking just <i>is</i> a type of symbol manipulation, whic
 
 Let's look at a few very simplified examples to see this sort of theory in action.
 
-One good example of adopting a computational model of the mind, as something that stores and processes information, is George Miller's hypothesis that working memory was around seven items<sup><a href="#footnote6">[6]</a></sup>. For example, suppose you are at the park and want to memorize several things you see, taken as the following set:  $\text{\{cat, dog, apple, sky, tree, fruit, person, car\}}$
+One good example of adopting a computational model of the mind, as something that stores and processes information, is George Miller's hypothesis that working memory was around seven items.<sup><a href="#footnote6">[6]</a></sup> For example, suppose you are at the park and want to memorize several things you see, taken as the following set:  $\text{\{cat, dog, apple, sky, tree, fruit, person, car\}}$
 
 The average person will <i>not</i> be able to memorize these in a short-term, working memory way, given that the set contains 8 items. 
 
@@ -95,7 +95,7 @@ The average person will <i>not</i> be able to memorize these in a short-term, wo
 
 But if we decrease the size to 6 or 7, a person typically will be able to memorize them in a short-term sense and perhaps transfer the information to elsewhere (this is, incidentally, why authentication confirmation codes are around seven digits).
 
-There are other, similar experiments: in one task, subjects were tested on numerosity judgements by their ability to determine the number of some specific items displayed to them. The participants were able to judge the presence of four items quickly and accurately, while performance dropped rapidly on five items or more<sup><a href="#footnote7">[7]</a></sup>. This also applies to our olfactory judgements, as another experiment reveals a limit in the ability to distinguish different odors (3-4 items). There are more experiments which describe other interesting, discrete limitations on our abilities, and we should wonder why this is the case. As one of the researchers put it, "the results indicated this ... could not be increased by training. Therefore, the limit may be imposed physiologically or by processing constraints."<sup><a href="#footnote8">[8]</a></sup>
+There are other, similar experiments: in one task, subjects were tested on numerosity judgements by their ability to determine the number of some specific items displayed to them. The participants were able to judge the presence of four items quickly and accurately, while performance dropped rapidly on five items or more.<sup><a href="#footnote7">[7]</a></sup> This also applies to our olfactory judgements, as another experiment reveals a limit in the ability to distinguish different odors (3-4 items). There are more experiments which describe other interesting, discrete limitations on our abilities, and we should wonder why this is the case. As one of the researchers put it, "the results indicated this ... could not be increased by training. Therefore, the limit may be imposed physiologically or by processing constraints."<sup><a href="#footnote8">[8]</a></sup>
 
 One can also draw on the work on 
 
