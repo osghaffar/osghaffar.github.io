@@ -14,10 +14,10 @@ Points of interest:
   <ul>
   <li>What is intelligence?</li>
   <li>Relatedly, is general/super/"real" artificial intelligence possible? What would it entail? Are our current statistical optimization methods not good enough?</li>
-  <li>What are some neuro/biological mechanisms of the brain that we can learn from? Is a functionalist model of the brain accurate?</li>
+  <li>What are some neuro/biological mechanisms of the brain that we can learn from? Does the evidence point to a classical or connectionist approach, or neither?</li>
   <li>What is consciousness?</li>
-  <li>What is it that makes humans so different to other animals?</li>
-  <li>What is our 'natural' epistemology?</li>
+  <li>What is it that makes humans so different from other animals?</li>
+  <li>What can cognitive science tell us about our 'natural' worldview?</li>
 </ul>
 </span>
 </html>
