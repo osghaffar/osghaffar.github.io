@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-I studied cognitive and computer science. I am a machine learning engineer with a deep interest in cognitive science, philosophy and the financial markets.
+I am a machine learning engineer with varying interests across cognitive science, philosophy and the financial markets. I plan to pursue my PhD in cognitive science.
 
 My Github for projects and code: <a href="https://github.com/osghaffar"> github.com/osghaffar</a>
 ### Contact me
