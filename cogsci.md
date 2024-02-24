@@ -30,7 +30,7 @@ Points of interest:
     Written on May 12, 2023
 </div>
 
-Humans clearly possess many unique abilities, which is part of the reason we find ourselves outpacing other species by an extremely large margin. No other species builds, imagines, studies and invents. One particular ability we possess is knowledge of geometric shapes — which shows up in our artwork, buildings and other artifacts, dating back to ancient times...
+Humans clearly possess many unique abilities, which is part of the reason we find ourselves outpacing all other life on earth by an extremely large margin. No other species builds, imagines, studies and invents. One particular ability we possess is knowledge of geometric shapes — which shows up in our artwork, buildings and other artifacts, dating back to ancient times...
 
 <html>  
 <a href="https://osghaffar.github.io/cogsci/abduction-as-intuition/" style="text-transform: uppercase; font-size: 15px">Read More</a>
