@@ -17,9 +17,9 @@ This approach to studying the brain, cognition and behavior emerged in the 1950s
 
 ### Turing Machines and Functionalism
 
-Functionalism is based around the idea of "multiple realizability", in that the same function, once clearly defined, can be instantiated by any number of different things. The original Turing machine, for example, could be realized by any type of machine as long as it is able to carry out the intended function (symbol manipulation). Nowadays, a Turing machine could be implemented fully digitally. The upshot is that function is emphasized, and not material composition. 
+Functionalism is based around the idea of "multiple realizability", in that the same function, once clearly defined, can be instantiated by any number of different things. The original Turing machine, for example, could be realized by any type of machine as long as it is able to carry out the intended function. Nowadays, a Turing machine could be implemented fully digitally. The upshot is that function is emphasized, and not material composition. 
 
-That is, things like "thinking" or "visual recognition" should not merely be identified with particular biological events like nerves firing, but rather by their function. Visual recogition, for example, takes in particular input data, 'processes' it, and by comparing it with existing memories, is able to recognize certain shared elements. Under this definition, such behavior can be multiply realized -- you don't have to have a retina and visual cortex in order to see; anything that is able to perform these particular actions could be said to be capable of visual recognition, just as anything able to do basic symbol manipulation (regardless of its material form) could be considered a Turing machine. 
+That is, things like "thinking" or "visual recognition" should not merely be identified with particular biological events like nerves firing, but rather by their function. Visual recogition, for example, takes in particular input data, 'processes' it, and by comparing it with existing memories, is able to recognize certain shared elements. Under this definition, such behavior can be multiply realized -- you don't have to have a retina and visual cortex in order to see; anything that is able to perform these particular actions could be said to be capable of visual recognition.
 
 As Turing himself wrote:
 
@@ -31,7 +31,7 @@ Implicit in this is the idea of multiple realizability, that biological structur
 
 By moving away from biological restrictions and focusing instead on the functions the mind carried out, an easy analogy could be drawn to a computer, which is instantiable in any sort of machine (from very simple to very complex). 
 
-A Turing machine, as originally devised, is a rather simple input-output program that accomplishes a certain task. For example, "if position #4505 contains 0, obey the next instruction stored in position #6707, otherwise move on to position #7820". Put in pseudocode, it would resemble an if-then statement like so:
+A Turing machine, as originally devised, is a rather simple input-output program that accomplishes a certain task (called symbol manipulation). For example, "if position #4505 contains 0, obey the next instruction stored in position #6707, otherwise move on to position #7820". Put in pseudocode, it would resemble an if-then statement like so:
 
 ```
 if position[4505] == 0:
@@ -64,21 +64,21 @@ Here, Turing remarks, "the reader must accept it as a fact that digital computer
 $\longrightarrow$ We don't want to say that functionalism and computationalism are one and the same thing (something the cognitive scientist and philosopher Jerry Fodor expressed concern about), but merely to draw the connections and similarities between the two. Functionalism is a good way to understand how the abstractions of computational processes can be applied to the mind.
 
 ### The Computational Theory of Mind: Classicalism
-So, following this, human thought could be seen as a computational process -- one that involved symbol manipulation, just like what a Turing machine would do.
+So, following this, human cognition could be seen as a computational or algorithmic process -- it seems to take some input and produce some output, with clearly defined instructions in between.
 
 In 1961, Allen Newell and Herbert Simon posited the "General Problem Solver" (GPS). This was an attempt at trying to reproduce the process of "thinking" in computational form. For example, they had a person think out loud as they went about solving a particular logic problem, like reversing a logical expression. 
 
 Say we want to solve a simple math problem: $ 2x = 4$. First, we isolate the variable and then perform the same operation to the other side of the equation -- divide by 2 -- which yields us our answer. 
 
 <pre style="font-family: times, serif; font-size:13pt; text-align: left; line-height: 1.5;">
-            <strong>1:</strong> Start with a few primitives: the number 1, the rules of division and addition
+            <strong>1:</strong> Start with a few symbols: the number 1, the rules of division and addition
             <strong>2:</strong> Set up our equation: 2<i>x</i> = 4.
                       - where 2 is (1 + 1), and 4 is, of course, (2 + 2) or, (1 + 1 + 1 + 1).
             <strong>3:</strong> Isolate the variable by dividing 2, and divide the other side by 2.
             <strong>4:</strong> Arrive at our correct answer of <i>x</i> = 2.
 </pre>
 
-By doing this, human thinking just <i>is</i> a type of symbol manipulation, which led Newell and Simon to state outright:
+By doing this, human thinking just <i>is</i> a type of symbol manipulation: symbols are that which represent information, rules are the process by which those symbols are manipulated. This led Newell and Simon to state outright:
 
 <blockquote>
     We can postulate that the processes going on inside the subject’s skin – involving sensory organs, neural tissue, and muscular movements controlled by the neural signals – are also symbol-manipulating processes; that is, patterns in various encodings can be detected, recorded, transmitted, stored, copied, and so on, by the mechanisms of this system.<sup><a href="#footnote5">[5]</a></sup>
@@ -86,7 +86,7 @@ By doing this, human thinking just <i>is</i> a type of symbol manipulation, whic
 
 #### Examples 
 
-Let's look at a few very simplified examples to see why one might conceive of the mind and cognition as computational processes.
+Let's look at a few more (simplified) examples to see why one might conceive of the mind and cognition as computational processes.
 
 One good example to start with is George Miller's famous hypothesis: working memory is around seven items.<sup><a href="#footnote6">[6]</a></sup> For example, suppose you are at the park and want to memorize several things you see, taken as the following set:  $\text{\{cat, dog, apple, sky, tree, fruit, person, car\}}$
 
@@ -107,7 +107,7 @@ There are other, similar experiments: in one task (Atkinson et al. 1976), subjec
 
 Next, let's turn to Saul Sternberg's work on memory 'scanning', from the 1960s. Assume that we do store items in our memory in array-like fashion. Now, say we want to retrieve certain elements from these memory arrays, in order to answer questions like, "was x on the list?" Computationally, a basic algorithm we might consider using is linear search, which involves traversing the entire array and checking each element to see if it matches what we want. Sternberg wanted to test whether humans do the same, and if so, what strategy we might use when we retrieve data from something stored in our memory. He found that the amount of time it took for subjects to recall whether a given item was in a list they had memorized increased proportionally to the length of the list, which gave credence to the idea that we really are doing something like 'traversing' the list in our memory and then reporting it, giving more credence to the idea that the mind is working akin to a computer.<sup><a href="#footnote9">[9]</a></sup>
 
-Another interesting phenomena that lends itself to a computational model of the mind is Rodrigo Quiroga's (more recent) idea of single-neuron representation, or "concept cells". This is when a single neuron, at least as it appears to researchers, is responsible for the storage and representation of one particular thing or concept. For example, a single neuron is responsible for information about a celebrity, or one's grandmother. It reacts specifically to the phenomena, even multi-modally -- both a picture of your grandmother or reading about her might trigger this neuron to respond. This plays into an almost naive view of the mind as a computer, where each neuron is like a file, storing particular information about some particular thing.<sup><a href="#footnote10">[10]</a></sup>
+Another interesting phenomena that lends itself to a computational model of the mind is Rodrigo Quiroga's (more recent) idea of single-neuron representation, or "concept cells". This is when a single neuron, at least as it appears to researchers, is responsible for the storage and representation of one particular thing or concept. For example, a single neuron is responsible for information about a celebrity, or one's grandmother. It reacts specifically to the phenomena, even multi-modally -- both a picture of your grandmother or reading about her might trigger this neuron to respond. This plays into an almost naive view of the mind as a computer, where each neuron is like a file, storing particular information about some particular thing, what could be termed a "symbol".<sup><a href="#footnote10">[10]</a></sup>
 
 All of this points towards what we can broadly refer to as the "computational" theory of cognition. It's under this backdrop that cognitive scientists approached studying cognition, especially in the field's first few decades. The brain appears to be some sort of computer, carrying out functionalizable processes and in many ways resembling actual computers. But it was taken a step further; it isn't merely that the brain and cognition *resembled* a computer, but that it literally was a kind of computer. Some took this rather far (like Jerry Fodor), positing that the brain must have a CPU, a storage mechanism, and the like, but in general: cognition could be seen as manipulation -- via rules -- of discrete symbolic representations (concepts and other objects of thought). 
 
