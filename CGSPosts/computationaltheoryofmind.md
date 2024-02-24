@@ -206,7 +206,7 @@ In this sense, it can be adopted by either theory. Classicalism will formalize t
       <li> Alan Turing, "Computing Machinery and Intelligence", <i>Mind</i>, Vol. 59, No. 236 (Oct., 1950) pg. 435</li>
       <li> Alan Turing, "Computing Machinery and Intelligence", pg. 438</li>
       <li> ibid.</li>
-      <li> Allen Newell and Herbert Simon, "Computer Simulation of Human Thinking." (1961), <i>Science</i> 134, pg. 2012</li>
+      <li> Allen Newell and Herbert Simon, "Computer Simulation of Human Thinking." (1961), <i>Science</i>, 134, pg. 2012</li>
       <li> George Miller, "The Magical Number Seven, Plus or Minus Two: Some Limits on our Capacity for Processing Information" (1956), <i>Philosophical Review</i>, 63, pg. 81-97. </li>
       <li> Atkinson, et al. "The magic number 4 ± 0: A new look at visual numerosity judgements" (1976), <i>Perception</i>, 5(3), 327–334.
       <li> Livermore, et al. "Influence of training and experience on the perception of multicomponent odor mixtures" (1996), <i>Journal of Experimental Psychology: Human Perception and Performance</i>, 22(2), 267–277; see also, Simons, et al., "What is magic about the magical number four?" (1982), <i>Psychol. Res</i> 44, 283–294.</li>
