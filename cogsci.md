@@ -42,7 +42,7 @@ Humans clearly possess many unique abilities, which is part of the reason we fin
 </html>
 
 <div class="date">
-    Written on September 10, 2022
+    Written on December 10, 2022
 </div>
 
 Abduction is a type of reasoning that is also known as ‘inference to the best explanation’. This entails choosing what seems to be the best explanation given some data.
