@@ -119,13 +119,13 @@ The theory states that the brain acts akin to a computer; the brain and neural c
 Frank Rosenblatt, in his seminal paper titled, "The Perceptron: A Probablistic Model for Information Storage and Organization in the Brain", proposed exactly this -- a way to mathematically represent the behavior of a neuron probabilistically, particularly in a way that could be used computationally:
 
 <blockquote>
-The theory has been developed for a hypothetical nervous system, or machine, called a <i>perceptron</i>. The perceptron is designed to illustrate some of the fundamental properties of intelligent systems in general, without becoming too deeply enmeshed in the special, and frequently unknown, conditions which hold for particular biological organisms. The analogy between the perceptron and biological systems should be readily apparent to the reader.<sup><a href="#footnote9">[9]</a></sup>
+The theory has been developed for a hypothetical nervous system, or machine, called a <i>perceptron</i>. The perceptron is designed to illustrate some of the fundamental properties of intelligent systems in general, without becoming too deeply enmeshed in the special, and frequently unknown, conditions which hold for particular biological organisms. The analogy between the perceptron and biological systems should be readily apparent to the reader.<sup><a href="#footnote10">[10]</a></sup>
 </blockquote>
 
 And in another work, he adds:
 
 <blockquote>
-Perceptrons are not intended to serve as detailed copies of any actual nervous system... more likely they are extreme simpliciations of the central nervous system in which some properties are exaggerated and others suppressed. <sup><a href="#footnote10">[10]</a></sup>
+Perceptrons are not intended to serve as detailed copies of any actual nervous system... more likely they are extreme simpliciations of the central nervous system in which some properties are exaggerated and others suppressed. <sup><a href="#footnote11">[11]</a></sup>
 </blockquote>
 
 
@@ -134,7 +134,7 @@ In other words, one can represent some of the functions done by the "brain", but
 <figure>
   <p style="text-align:center;">
     <img src="/images/bnn-ann.png">
-    <figcaption align = "center"><b><p style="font-size: 13px;">A comparison between a biological neuron and neural connection with an artificial neural network. The image attempts to draw an analogy between the biological neuron and the computational unit. A) represents a neuron, B) represents the computational version, C) represents two connected biological neurons, and D) represents an artificial neural network. From Zhengzu et al, 2020.<sup><a href="#footnote10">[10]</a></sup></p></b></figcaption>
+    <figcaption align = "center"><b><p style="font-size: 13px;">A comparison between a biological neuron and neural connection with an artificial neural network. The image attempts to draw an analogy between the biological neuron and the computational unit. A) represents a neuron, B) represents the computational version, C) represents two connected biological neurons, and D) represents an artificial neural network. From Zhengzu et al, 2020.<sup><a href="#footnote12">[12]</a></sup></p></b></figcaption>
   </p>
 </figure>
 
@@ -154,7 +154,7 @@ In this sense, connectionism is in stark contrast to the classical view: there a
 <figure>
   <p style="text-align:center;">
     <img src="/images/visualmechanism.png">
-    <figcaption align = "center"><b><p style="font-size: 13px;">Paul Churchland imagines the visual system to be a highly complex neural network. From <i> The Engine of Reason</i>[5]</p></b></figcaption>
+    <figcaption align = "center"><b><p style="font-size: 13px;">Paul Churchland imagines the visual system to be a highly complex neural network. From <i> The Engine of Reason</i>[13]</p></b></figcaption>
   </p>
 </figure>
 
