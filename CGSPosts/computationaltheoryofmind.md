@@ -188,10 +188,7 @@ Reinforcement learning follows the basic idea and formalizes this process into a
 
 $$ V = R(s, a) $$
 
-<p style="text-align:center">—————</p>
-
 In this sense, it can be adopted by either theory. Classicalism will formalize these steps and provide the agent with the necessary primitives: actions, values and the like, while connectionism (as evidence in deep-q learning, for example) will simply provide the agent with feedback calculated via back-propogation.
-
 ---
 
 #### References:
