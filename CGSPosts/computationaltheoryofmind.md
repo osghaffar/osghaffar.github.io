@@ -70,6 +70,14 @@ In 1961, Allen Newell and Herbert Simon posited the "General Problem Solver" (GP
 
 Say we want to solve a simple math problem: $ 2x = 4$. First, we isolate the variable and then perform the same operation to the other side of the equation -- divide by 2 -- which yields us our answer. 
 
+<pre style="font-family: times, serif; font-size:13pt; text-align: left; line-height: 1.5;">
+            <strong>1:</strong> Start with a few primitives: the number 1, the rules of division and addition
+            <strong>2:</strong> Set up our equation: 2<i>x</i> = 4.
+                      - where 2 is (1 + 1), and 4 is, of course, (2 + 2, or, 1 + 1 + 1 + 1).
+            <strong>3:</strong> Isolate the variable by dividing 2, and divide the other side by 2.
+            <strong>4:</strong> Arrive at our correct answer of <i>x</i> = 2.
+</pre>
+
 By doing this, human thinking just <i>is</i> a type of symbol manipulation, which led Newell and Simon to state outright:
 
 <blockquote>
