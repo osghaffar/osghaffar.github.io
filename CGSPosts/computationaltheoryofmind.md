@@ -170,12 +170,12 @@ If this phenomenon is modeled by age on the x-axis and correct conjugation on th
 
 In the time since, the huge increase in computational power has allowed connectionism to fluorish. Larger and larger models can be constructed, allowing networks to become massive and process huge datasets. Although it is perhaps surprising that simple back-propogation algorithms (what amounts to giant curve-fitting) are capable of 'learning' all kinds of topics, deep learning has established itself as the cornerstone of contemporary AI.
 
-### Other Computational Models of Behavior
-There are still, of course, other computational algorithms and models which take different theories as their core assumption. 
+### Modeling Algorithms as Various Computational Theories
+Now we can re-emphasize how the computational theory of mind/cognition is a general thesis, of which there are several competing types. The two main ones are, as we saw, classicalism and connectionism. All contemporary cognitive scientists are computationalists (or, I suppose, they should be), but beyond that, they differ. Thus, any given model of behavior or learning can be implemented by either version of the computational theory.
 
-One significant example is reinforcement learning, which adopts an essentially classical behaviorist approach. In particular, it draws on the concept of operant conditioning, described by the influential psychologist B.F Skinner in his 1938 book _The Behavior of Organisms_. 
+To see why, consider one significant theory of learning: reinforcement learning, which adopts an essentially classical behaviorist approach. In particular, it draws on the concept of operant conditioning, described by the influential psychologist B.F Skinner in his 1938 book _The Behavior of Organisms_. 
 
-In this model, behavior was thought to occur as a result of repeated interactions between an organism and its environment, in which the organism adapts its behavior as a result of consequences. Operant conditioning uses behavior-reinforcing (reward) or behavior-suppressing (punishment) in order to optimize a particular behavior. Behavior, then, under Skinner's theory, can be seen as an optimization achieved by maximizing reward and minimizing punishment for some particular task.
+In this model, behavior is thought to occur as a result of repeated interactions between an organism and its environment, in which the organism incrementally adapts its behavior as a result of consequences. Operant conditioning uses behavior-reinforcing (reward) or behavior-suppressing (punishment) in order to optimize a particular behavior. Behavior, then, under Skinner's theory, can be seen as an optimization achieved by maximizing reward and minimizing punishment for some particular task.
 
 <figure>
   <p style="text-align:center;">
@@ -190,7 +190,7 @@ $$ V = R(s, a) $$
 
 <p style="text-align:center">—————</p>
 
-
+In this sense, it can be adopted by either theory. Classicalism will formalize these steps and provide the agent with the necessary primitives: actions, values and the like, while connectionism (as evidence in deep-q learning, for example) will simply provide the agent with feedback calculated via back-propogation.
 
 ---
 
