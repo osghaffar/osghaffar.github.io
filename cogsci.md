@@ -17,7 +17,6 @@ Points of interest:
   <li>What are some neuro/biological mechanisms of the brain that we can learn from? Does the evidence point to a classical or connectionist approach, or neither?</li>
   <li>What is consciousness?</li>
   <li>What is it that makes humans so different from other animals?</li>
-  <li>What can cognitive science tell us about our 'natural' worldview?</li>
 </ul>
 </span>
 </html>
