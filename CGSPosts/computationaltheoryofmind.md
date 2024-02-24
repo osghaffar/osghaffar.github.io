@@ -11,7 +11,7 @@ permalink: /cogsci/ctm/
 
 ## The Computational Theory of Mind: Classicalism, Connectionism, and AI
 
-Given that the focus of this part of the blog will be the relationship between AI, cognitive science, and various research questions, we should begin by discussing the foundational idea behind cognitive science -- what is known as the **computational theory of mind** -- and in particular, work our way to the competing versions of this theory; **classicalism**, endorsed traditionally by cognitive scientists and linguists, and **connectionism**, which undergirds contemporary approaches to artificial intelligence.
+Given that the focus of this part of the blog will be the relationship between AI, cognitive science, and various research questions, we should begin by discussing the foundational idea behind cognitive science -- what is known as the **computational theory of mind** (or, **cognition**) -- and in particular, work our way to the competing versions of this theory; **classicalism**, endorsed traditionally by cognitive scientists and linguists, and **connectionism**, which undergirds contemporary approaches to artificial intelligence.
 
 This approach to studying the brain, cognition and behavior emerged in the 1950s, after the explosion of progress in computer science. Alan Turing was a main proponent of the theory, devising his Turing test for artificial intelligence. In addition, the decline of behaviorism and mind-body identity theory (both of which came under significant philosophical objections and theoretical criticisms) brought about functionalism, proposed by Hilary Putnam, which was an approach to studying the mind by studying its functions.<sup><a href="#footnote1">[1]</a></sup>
 
@@ -63,7 +63,7 @@ Here, Turing remarks, "the reader must accept it as a fact that digital computer
 
 $\longrightarrow$ We don't want to say that functionalism and computationalism are one and the same thing (something the cognitive scientist and philosopher Jerry Fodor expressed concern about), but merely to draw the connections and similarities between the two. Functionalism is a good way to understand how the abstractions of computational processes can be applied to the mind.
 
-### The Computational Theory of Mind
+### The Computational Theory of Mind: Classicalism
 So, following this, human thought could be seen as a computational process -- one that involved symbol manipulation, just like what a Turing machine would do.
 
 In 1961, Allen Newell and Herbert Simon posited the "General Problem Solver" (GPS). This was an attempt at trying to reproduce the process of "thinking" in computational form. For example, they had a person think out loud as they went about solving a particular logic problem, like reversing a logical expression. 
@@ -101,12 +101,10 @@ Next, let's turn to Saul Sternberg's work on memory 'scanning', from the 1960s. 
 
 Another interesting phenomena that lends itself to a computational model of the mind is the concept of single-neuron representation. This is when a single neuron, at least as it appears to researchers, is responsible for the storage and representation of something. For example, a single neuron is responsible for information about a celebrity, or one's grandmother. This plays into an almost naive view of the mind as a computer, where each neuron would be like a file, storing particular information about some particular thing.
 
-All of this points towards what we can broadly refer to as the "computational" theory of cognition. The brain appears to be some sort of computer, carrying out functionalizable processes and in many ways resembling actual computers. 
-### Classicalism
-It's under this backdrop that cognitive scientists approached studying cognition, especially in the field's first few decades, sticking to the view of the brain as a computer. But it was taken a step further; it isn't merely that the brain and cognition *resembled* a computer, but that it literally was a kind of computer. Cognition could be seen as manipulation of discrete symbolic representations of reality. For example, 
+All of this points towards what we can broadly refer to as the "computational" theory of cognition. It's under this backdrop that cognitive scientists approached studying cognition, especially in the field's first few decades. The brain appears to be some sort of computer, carrying out functionalizable processes and in many ways resembling actual computers. But it was taken a step further; it isn't merely that the brain and cognition *resembled* a computer, but that it literally was a kind of computer. Some took this rather far (i.e, Jerry Fodor), positing that the brain must have a CPU, a storage mechanism, and the like, but in general: cognition could be seen as manipulation -- via rules -- of discrete symbolic representations (concepts and other objects of thought). 
 
 ### Connectionism and Artificial Neural Networks
-A major shift took place when a competitor to the classicalist theory of mind, connectionism, emerged. Some felt that the computational theory of mind was a bit too abstract; it didn't really follow neuroscience, as a Turing machine hardly resembled a brain in anything but the abstract sense. Another problem with the computational view is that programs tend to be very 'brittle'; they either work or they don't (due to, say, a bug). But the brain is not like this -- a simple shift in an image is not enough to throw us off entirely, as our ability to recognize objects is much more robust. However, whether this idea actually applies to neural networks is a separate question, one we will explore later; ironically, they may be just as brittle as any other computer program. 
+A major shift took place when a competitor to the classical theory emerged -- connectionism. Some felt that the computational theory of mind was a bit too abstract; it didn't really follow neuroscience, as a Turing machine hardly resembled a brain in anything but the abstract sense. Another problem with the computational view is that programs tend to be very 'brittle'; they either work or they don't (due to, say, a bug). But the brain is not like this -- a simple shift in an image is not enough to throw us off entirely, as our ability to recognize objects is much more robust. However, whether this idea actually applies to neural networks is a separate question, one we will explore later; ironically, they may be just as brittle as any other computer program. 
 
 The theory states that the brain acts akin to a computer; the brain and neural circuits throughout the body form a type of connective network. Using some type of input-output mechanism, information can be transferred via complex pathways, or can be represented physically somehow, like how a computer stores information in the hard drive. In the case of the brain, this computer would be extremely complex. Each neuron could be defined as some mathematical function, taking in inputs and producing some output. 
 
@@ -132,7 +130,7 @@ In other words, one can represent some of the functions done by the "brain", but
   </p>
 </figure>
 
-The number of neurons in the brain is upwards of x million, and in theory, this could be modeled precisely by a complex, connected network of computational units.
+The number of neurons in the brain is upwards of some 80 billion, but in theory, this could be modeled precisely by a complex, connected network of computational units (given enough computational power).
 
 <figure>
   <p style="text-align:center;">
@@ -141,7 +139,9 @@ The number of neurons in the brain is upwards of x million, and in theory, this 
   </p>
 </figure>
 
-Such a **connectionist** theory undergirds the current-day deep learning approach to intelligent systems. The idea is to mimic a very closely connected network of neurons in order to produce highly complex input-output systems. In this case, simulating the functions and behavior of the brain would merely be a matter of scale and computational power, and in theory, any function of the brain could be computationally recreated. The output of such systems is probabilistic, but serve as a universal functional approximator and are thus, in-principle, capable of fitting to any problem. In this sense, most cognitive capacities are emergent phenomena, arising from the patterned firing of different sets of neurons.
+Such a **connectionist** theory undergirds the current-day deep learning approach to intelligent systems. The idea is to mimic a very closely connected network of neurons in order to produce highly complex input-output systems. In this case, simulating the functions and behavior of the brain would merely be a matter of scale and computational power, and in theory, any function of the brain could be computationally recreated. The output of such systems is probabilistic, but serve as a universal functional approximator and are thus, in-principle, capable of fitting to any problem. 
+
+In this sense, connectionism is in stark contrast to the classical view: there are no rules, representations, or anything else. There are only the neurons and their weights. "Following a rule", for example, would instead be represented as a neural network outputting in a pattern which we recognize as conforming (at least approximately) to a rule -- for something like $ 2 + 2$ would be considered solved if it output 4, not because it represented both the numbers and the rule for addition. Thus, in this model, most cognitive capacities are emergent phenomena, arising as descriptions of outputs of the patterned firing of different sets of neurons. 
 
 <figure>
   <p style="text-align:center;">
@@ -151,6 +151,10 @@ Such a **connectionist** theory undergirds the current-day deep learning approac
 </figure>
 
 <p style="text-align:center">—————</p>
+
+Although connectionists would admit that such neural networks are not complete models of the brain, some posited that their models closely resembled real cogntiive activity. 
+
+For example, David Rumelhart and James McClelland worked on connectionist models in the 1980s that attempted to learn certain aspects of language. In normal language development, children exhibit what is called the "over-regularization" effect: when first learning the past-tense of a language, they tend to conjugate the tense on irregular verbs correctly. However, after some time, they begin to make errors: instead of conjugating *come* as *came*, for example, they might say *comed*, *eat* may become *eated*, and so on. After some more time, they tend to again conjugate the tense on irregular verbs correctly.[11] If this phenomenon is modeled by age on the x-axis and correct conjugation on the y-axis, it roughly appears as a U, which led it to be called the "U-shaped development". When Rumelhart and McClelland trained their connectionist models, it appeared, fascinatingly enough, that the networks followed this same learning trajectory (as well as some other aspects of children's behavior.[12]. This increased the plausibility that connectionist models more accurately describe human cognition -- it avoids the question of what exactly rules and concepts might be, and seems to (at least generally) more closely model what we learn about the brain from neuroscience.
 
 ### Other Computational Models of Behavior
 There are still, of course, other computational algorithms and models which take different theories as their core assumption. 
@@ -190,5 +194,8 @@ $$ V = R(s, a) $$
       <li> Frank Rosenblatt, <i>Principles of Neurodynamics</i> (1962), pg. 28 </li>
       <li> Zhenzhu Meng, Hu Yating, and Christophe Ancey, "Using a Data Driven Approach to Predict Waves Generated by Gravity Driven Mass Flows" (2020), Water 12, no. 2: 600.</li>
       <li> Paul Churchland, <i>The Engine of Reason, The Seat of the Soul</i> (MIT Press, 1995), pg. 10</li>
+      <li> Marcus, et. al, "Overregularization in Language Acquisition." (1992), <i> Monographs of the Society for Research in Child Development </i>i>, vol. 57, no. 4, pg. 2.</li>
+      <li> James McClelland and David Rumelhart, "On learning the past tenses of English verbs", in <i> Parallel Distributed Processing: Explorations in the Microstructure of Cognition</i> (MIT Press, 1986), volume 2, pages 216–271. </li>
+  </ol>
     
 
