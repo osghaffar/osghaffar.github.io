@@ -154,7 +154,7 @@ In this sense, connectionism is in stark contrast to the classical view: there a
 <figure>
   <p style="text-align:center;">
     <img src="/images/visualmechanism.png">
-    <figcaption align = "center"><b><p style="font-size: 13px;">Paul Churchland imagines the visual system to be a highly complex neural network. From <i> The Engine of Reason</i>[14]</p></b></figcaption>
+    <figcaption align = "center"><b><p style="font-size: 13px;">Paul Churchland imagines the visual system to be a highly complex neural network. From <i> The Engine of Reason</i><sup><a href="#footnote14">[14]</a></sup></p></b></figcaption>
   </p>
 </figure>
 
