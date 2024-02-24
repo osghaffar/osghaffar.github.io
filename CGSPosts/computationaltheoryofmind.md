@@ -73,7 +73,7 @@ Say we want to solve a simple math problem: $ 2x = 4$. First, we isolate the var
 <pre style="font-family: times, serif; font-size:13pt; text-align: left; line-height: 1.5;">
             <strong>1:</strong> Start with a few primitives: the number 1, the rules of division and addition
             <strong>2:</strong> Set up our equation: 2<i>x</i> = 4.
-                      - where 2 is (1 + 1), and 4 is, of course, (2 + 2, or, 1 + 1 + 1 + 1).
+                      - where 2 is (1 + 1), and 4 is, of course, (2 + 2) or, (1 + 1 + 1 + 1).
             <strong>3:</strong> Isolate the variable by dividing 2, and divide the other side by 2.
             <strong>4:</strong> Arrive at our correct answer of <i>x</i> = 2.
 </pre>
@@ -195,6 +195,8 @@ $$ V = R(s, a) $$
       <li> See Robert M. Harnish, <i>Minds, Brains, Computers: A Historical Introduction to the Foundations of Cognitive Science</i> (Wiley-Blackwell, 2000), pg. 185-186.</li>
       <li> Alan Turing, "Computing Machinery and Intelligence", <i>Mind</i>, Vol. 59, No. 236 (Oct., 1950) pg. 435</li>
       <li> Alan Turing, "Computing Machinery and Intelligence", pg. 438</li>
+      <li> ibid.</li>
+      <li> Allen Newell and Herbert Simon, "Computer Simulation of Human Thinking." (1961), <i>Science</i> 134, pg. 2012</li>
       <li> George Miller, "The Magical Number Seven, Plus or Minus Two: Some Limits on our Capacity for Processing Information" (1956), <i>Philosophical Review</i>, 63, pg. 81-97. </li>
       <li> Atkinson, et al. "The magic number 4 ± 0: A new look at visual numerosity judgements" (1976), <i>Perception</i>, 5(3), 327–334.</i>
       <li> Livermore, et al. "Influence of training and experience on the perception of multicomponent odor mixtures" (1996), <i>Journal of Experimental Psychology: Human Perception and Performance</i>, 22(2), 267–277; see also, Simons, et al., "What is magic about the magical number four?" (1982), <i>Psychol. Res</i> 44, 283–294.</li>
