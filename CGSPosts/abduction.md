@@ -70,7 +70,12 @@ This indicates that abduction, or inference to the best explanation, is not only
 
 ### Experimental Evidence
 
-![experiment](/images/abduction.png "Experiment")
+<figure>
+  <p style="text-align:center;">
+    <img src="/images/abduction.png">
+    <figcaption align = "center"><b><p style="font-size: 13px;"></p></b></figcaption>
+  </p>
+</figure>
 
 There are some experiments which also seem to indicate that abduction may be intuitive. The above image, an experiment found in Irvin Rock's _The Logic of Perception_ (1983), is an optical illusion that has some interesting implications.[1]
 
