@@ -23,7 +23,7 @@ Points of interest:
 
 ---
 <html>
-<h3><a href="https://osghaffar.github.io/cogsci/abduction-as-intuition/" style="color:black;">Human-Unique Abilities: What Geometry Tells Us</a></h3>
+<h3><a href="https://osghaffar.github.io/cogsci/humans-geometry/" style="color:black;">Human-Unique Abilities: What Geometry Tells Us</a></h3>
 </html>
 
 <div class="date">
