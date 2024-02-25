@@ -79,7 +79,9 @@ There is an interesting article I recently came across, titled...
     Written on September 20, 2022
 </div>
 
-It is worth taking a post or so to lay out the main theory of how the mind works, which undergirds the entire field of cognitive science -- a theory known as 'computationalism' or the computational theory of mind/cognition. Ever since the explosion of progress in computer science, the question arose of whether or not the brain/mind could be seen as a type of extremely complex computer; one that takes in some inputs, then stores, manipulates, or transforms information, and then outputs it...
+Given that the focus of this part of the blog will be the relationship between AI, cognitive science, and various research questions, we should begin by discussing the foundational idea behind cognitive science – what is known as the computational theory of mind (or, cognition) – and in particular, work our way to the competing versions of this theory; classicalism, endorsed traditionally by cognitive scientists and linguists, and connectionism, which undergirds contemporary approaches to artificial intelligence.
+
+This approach to studying the brain, cognition and behavior emerged in the 1950s...
 
 <html>  
 <a href="https://osghaffar.github.io/cogsci/ctm/" style="text-transform: uppercase; font-size: 15px">Read More</a>
