@@ -31,4 +31,7 @@ Humans possess many unique abilities, which is part of the reason we find oursel
   </p>
 </figure>
 
-Socrates, in Plato’s Meno, controversially took the fact that an uneducated slave boy was able to grasp geometric theorems to be evidence that such knowledge is in fact innate; René Descartes echoed this centuries later when he wrote, “We could never know the geometric triangle through the one we see traced on paper, if our mind had not had the idea of it elsewhere.” 
+Socrates, in Plato’s Meno, controversially took the fact that an uneducated slave boy was able to grasp geometric theorems to be evidence that such knowledge is in fact innate; René Descartes echoed this centuries later when he wrote, “We could never know the geometric triangle through the one we see traced on paper, if our mind had not had the idea of it elsewhere.” Such innate knowledge, however, seems strange in our scientific day and age. Isn't geometry, just like all other knowledge, something we must learn from the world as we grow up?
+
+One fascinating study that takes a closer look at this is Mathias Sable-Meyer et al’s 2023 paper, “Sensitivity to Geometric Shape Regularity in Humans and Baboons: A Putative Signature of Human Singularity”[1].
+
