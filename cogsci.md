@@ -33,7 +33,7 @@ Points of interest:
 Humans clearly possess many unique abilities, which is part of the reason we find ourselves outpacing all other life on earth by an extremely large margin. We seem to be alone in our ability to build, imagine, study and invent. One particular ability we possess is knowledge of geometric shapes — which shows up in our artwork, buildings and other artifacts, dating back to ancient times...
 
 <html>  
-<a href="https://osghaffar.github.io/cogsci/abduction-as-intuition/" style="text-transform: uppercase; font-size: 15px">Read More</a>
+<a href="https://osghaffar.github.io/cogsci/humans-geometry/" style="text-transform: uppercase; font-size: 15px">Read More</a>
 </html>
 
 ---
