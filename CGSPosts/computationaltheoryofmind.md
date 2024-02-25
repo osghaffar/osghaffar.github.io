@@ -75,7 +75,7 @@ Say we want to solve a simple math problem: $ 2x = 4$. First, we isolate the var
             <strong>2:</strong>Set up our equation: 2<i>x</i> = 4.
                 - where 2 is (1 + 1)
                 - 4 is (2 + 2), or, (1 + 1 + 1 + 1).
-            <strong>3:</strong></strong> Isolate the variable by dividing 2, and divide the other side by 2.
+            <strong>3:</strong> Isolate the variable by dividing 2, and divide the other side by 2.
             <strong>4:</strong>Arrive at our correct answer of <i>x</i> = 2.
 </pre>
 
