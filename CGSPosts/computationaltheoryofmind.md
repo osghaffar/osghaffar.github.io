@@ -68,19 +68,18 @@ So, following this, human cognition could be seen as a computational or algorith
 
 In 1961, Allen Newell and Herbert Simon posited the "General Problem Solver" (GPS). This was an attempt at trying to reproduce the process of "thinking" in computational form. For example, they had a person think out loud as they went about solving a particular logic problem, like reversing a logical expression. 
 
-Say we want to solve a simple math problem: $ 2x = 4$. First, we isolate the variable and then perform the same operation to the other side of the equation -- divide by 2 -- which yields us our answer. 
+Say we want to solve a simple math problem: $ 2x = 4$. First, we isolate the variable and then perform the same operation to the other side of the equation -- divide by 2 -- which yields us our answer. Put into an algorithm: 
 
 <pre style="font-family: times, serif; font-size:13pt; text-align: left; line-height: 1.5;">
-    <ol>
-            <li>Start with a few symbols: the number 1, the rules of division and addition</li>
-            <li>Set up our equation: 2<i>x</i> = 4.</li>
-                - where 2 is (1 + 1), and 4 is, of course, (2 + 2) or, (1 + 1 + 1 + 1).
-            <li></strong> Isolate the variable by dividing 2, and divide the other side by 2.</li>
-            <li>Arrive at our correct answer of <i>x</i> = 2.</li>
-    </ol>
+            <strong>1:</strong>Start with a few things: the number 1, the rule of division
+            <strong>2:</strong>Set up our equation: 2<i>x</i> = 4.
+                - where 2 is (1 + 1)
+                - 4 is (2 + 2), or, (1 + 1 + 1 + 1).
+            <strong>3:</strong></strong> Isolate the variable by dividing 2, and divide the other side by 2.
+            <strong>4:</strong>Arrive at our correct answer of <i>x</i> = 2.
 </pre>
 
-By doing this, human thinking just <i>is</i> a type of symbol manipulation: symbols represent information, rules are the process by which those symbols are manipulated. This led Newell and Simon to state outright:
+If we were to implement this on a computer using a programming language, we would do something very similar. Starting with a few given symbols and rules (numbers and the rule of division) we could easily implement the above steps. Thus, by doing this, human thinking just <i>is</i> a type of symbol manipulation: symbols represent information, rules are the process by which those symbols are manipulated. This led Newell and Simon to state outright:
 
 <blockquote>
     We can postulate that the processes going on inside the subject... involving sensory organs, neural tissue, and muscular movements controlled by the neural signals – are also symbol-manipulating processes; that is, patterns in various encodings can be detected, recorded, transmitted, stored, copied, and so on, by the mechanisms of this system.<sup><a href="#footnote5">[5]</a></sup>
@@ -105,9 +104,19 @@ The average person will <i>not</i> be able to memorize these in a short-term, wo
 
 But if we decrease the size to 6 or 7, a person typically will be able to memorize them in a short-term sense and perhaps transfer the information to elsewhere (this is, incidentally, why authentication confirmation codes are around six to seven digits).
 
-There are other, similar experiments: in one task (Atkinson et al. 1976), subjects were tested on numerosity judgements by their ability to determine the number of some specific items displayed to them. The participants were able to judge the presence of four items quickly and accurately, while performance dropped rapidly on five items or more.<sup><a href="#footnote7">[7]</a></sup> This also applies to our olfactory judgements, as another experiment (Livermore et al. 1996) reveals a limit in the ability to distinguish different odors (3-4 items). There are more experiments which describe other interesting, discrete limitations on our abilities, and we should wonder why this is the case. As one of the researchers put it, "the results indicated this ... could not be increased by training. Therefore, the limit may be imposed physiologically or by processing constraints."<sup><a href="#footnote8">[8]</a></sup>
+There are other, similar experiments: in one task (Atkinson et al. 1976), subjects were tested on numerosity judgements by their ability to determine the number of some specific items displayed to them. The participants were able to judge the presence of four items quickly and accurately, while performance dropped rapidly on five items or more.<sup><a href="#footnote7">[7]</a></sup> This also applies to our olfactory judgements, as another experiment (Livermore et al. 1996) reveals a limit in the ability to distinguish different odors (3-4 items). There are more experiments which describe other interesting, discrete limitations on our abilities, and we should wonder why this is the case. As one of the researchers put it, "the results indicated this ... could not be increased by training. Therefore, the limit may be imposed *physiologically or by processing constraints*."<sup><a href="#footnote8">[8]</a></sup>
 
-Next, let's turn to Saul Sternberg's work on memory 'scanning', from the 1960s. Assume that we do store items in our memory in array-like fashion. Now, say we want to retrieve certain elements from these memory arrays, in order to answer questions like, "was x on the list?" Computationally, a basic algorithm we might consider using is linear search, which involves traversing the entire array and checking each element to see if it matches what we want. Sternberg wanted to test whether humans do the same, and if so, what strategy we might use when we retrieve data from something stored in our memory. He found that the amount of time it took for subjects to recall whether a given item was in a list they had memorized increased proportionally to the length of the list, which gave credence to the idea that we really are doing something like 'traversing' the list in our memory and then reporting it, giving more credence to the idea that the mind is working akin to a computer.<sup><a href="#footnote9">[9]</a></sup>
+Next, let's turn to Saul Sternberg's work on memory 'scanning', from the 1960s. Assume that we do store items in our memory in array-like fashion. Now, say we want to retrieve certain elements from these memory arrays, in order to answer questions like, "was x on the list?" Computationally, a basic algorithm we might consider using is linear search, which involves traversing the entire array and checking each element to see if it matches what we want. Sternberg wanted to test whether humans do the same, and if so, what strategy we might use when we retrieve data from something stored in our memory. He found that the amount of time it took for subjects to recall whether a given item was in a list they had memorized increased proportionally to the length of the list:
+
+<figure>
+  <p style="text-align:center;">
+    <img src="/images/sternberg-memoryscan.png">
+    <figcaption align = "center"><b><p style="font-size: 13px;">The results of the memory scanning experiement, from Sternberg (1969).</p></b></figcaption>
+  </p>
+</figure>
+
+
+If one were to use linear search on a computer to search an array, terminating the search one the desired item is found, it generates a very similar graph -- which suggests that we really are doing something like 'traversing' the list in our memory using linear (or what he called 'serial' search), then reporting it. This direct analogy gives more credence to the idea that the mind works like a computer, or, as a stronger conclusion, that it *is* a kind of computer.<sup><a href="#footnote9">[9]</a></sup>
 
 Another interesting phenomena that lends itself to a computational model of the mind is Rodrigo Quiroga's (more recent) idea of single-neuron representation, or "concept cells". This is when a single neuron, at least as it appears to researchers, is responsible for the storage and representation of one particular thing or concept. For example, a single neuron is responsible for information about a celebrity, or one's grandmother. It reacts specifically to the phenomena, even multi-modally -- meaning the single neuron responded to the same stimuli in different forms:
 
