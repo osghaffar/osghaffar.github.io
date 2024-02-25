@@ -213,8 +213,8 @@ In this sense, it can be adopted by either theory. Classicalism will formalize t
 
 <p class="has-text-align-justify" style="font-size:16px">
   <ol style="font-size:16px">
-      <li> See Robert M. Harnish, <i>Minds, Brains, Computers: A Historical Introduction to the Foundations of Cognitive Science</i> (Wiley-Blackwell, 2000), pg. 185-186.</li>
-      <li> Alan Turing, "Computing Machinery and Intelligence", <i>Mind</i>, Vol. 59, No. 236 (Oct., 1950) pg. 435</li>
+      <li id="footnote1"> See Robert M. Harnish, <i>Minds, Brains, Computers: A Historical Introduction to the Foundations of Cognitive Science</i> (Wiley-Blackwell, 2000), pg. 185-186.</li>
+      <li id="footnote2"> Alan Turing, "Computing Machinery and Intelligence", <i>Mind</i>, Vol. 59, No. 236 (Oct., 1950) pg. 435</li>
       <li> Alan Turing, "Computing Machinery and Intelligence", pg. 438</li>
       <li> ibid.</li>
       <li> Allen Newell and Herbert Simon, "Computer Simulation of Human Thinking." (1961), <i>Science</i>, 134, pg. 2012</li>
