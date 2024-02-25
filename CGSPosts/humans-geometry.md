@@ -22,7 +22,9 @@ permalink: /cogsci/humans-geometry/
 
 ## Human-Unique Abilities: Geometric Knowledge and Nativism
 
-Humans possess many unique abilities, which is part of the reason we find ourselves outpacing other species by an extremely large margin. We seem to be alone in our ability to build, imagine, study and invent. One particular ability we possess is knowledge of geometric shapes — which shows up in our artwork, buildings and other artifacts, dating back to ancient times. Geometric shapes can be found in prehistoric cave artwork, such as the ones in Lascaux, France that date back to several thousands of years ago. Similarly, in this case, no other species purposefully produces anything featuring geometric shapes, either in part or whole. 
+Humans possess many unique abilities, which is part of the reason we find ourselves outpacing other species by an extremely large margin. We seem to be alone in our ability to build, imagine, study and invent. 
+
+One particular ability we possess is knowledge of geometric shapes — which shows up in our artwork, buildings and other artifacts, dating back to ancient times. Geometric shapes can be found in prehistoric cave artwork, such as the ones in Lascaux, France that date back to several thousands of years ago. Similarly, in this case, no other species purposefully produces anything featuring geometric shapes, either in part or whole. 
 
 <figure>
   <p style="text-align:center;">
