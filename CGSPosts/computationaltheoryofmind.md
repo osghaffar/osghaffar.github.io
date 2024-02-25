@@ -80,10 +80,10 @@ Say we want to solve a simple math problem: $ 2x = 4$. First, we isolate the var
     </ol>
 </pre>
 
-By doing this, human thinking just <i>is</i> a type of symbol manipulation: symbols are that which represent information, rules are the process by which those symbols are manipulated. This led Newell and Simon to state outright:
+By doing this, human thinking just <i>is</i> a type of symbol manipulation: symbols represent information, rules are the process by which those symbols are manipulated. This led Newell and Simon to state outright:
 
 <blockquote>
-    We can postulate that the processes going on inside the subject’s skin – involving sensory organs, neural tissue, and muscular movements controlled by the neural signals – are also symbol-manipulating processes; that is, patterns in various encodings can be detected, recorded, transmitted, stored, copied, and so on, by the mechanisms of this system.<sup><a href="#footnote5">[5]</a></sup>
+    We can postulate that the processes going on inside the subject... involving sensory organs, neural tissue, and muscular movements controlled by the neural signals – are also symbol-manipulating processes; that is, patterns in various encodings can be detected, recorded, transmitted, stored, copied, and so on, by the mechanisms of this system.<sup><a href="#footnote5">[5]</a></sup>
 </blockquote>
 
 #### Examples 
