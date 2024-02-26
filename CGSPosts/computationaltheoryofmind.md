@@ -112,9 +112,9 @@ Next, let's turn to Saul Sternberg's work on memory 'scanning', from the 1960s. 
   <p style="text-align:center;">
     <img src="/images/sternberg-memoryscan.png">
     <figcaption align = "center"><b><p style="font-size: 13px;">The results of the memory scanning experiement, from Sternberg (1969).</p></b></figcaption>
+    <img src="/images/linear.png">
   </p>
 </figure>
-
 
 If one were to use linear search on a computer to search an array, terminating the search once the desired item is found, it generates a very similar graph -- which suggests that we really are doing something like 'traversing' a list in our memory using linear (or what Sternberg called 'serial') search. This more direct evidence for the idea that the mind works like a computer, or, as a stronger conclusion, that it *is* a kind of computer.<sup><a href="#footnote9">[9]</a></sup>
 
