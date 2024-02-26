@@ -111,7 +111,7 @@ Next, let's turn to Saul Sternberg's work on memory 'scanning', from the 1960s. 
 <figure>
   <p style="text-align:center;">
     <img src="/images/linear-memoryscan.png">
-    <figcaption align = "center"><b><p style="font-size: 13px;">The results of the memory scanning experiement, from Sternberg (1969), comparing with an algorithm with linear time complexity.</p></b></figcaption>
+    <figcaption align = "center"><b><p style="font-size: 13px;">The results of the memory scanning experiment, from Sternberg (1969), compared to an algorithm with linear time complexity.</p></b></figcaption>
   </p>
 </figure>
 
@@ -196,11 +196,10 @@ This increased the plausibility that connectionist models more accurately descri
 In the time since, the huge increase in computational power has allowed connectionism to fluorish. Larger and larger models can be constructed -- what we now call "deep" neural networks -- allowing networks to become massive and process huge datasets. Although it is perhaps surprising that simple back-propogation algorithms (what amounts to giant curve-fitting) are capable of 'learning' all kinds of topics, deep learning has established itself as the cornerstone of contemporary AI.
 
 ### Modeling Algorithms as Various Computational Theories
-Now we can re-emphasize how the computational theory of mind/cognition is a general thesis, of which there are several competing types. The two main ones are, as we saw, classicalism and connectionism. All contemporary cognitive scientists are computationalists (or, I suppose, they should be), but beyond that, they differ. Thus, any given model of behavior or learning can be implemented by either version of the computational theory.
 
-To see why, consider one significant theory of learning: reinforcement learning, which adopts an essentially classical behaviorist approach. In particular, it draws on the concept of operant conditioning, described by the influential psychologist B.F Skinner in his 1938 book _The Behavior of Organisms_. 
+As we've seen, computational models of cognition can be implemented in either form: classical or connectionism (or, as some have said, both). To see why, let's consider another popular learning algorithm: reinforcement learning, which formalizes an essentially classical behaviorist approach. In particular, it draws on the concept of operant conditioning and association, as described by the influential psychologist B.F Skinner in his 1938 book _The Behavior of Organisms_. 
 
-In this model, behavior is thought to occur as a result of repeated interactions between an organism and its environment, in which the organism incrementally adapts its behavior as a result of consequences. Operant conditioning uses behavior-reinforcing (reward) or behavior-suppressing (punishment) in order to optimize a particular behavior. Behavior, then, under Skinner's theory, can be seen as an optimization achieved by maximizing reward and minimizing punishment for some particular task.
+In this model, behavior is thought to occur as a result of repeated interactions between an organism and its environment, in which the organism incrementally adapts its behavior as a result of consequences, eventually associating the correct response with a given stimulus. Operant conditioning uses behavior-reinforcing (reward) or behavior-suppressing (punishment) in order to optimize a particular behavior. Behavior, then, under Skinner's theory, can be seen as an optimization, achieved by maximizing reward and minimizing punishment for some particular task.
 
 <figure>
   <p style="text-align:center;">
@@ -213,7 +212,13 @@ Reinforcement learning follows the basic idea and formalizes this process into a
 
 $$ V = R(s, a) $$
 
-In this sense, it can be adopted by either theory. Classicalism will formalize these steps and provide the agent with the necessary primitives: actions, values and the like, while connectionism (as evidence in deep-q learning, for example) will simply provide the agent with feedback calculated via back-propogation.
+In this sense, it can be adopted by either theory. Classicalism will formalize these steps and provide the agent with the necessary primitives: actions, values and the like, while connectionism (as evidenced in deep-Q learning, for example) will simply provide the agent with feedback, calculated via back-propogation.
+
+### Conclusion
+
+To conclude: we saw how the computational theory of mind/cognition is a general thesis that developed along with functionalism, an attempt to see cognition as a computational process that could differ in its medium as the underlying action remain the same. We also saw how, within the computational theory of cognition, there are several competing views. The two main ones are, as we saw, classicalism and connectionism. All contemporary cognitive scientists are computationalists (or, I suppose, they should be), but beyond that, they differ. Thus, any given model of behavior or learning can be implemented by either version of the computational theory.
+
+Classicalism eventually fell out of favor in the shadow of connectionism; however, connectionism isn't without problem of its own. However, that will have to wait for another post.
 
 ---
 
