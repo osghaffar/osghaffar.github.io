@@ -112,7 +112,6 @@ Next, let's turn to Saul Sternberg's work on memory 'scanning', from the 1960s. 
   <p style="text-align:center;">
     <img src="/images/linear-memoryscan.png">
     <figcaption align = "center"><b><p style="font-size: 13px;">The results of the memory scanning experiement, from Sternberg (1969), comparing with an algorithm with linear time complexity.</p></b></figcaption>
-    <img src="/images/linear.png">
   </p>
 </figure>
 
