@@ -108,14 +108,6 @@ There are other, similar experiments: in one task (Atkinson et al. 1976), subjec
 
 Next, let's turn to Saul Sternberg's work on memory 'scanning', from the 1960s. Assume that we do store items in our memory in array-like fashion. Now, say we want to retrieve certain elements from these memory arrays in order to answer questions like, "was $x$ on the list?" Computationally, a basic algorithm we might consider using is linear search, which involves traversing the entire array and checking each element to see if it matches what we want. Sternberg wanted to test whether humans do the same, and if so, what strategy we might use when we retrieve data from something stored in our memory. He found that the amount of time it took for subjects to recall whether a given item was in a list they had memorized increased proportionally to the length of the list:
 
-<figure>
-  <p style="text-align:center;">
-    <img src="/images/sternberg-memoryscan.png">
-    <figcaption align = "center"><b><p style="font-size: 13px;">The results of the memory scanning experiement, from Sternberg (1969).</p></b></figcaption>
-    <img src="/images/linear.png">
-  </p>
-</figure>
-
 <div id="banner">
     <div class="inline-block">
         <figure>
