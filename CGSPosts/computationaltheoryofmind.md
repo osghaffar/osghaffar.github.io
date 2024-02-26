@@ -116,6 +116,26 @@ Next, let's turn to Saul Sternberg's work on memory 'scanning', from the 1960s. 
   </p>
 </figure>
 
+<div id="banner">
+    <div class="inline-block">
+        <figure>
+        <p style="text-align:center;">
+            <img src="/images/sternberg-memoryscan.png">
+                <figcaption align = "center"><b><p style="font-size: 13px;">The results of the memory scanning experiement, from Sternberg (1969).</p></b></figcaption>
+            <img src="/images/linear.png">
+        </p>
+        </figure>
+</div>
+
+    <div class="inline-block">
+    <figure>
+        <p style="text-align:center;">
+            <img src="/images/linear.png">
+        </p>
+        </figure>
+    </div>
+</div>
+
 If one were to use linear search on a computer to search an array, terminating the search once the desired item is found, it generates a very similar graph -- which suggests that we really are doing something like 'traversing' a list in our memory using linear (or what Sternberg called 'serial') search. This more direct evidence for the idea that the mind works like a computer, or, as a stronger conclusion, that it *is* a kind of computer.<sup><a href="#footnote9">[9]</a></sup>
 
 Another interesting phenomena that lends itself to a computational model of the mind is Rodrigo Quiroga's (more recent) idea of single-neuron representation, or "concept cells". This is when a single neuron, at least as it appears to researchers, is responsible for the storage and representation of one particular thing or concept. For example, a single neuron reacts specifically and solely to information about a celebrity, or one's grandmother. It reacts specifically to the phenomena even multi-modally -- meaning that single neuron will react to same stimuli in different forms:
