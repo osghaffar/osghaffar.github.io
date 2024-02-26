@@ -108,16 +108,13 @@ There are other, similar experiments: in one task (Atkinson et al. 1976), subjec
 
 Next, let's turn to Saul Sternberg's work on memory 'scanning', from the 1960s. Assume that we do store items in our memory in array-like fashion. Now, say we want to retrieve certain elements from these memory arrays in order to answer questions like, "was $x$ on the list?" Computationally, a basic algorithm we might consider using is linear search, which involves traversing the entire array and checking each element to see if it matches what we want. Sternberg wanted to test whether humans do the same, and if so, what strategy we might use when we retrieve data from something stored in our memory. He found that the amount of time it took for subjects to recall whether a given item was in a list they had memorized increased proportionally to the length of the list:
 
-<div id="banner">
-    <div class="inline-block">
-        <figure>
-        <p style="text-align:center;">
-            <img src="/images/sternberg-memoryscan.png">
-                <figcaption align = "center"><b><p style="font-size: 13px;">The results of the memory scanning experiement, from Sternberg (1969).</p></b></figcaption>
-            <img src="/images/linear.png">
-        </p>
-        </figure>
-</div>
+<figure>
+  <p style="text-align:center;">
+    <img src="/images/linear-memoryscan.png">
+    <figcaption align = "center"><b><p style="font-size: 13px;">The results of the memory scanning experiement, from Sternberg (1969), comparing with an algorithm with linear time complexity.</p></b></figcaption>
+    <img src="/images/linear.png">
+  </p>
+</figure>
 
 If one were to use linear search on a computer to search an array, terminating the search once the desired item is found, it generates a very similar graph, where search time is proportional to the array length -- a time complexity of O($n$) -- which suggests that we really are doing something like 'traversing' a list in our memory using linear (what Sternberg called 'serial') search. This more direct evidence for the idea that the mind works like a computer, or, as a stronger conclusion, that it *is* a kind of computer.<sup><a href="#footnote9">[9]</a></sup>
 
