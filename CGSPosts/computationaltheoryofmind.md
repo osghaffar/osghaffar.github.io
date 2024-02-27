@@ -120,7 +120,7 @@ If one were to use linear search on a computer to search an array, terminating t
 Another interesting phenomena that lends itself to a computational model of the mind is Rodrigo Quiroga's (more recent) idea of single-neuron representation, or "concept cells". This is when a single neuron, at least as it appears to researchers, is responsible for the storage and representation of one particular thing or concept. For example, a single neuron reacts specifically and solely to information about a celebrity, or one's grandmother. It reacts specifically to the phenomena even multi-modally -- meaning that single neuron will react to same stimuli in different forms:
 
 <blockquote>
-    The neuron fired, from a nearly silent baseline, selectively to pictures of Luke Skywalker from the movie Star Wars..., his name written on the computer screen... and his name pronounced by a male and a female synthesized voice....<sup><a href="#footnote10">[10]</a></sup>
+    The neuron fired, from a nearly silent baseline, selectively to pictures of Luke Skywalker from the movie Star Wars..., his name written on the computer screen... and his name pronounced by a male and a female synthesized voice.<sup><a href="#footnote10">[10]</a></sup>
 </blockquote>
 
 This plays into an almost naive view of the mind as a computer, where each neuron is like a file, storing particular information about some particular thing, what could be termed a "symbol".
