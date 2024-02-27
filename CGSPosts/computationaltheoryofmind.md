@@ -193,7 +193,7 @@ If this phenomenon is modeled by age on the $x$-axis and correct conjugation on 
 
 This increased the plausibility that connectionist models more accurately describe human cognition -- it avoids entirely the question of what exactly rules and concepts might be and how to represent them computationally or neurally, and seems to (at least generally) more closely model what we learn about the brain from neuroscience.
 
-In the time since, the huge increase in computational power has allowed connectionism to fluorish. Larger and larger models can be constructed -- what we now call "deep" neural networks -- allowing networks to become massive and process huge datasets. Although it is perhaps surprising that simple back-propogation algorithms (what amounts to giant curve-fitting) are capable of 'learning' all kinds of topics, deep learning has established itself as the cornerstone of contemporary AI.
+In the time since, the huge increase in computational power has allowed connectionism to flourish. Larger and larger models can be constructed -- what we now call "deep" neural networks -- allowing networks to become massive and process huge datasets. Although it is perhaps surprising that simple back-propogation algorithms (what amounts to giant curve-fitting) are capable of 'learning' all kinds of topics, deep learning has established itself as the cornerstone of contemporary AI.
 
 ### Modeling Algorithms as Various Computational Theories
 
