@@ -75,8 +75,9 @@ Say we want to solve a simple math problem: $ 2x = 4$. First, we isolate the var
             <strong>2:</strong> Set up our equation: 2<i>x</i> = 4.
                 - where 2 is (1 + 1)
                 - 4 is (2 + 2), or, (1 + 1 + 1 + 1).
-            <strong>3:</strong> Isolate the variable by dividing 2, and divide the other side by 2.
-            <strong>4:</strong> Arrive at our correct answer of <i>x</i> = 2.
+            <strong>3:</strong> Isolate the variable by dividing by 2. 
+            <strong>4:</strong> Divide the other side of the equation by 2.
+            <strong>5:</strong> Arrive at our correct answer of <i>x</i> = 2.
 </pre>
 
 If we were to implement this on a computer using a programming language, we would do something very similar. Starting with a few given symbols and rules (numbers and the rule of division) we could easily implement the above steps. Thus, by doing this, human thinking just <i>is</i> a type of symbol manipulation: symbols represent information, rules are the process by which those symbols are manipulated. This led Newell and Simon to state outright:
