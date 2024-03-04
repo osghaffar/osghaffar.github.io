@@ -219,7 +219,7 @@ In this sense, it can be adopted by either theory. Classicalism will formalize t
 
 To conclude: we saw how the computational theory of mind/cognition is a general thesis that developed along with functionalism, an attempt to see cognition as a computational process that could differ in its medium as the underlying action remain the same. We also saw how, within the computational theory of cognition, there are several competing views. The two main ones are, as we saw, classicalism and connectionism. All contemporary cognitive scientists are computationalists (or, I suppose, they should be), but beyond that, they differ. Thus, any given model of behavior or learning can be implemented by either version of the computational theory.
 
-Classicalism eventually fell out of favor in the shadow of connectionism; however, connectionism isn't without problem of its own. However, that will have to wait for another post.
+Classicalism eventually fell out of favor in the shadow of connectionism; however, connectionism isn't without serious and very difficult problems of its own. But that will have to wait for another post.
 
 ---
 
