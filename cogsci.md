@@ -5,7 +5,7 @@ permalink: /cogsci/
 ---
 Research, articles & discussion. [Under construction]
 
-Studying the brain and how it functions may provide us with not only answers for artificial intelligence, but a closer look into what we are.
+Cognitive science involves studying, well, cognition, but is in some sense an emergent field, at the intersection of neuroscience/psychology, computer science (especially AI), and philosophy. Studying the brain and how it functions may provide us with not only answers for artificial intelligence, but a closer look into what we are.
 
 Points of interest:
 
